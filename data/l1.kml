@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled layer</name>
+		<Placemark>
+			<name>Estacion Indios Verdes</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.119698,19.497282,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Deportivo 18 de Marzo</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.12476300000002,19.485962,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Euzkaro</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.127739,19.482382,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Potrero</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.132591,19.476509,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion La Raza</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.13897700000001,19.468714,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Circuito</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.14399,19.462641,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion San Simon</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.146507,19.459496,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Manuel Gonzalez</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.148628,19.457281,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Buenavista</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.153198,19.446352,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion El Chopo</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.154541,19.442667,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Revolucion</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.155594,19.439877,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Tabacalera</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.157143,19.436352,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Reforma</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.158905,19.432446,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Hamburgo</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.16111,19.42782,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Insurgentes</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.162346,19.423492,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Durango</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.163971,19.420212,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Alvaro Obregon</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.164871,19.417080000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Sonora</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.166237,19.412861,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Campeche</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.167374,19.409338,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Chilpancingo</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.16848,19.40596,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Nuevo Leon</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.16986800000001,19.401703,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion La Piedad</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.171005,19.398268,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Polyforum</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.172771,19.392767,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Napoles</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.173624,19.390126,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Colonia del Valle</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.174965,19.385949,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Ciudad de los Deportes</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.175963,19.382943,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Parque Hundido</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.176905,19.380013,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Felix Cuevas</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.178938,19.373735,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Rio Churubusco</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.18077,19.368113,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Teatro Insurgentes</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.181966,19.364391,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Jose Maria Velasco</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.182682,19.362197,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Francia</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.18381400000001,19.358791,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Olivo</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.185018,19.354959,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Altavista</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.186083,19.351616000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion la Bombilla</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.18754000000001,19.347299,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Doctor Galvez</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.19039600000002,19.339724,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Ciudad Universitaria</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.188956,19.327315,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Periferico</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.18602700000001,19.303218,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Villa Olimpica</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.18533500000001,19.297572,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Corregidora</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.181727,19.294332,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Ayuntamiento</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.178066,19.292795,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Fuentes Brotantes</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.174367,19.288568,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Santa Ursula</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.17555,19.283773,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion La Joya</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.170365,19.280476,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion el Caminero</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.168901,19.279841,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Estacion Centro Cultural Universitario</name>
+			<styleUrl>#icon-22-nodesc</styleUrl>
+			<Point>
+				<coordinates>-99.187485,19.314645,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-22-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-22-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-22-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

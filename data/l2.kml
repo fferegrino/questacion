@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Capa sin nombre</name>
+		<Placemark>
+			<name>Terminal Tacubaya. Metrobús. Línea 2</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/TY0HSV5lFdEX9k4Y6D1niCrubCSNC0OuwCu2uLZ5MKaoDUOYQ21XJxjdQ1DVBRK2-rT8ab7rGRD7ebYDGJizZQaF2Vg" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Rutas desde Tacubaya:<br><br>- Tacubaya a Tepalcates.Mas informes: Rutas L2 (http://www.metrobus.df.gob.mx/rutas.html#RL2)<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/TY0HSV5lFdEX9k4Y6D1niCrubCSNC0OuwCu2uLZ5MKaoDUOYQ21XJxjdQ1DVBRK2-rT8ab7rGRD7ebYDGJizZQaF2Vg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.186751,19.40184,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Parque Lira</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/YvMZ8bKhtziRIgHtRg0LAqqVwI4-QOpq6wht25Urps83xpeVpUh7vdjAiLIso1JzCeBzOkRxtJe8sH8BD0ESwitMqrMFoH8UvV13fwc" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Sólo dirección Oriente - Poniente<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/YvMZ8bKhtziRIgHtRg0LAqqVwI4-QOpq6wht25Urps83xpeVpUh7vdjAiLIso1JzCeBzOkRxtJe8sH8BD0ESwitMqrMFoH8UvV13fwc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.189374,19.407742,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antonio Maceo</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Tt6OHZyjfuHK0exOD0x_o5jKP_wTQGtdfe7V74OpsgzvKtBf5qRiIoAd6uZYf1MWjW4JgLAr_VhDwpSclkrHQ3HpWEJ5bUFJF9NnZ_I7aw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Solo dirección Poniente - Oriente<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/Tt6OHZyjfuHK0exOD0x_o5jKP_wTQGtdfe7V74OpsgzvKtBf5qRiIoAd6uZYf1MWjW4JgLAr_VhDwpSclkrHQ3HpWEJ5bUFJF9NnZ_I7aw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.185863,19.404936,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>De La Salle</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/-4H4ifQeY5pgAw1IuRjk6MtoL-Mn7NMjWu0DE8D08BfGpxiarFYqT851CEnhkZBMH-s-WKMVym3VK9K86oADghDpKenvUPGG5wyuzA" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/-4H4ifQeY5pgAw1IuRjk6MtoL-Mn7NMjWu0DE8D08BfGpxiarFYqT851CEnhkZBMH-s-WKMVym3VK9K86oADghDpKenvUPGG5wyuzA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.183747,19.407659,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Patriotismo</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Ceo0LkAK6TGSKG6f4pvOyIftEBsPv3voRaRRRnA6ECI1FpJ8gzBipnUk4Fz2X9tVzGp7gTN1KGBeK1mcsXipFdUddP2laJtAIo2SOFdV_a_KbvY7NA" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/dgXwutUwk7fjAC0pNq3HkdwIAzfs8dbYhzmgKksQXpAhr3S5uurx90d4v_PbuhyQAJFVQRHFrxsWR3TeJIySimpG9LdSVwOJ7eMUKuwRklDJlp3yDItDf4jNsvTyn45dnBmQ2ev-yQ_Vql758HAe6hdEc_Ob_YZ4BH9xnasviINBMdAD-C6w6QsO-txWEUo" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/Ceo0LkAK6TGSKG6f4pvOyIftEBsPv3voRaRRRnA6ECI1FpJ8gzBipnUk4Fz2X9tVzGp7gTN1KGBeK1mcsXipFdUddP2laJtAIo2SOFdV_a_KbvY7NA https://lh3.googleusercontent.com/proxy/dgXwutUwk7fjAC0pNq3HkdwIAzfs8dbYhzmgKksQXpAhr3S5uurx90d4v_PbuhyQAJFVQRHFrxsWR3TeJIySimpG9LdSVwOJ7eMUKuwRklDJlp3yDItDf4jNsvTyn45dnBmQ2ev-yQ_Vql758HAe6hdEc_Ob_YZ4BH9xnasviINBMdAD-C6w6QsO-txWEUo</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.177583,19.405587,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Escandón</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Y1Ravt3eHRlWmpu78ameHAv9FOA-jaQd3eQs_0kqjTW7KQ17y6eBMzd40Ty0Hp5uZuk_g8V3I250SI2JNIOHyxmJ1gIH5JytUyOD" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/Y1Ravt3eHRlWmpu78ameHAv9FOA-jaQd3eQs_0kqjTW7KQ17y6eBMzd40Ty0Hp5uZuk_g8V3I250SI2JNIOHyxmJ1gIH5JytUyOD</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.17397300000002,19.4044,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nuevo León</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/TifcppmU5zLeJpeEG1fFHf9e6bq8kA0Ozc4s05pfZrZafzYxbNpWs1ULoPYGC97kaFXw5aLjgs6IAHBCgqIqDZUD0FAB-GR2sZf00w" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Transbordo con:<br>Nuevo León - Línea 1 (https://maps.google.com.mx/?ie=UTF8&hl=es-419&mid=1373641301)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/nw4fusSbOywnwPewqGjdVhmLixtCx06Y7cA2yvX63J72zl_d5RKz8Xr08F17qLgE3PdLOrEHKJAxJ4Xvp3lcC6MyQF6tSEa-j6xlpyte_C-43XB_W4I93ZWQPQeJlmwN3Fcby-glXGWje2ZFUAojuc2H9Np2yqSSKfyv3MzHRKDPQHKZQTHV" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/TifcppmU5zLeJpeEG1fFHf9e6bq8kA0Ozc4s05pfZrZafzYxbNpWs1ULoPYGC97kaFXw5aLjgs6IAHBCgqIqDZUD0FAB-GR2sZf00w https://lh5.googleusercontent.com/proxy/nw4fusSbOywnwPewqGjdVhmLixtCx06Y7cA2yvX63J72zl_d5RKz8Xr08F17qLgE3PdLOrEHKJAxJ4Xvp3lcC6MyQF6tSEa-j6xlpyte_C-43XB_W4I93ZWQPQeJlmwN3Fcby-glXGWje2ZFUAojuc2H9Np2yqSSKfyv3MzHRKDPQHKZQTHV</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.169625,19.40355,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Viaducto</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/l-ReYNOvYdNX18FxJcK7kdKQd_s8ub_uT95LuvOnnDFr6-f8kMaRkYIHTZ4qmig-FPR3eMGvJcTHG_0W71-NrtS38teldUFm57Fv" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/TXDzqMKs80KUEI7ygEhMPRJZ8EU91fqjAB4JPt6PxXTT32Sl3ZUoDKukEGX5dsDSKTQdB7lcPErRdzxNQO3NAnHY3PHWF4NQlXXnhmiZS-2iwZ0X" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/l-ReYNOvYdNX18FxJcK7kdKQd_s8ub_uT95LuvOnnDFr6-f8kMaRkYIHTZ4qmig-FPR3eMGvJcTHG_0W71-NrtS38teldUFm57Fv https://lh5.googleusercontent.com/proxy/TXDzqMKs80KUEI7ygEhMPRJZ8EU91fqjAB4JPt6PxXTT32Sl3ZUoDKukEGX5dsDSKTQdB7lcPErRdzxNQO3NAnHY3PHWF4NQlXXnhmiZS-2iwZ0X</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.168147,19.401443,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Amores</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/N95KpqRU97_tTE7ddHzcORAqt2h0k137FeUa29eYjpVqL73k1MldOhZfyjdcjbBJyEMFSi783IXWIJEsfCdknmHt-0wsOn0eIQ" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/L9JDiNTm2wThRdDlHLKiFaLtdq_6ukudVDuSMJXYQ4VQPdwNE2hw34BROmnTJOy2jvC2Dw-PvEVU4LjKjR9gNjfVK_NUNw" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/N95KpqRU97_tTE7ddHzcORAqt2h0k137FeUa29eYjpVqL73k1MldOhZfyjdcjbBJyEMFSi783IXWIJEsfCdknmHt-0wsOn0eIQ https://lh6.googleusercontent.com/proxy/L9JDiNTm2wThRdDlHLKiFaLtdq_6ukudVDuSMJXYQ4VQPdwNE2hw34BROmnTJOy2jvC2Dw-PvEVU4LjKjR9gNjfVK_NUNw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.164116,19.396929,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Etiopía. Línea 2</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/XB6EY-eDFXSvT6D-8AuxtFbYnfVzEtBMckAxqsFV_C23RuMM5GGFuQKDcZn6243JWVMsxjG13RCk5TAQd92Adx_lT7o_xt-GQqNskUMcdI4-" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br>Rutas desde Etiopía:<br><br>- Etiopía a Tepalcates.<br>- Etiopía a Del Moral.<br>Mas informes: Rutas L2 (http://www.metrobus.df.gob.mx/rutas.html#RL2)<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Transbordo con:<br> Etiopía - Línea 3 (https://maps.google.com.mx/?ie=UTF8&hl=es-419&mid=1373641301)<br><br><img src="https://lh3.googleusercontent.com/proxy/0rVaOwLaRjIhWjmBhavBYmzoJidYgkxGh7KCGdDz3lr1iUt_IIDGT4vYvZ5zrhnbv6SZlgjgdQDpfWIEMimi8LCecCA2" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/XB6EY-eDFXSvT6D-8AuxtFbYnfVzEtBMckAxqsFV_C23RuMM5GGFuQKDcZn6243JWVMsxjG13RCk5TAQd92Adx_lT7o_xt-GQqNskUMcdI4- https://lh3.googleusercontent.com/proxy/0rVaOwLaRjIhWjmBhavBYmzoJidYgkxGh7KCGdDz3lr1iUt_IIDGT4vYvZ5zrhnbv6SZlgjgdQDpfWIEMimi8LCecCA2</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.155688,19.395869,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Doctor Vértiz</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/1bZczW4HyggE2_3M9MhIXgqvqv0cXoyDf977Y1Q06k7hq-faqCH1kU0AP1HqR-FshN3BB4uDTwDsgNO74fX4opso8fIQl3F2ew" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/1bZczW4HyggE2_3M9MhIXgqvqv0cXoyDf977Y1Q06k7hq-faqCH1kU0AP1HqR-FshN3BB4uDTwDsgNO74fX4opso8fIQl3F2ew</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.151352,19.395545,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Centro SCOP</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/AgaAI1YQQ0qI8a5uWKNpkcoJilubRG8KNMlVDvIr4vquShq3IOEtYPRuNQzoyndNaF0y7W-13FUd6rTnmjWMCQj0BZoqEyro2qN39jQ" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/AgaAI1YQQ0qI8a5uWKNpkcoJilubRG8KNMlVDvIr4vquShq3IOEtYPRuNQzoyndNaF0y7W-13FUd6rTnmjWMCQj0BZoqEyro2qN39jQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.146416,19.395209,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Álamos</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/c_3gY5uXLyasLjWSju6l-qzWIJdRqYzMXxfVteV7VbB8prG-XUGicAWW5Et-nI-Suyi3Oxtto56uu3JMU0Zx0kYhyxe2vBqA1w" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/onJ1Wf1zYwHwuucLUzebeMtkZ7rzXAOt5cekYLoiEBxY395K_Wnt3f5vOeYDXejgOixzFmqlnXarVbbCW76_IFLovlSgYc7nv12SlPs6KolFtScyZYlDQPokK22vmY9CWOGIYpHSYbFbXw" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/c_3gY5uXLyasLjWSju6l-qzWIJdRqYzMXxfVteV7VbB8prG-XUGicAWW5Et-nI-Suyi3Oxtto56uu3JMU0Zx0kYhyxe2vBqA1w https://lh6.googleusercontent.com/proxy/onJ1Wf1zYwHwuucLUzebeMtkZ7rzXAOt5cekYLoiEBxY395K_Wnt3f5vOeYDXejgOixzFmqlnXarVbbCW76_IFLovlSgYc7nv12SlPs6KolFtScyZYlDQPokK22vmY9CWOGIYpHSYbFbXw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.142556,19.394604,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Xola</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/XjcRNIDlLg11wLqwTJCwHnSYsjVScj1dpGQgRBDsjj05kHGUEel2k0cizJEdZ4G5DNXE0nSRmzXmssXu_5S0Lt1a-swtxQY" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/z9DFsRn8N09L8P4QqvlZOyZSl3H0-FgiEC5-NGvfzFG9A5mOomGqX6JlBIlGGJeDIxlBhrLTRLwp993ixa7dvDfQx-vAl4L-U8bl6kvO0pVoihL8erqh_azKf5jTOblUdKjxanz2eChXaA" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/XjcRNIDlLg11wLqwTJCwHnSYsjVScj1dpGQgRBDsjj05kHGUEel2k0cizJEdZ4G5DNXE0nSRmzXmssXu_5S0Lt1a-swtxQY https://lh3.googleusercontent.com/proxy/z9DFsRn8N09L8P4QqvlZOyZSl3H0-FgiEC5-NGvfzFG9A5mOomGqX6JlBIlGGJeDIxlBhrLTRLwp993ixa7dvDfQx-vAl4L-U8bl6kvO0pVoihL8erqh_azKf5jTOblUdKjxanz2eChXaA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.139992,19.39424,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Las Américas</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/4aYI6X-crH68yv5bM996Ys69DuD6VTeDqJP3u6oeIJTIkEjB0nLwItProX33XVBAE7MhPJEk87SASBpGtursPigdlG13Y0McsQJN0I06" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/4aYI6X-crH68yv5bM996Ys69DuD6VTeDqJP3u6oeIJTIkEjB0nLwItProX33XVBAE7MhPJEk87SASBpGtursPigdlG13Y0McsQJN0I06</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.134842,19.393481,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Andrés Molina</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/q3o6n-cZDxWH4n8BFCXMJG2CfZfFuCFAEEg6xFMfdr6CpWt7hSTQ5D53fGld26PG5yXlKmHo3jOnlh8lqKi-LwmKw2WkwQjzZ-LO3wPIXw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/q3o6n-cZDxWH4n8BFCXMJG2CfZfFuCFAEEg6xFMfdr6CpWt7hSTQ5D53fGld26PG5yXlKmHo3jOnlh8lqKi-LwmKw2WkwQjzZ-LO3wPIXw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.129145,19.397833,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Viga</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YjV-Lz1_GQvO1ONvgdt-WknOwebnrKOQL_E9Ee3o0nffmy09wN8nCMv1_Qb2nqrY9KXKncjYXCwX306NYtZNdVgSBNpwyeWjXA" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/YjV-Lz1_GQvO1ONvgdt-WknOwebnrKOQL_E9Ee3o0nffmy09wN8nCMv1_Qb2nqrY9KXKncjYXCwX306NYtZNdVgSBNpwyeWjXA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.124103,19.398055,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Coyuya</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/q40g52H36h27F0w6mUx_599XggSdEbS2egUpNJrhqiV5Ec6ZPTmVhD8TUtj5wfJ-wI8Az5CGaSM9GD9aXdWpxFv9uhNHQ2JUSg" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/q40g52H36h27F0w6mUx_599XggSdEbS2egUpNJrhqiV5Ec6ZPTmVhD8TUtj5wfJ-wI8Az5CGaSM9GD9aXdWpxFv9uhNHQ2JUSg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.117022,19.398268,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Canela</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/rfPJrl8qbRuwxB_g_ctJV-s3ExLEVADWy95y-o8b_PxLWe5vel95tV7Q_LRRBYC0E6_EMmHNPBQRyCamJ42PWbG1F6Szjk2deQ" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/rfPJrl8qbRuwxB_g_ctJV-s3ExLEVADWy95y-o8b_PxLWe5vel95tV7Q_LRRBYC0E6_EMmHNPBQRyCamJ42PWbG1F6Szjk2deQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.109455,19.397827,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tlacotal</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Y35UZQBgxvpGGXfpWtZ46uDqr1MnvdnP7H2MMYUVxq5mpwD4qjM59CnNqWolWkn5HmmXesjUbgYksV9k7xllimx5Ygt8FUxLF0pd" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Y35UZQBgxvpGGXfpWtZ46uDqr1MnvdnP7H2MMYUVxq5mpwD4qjM59CnNqWolWkn5HmmXesjUbgYksV9k7xllimx5Ygt8FUxLF0pd</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.103526,19.397195,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Goma</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/6fjE73C1twsWlcjg3AkehC7XJ-vIfCkJBhfuCH3TgY18W_GdwX6F-_Ir0UUfwMf5NPkEehAdpwNJCac8vJq0AgT7K1J97Sw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/6fjE73C1twsWlcjg3AkehC7XJ-vIfCkJBhfuCH3TgY18W_GdwX6F-_Ir0UUfwMf5NPkEehAdpwNJCac8vJq0AgT7K1J97Sw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.099477,19.396869000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Iztacalco</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/KZrs55FA85zuMU9KPeVqxr9Z5mD_ifio309Wz45HvyT1TwAoLY28eAL6W6NiOc6rTHynWFH18U9pmIG_JiREORHJMYpSPpQ4FuIJeg" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/KZrs55FA85zuMU9KPeVqxr9Z5mD_ifio309Wz45HvyT1TwAoLY28eAL6W6NiOc6rTHynWFH18U9pmIG_JiREORHJMYpSPpQ4FuIJeg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.096111,19.396507,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UPIICSA</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/LSz_1jzURw5PQNnSeA3jSPneyqpbp_i0zNeCskK272r42pz3hb2eTYPtDJ9Xqps5ipOc1zucD4UvDp0EwryEbMU76Kfv_na1xGM" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/LSz_1jzURw5PQNnSeA3jSPneyqpbp_i0zNeCskK272r42pz3hb2eTYPtDJ9Xqps5ipOc1zucD4UvDp0EwryEbMU76Kfv_na1xGM</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.090382,19.393916,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Rodeo</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/h0elx7LN4niJElm2vvi3GBD0xKAJmDRUTZgDXd1v-b_dS3lpWI-V4NGeBILqB9uJ9uCpMhf3UKpffXMe3UDwMOi-7VgmY42HNUo" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/h0elx7LN4niJElm2vvi3GBD0xKAJmDRUTZgDXd1v-b_dS3lpWI-V4NGeBILqB9uJ9uCpMhf3UKpffXMe3UDwMOi-7VgmY42HNUo</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.08746400000001,19.391872,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Río Tecolutla</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/AyIGY6vdilrr2MDFFsZQubPVh_DehMpViDvCVhzvUQ8-oXVInv1OR5RUfO16wn68QS1d1cb9Uz_8KOyWhBEBaDSKtlZakd0AxslvmBrrqw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/AyIGY6vdilrr2MDFFsZQubPVh_DehMpViDvCVhzvUQ8-oXVInv1OR5RUfO16wn68QS1d1cb9Uz_8KOyWhBEBaDSKtlZakd0AxslvmBrrqw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.083011,19.388917,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Río Mayo</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/22caRD-FxNnvAGAch4bsxTvo7WxTyK_M4rbxBID3qRD8-nQKra1K8iOoiTWOe2jh1dqbJXu9nELF4HUgWUKO89hs3rRHrYgX8ZM" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/22caRD-FxNnvAGAch4bsxTvo7WxTyK_M4rbxBID3qRD8-nQKra1K8iOoiTWOe2jh1dqbJXu9nELF4HUgWUKO89hs3rRHrYgX8ZM</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.080265,19.387105,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rojo Gomez</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/u6TdTz254_6eIZkihfEHnRBNeKiG-P8-F_UALXZE27Y3-f0KoiJzCsuWeCqw46mXTZZV52EgqHeSTlMYHnaytMY0-yy1y6vRVkBBxw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/u6TdTz254_6eIZkihfEHnRBNeKiG-P8-F_UALXZE27Y3-f0KoiJzCsuWeCqw46mXTZZV52EgqHeSTlMYHnaytMY0-yy1y6vRVkBBxw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.07608,19.384221,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Río Frío</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/U7uh7XyNxCgmcWz8BRTObgUxRDjy0SXKE_gGc7MYzIar5QsLRCKwCAwUBB2NQUqTq8SRzPc7W7LN8XMuL0GEm2gVYkCII-miqCU" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Sólo Dirección Oriente - Poniente<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/U7uh7XyNxCgmcWz8BRTObgUxRDjy0SXKE_gGc7MYzIar5QsLRCKwCAwUBB2NQUqTq8SRzPc7W7LN8XMuL0GEm2gVYkCII-miqCU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.074141,19.387561,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Del Moral</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/xFQbRazmEteK9fPwAt6Sw1CZXhAAoV0Bzv7TBgU3ZU5kh0b-Q4RhK-T6P2t-PX1ta1Peb23enHRT_Drtc9dS1H6j4SIN1jSjWxrG" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2. <br>Sólo Dirección Poniente - Oriente.<br><br>Rutas desde Del Moral:<br><br>- Del Moral a Etiopía. Mas informes: Rutas L2 (http://www.metrobus.df.gob.mx/rutas.html#RL2)<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/xFQbRazmEteK9fPwAt6Sw1CZXhAAoV0Bzv7TBgU3ZU5kh0b-Q4RhK-T6P2t-PX1ta1Peb23enHRT_Drtc9dS1H6j4SIN1jSjWxrG</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.070882,19.384201,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leyes de Reforma</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/f-_n1KmVawl3FIWuewqMUz682yHlTsKKTdQ2hFDmtkD-ngu3jQbGUriSnVi2MJgNaMceEVxZ10Pm0VuV-TDJlJbnSkSx6-KDSBBFQsasTow1" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/f-_n1KmVawl3FIWuewqMUz682yHlTsKKTdQ2hFDmtkD-ngu3jQbGUriSnVi2MJgNaMceEVxZ10Pm0VuV-TDJlJbnSkSx6-KDSBBFQsasTow1</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.065931,19.383401,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CCH Oriente</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/yUzAUnjx0VjTm1Szg4vmTCNXBvjZVEC1YYJTTtZLWH5cY_m9JvNF_SI9zG4hi3jwGzGlSYmZ4KU8qtX0GkZ5LY_vKjqYxXrCDWW_Zt8" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/yUzAUnjx0VjTm1Szg4vmTCNXBvjZVEC1YYJTTtZLWH5cY_m9JvNF_SI9zG4hi3jwGzGlSYmZ4KU8qtX0GkZ5LY_vKjqYxXrCDWW_Zt8</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.060695,19.382844,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Constitución de Apatzingán</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/DZml89TPpq9No79NRh-ZPEFF3ye8zmjJQrQnC014ItZo6iWQJ0HmZNLd9n6KmFO5PrrjKe4lY-Md0-weXvGguo7iyS2bTgCLvfEpp_g7LLV0mBBaMf6avGQrsg" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/DZml89TPpq9No79NRh-ZPEFF3ye8zmjJQrQnC014ItZo6iWQJ0HmZNLd9n6KmFO5PrrjKe4lY-Md0-weXvGguo7iyS2bTgCLvfEpp_g7LLV0mBBaMf6avGQrsg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.059869,19.38921,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Canal de San Juan</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/-IcJ6_HKlBDb5z5lyZ0WlE5iVUyqVobRHaH6o2XctXr8g5gd65RAJpS7AcpcYh_B6vpuGB71YCNDV8f0QGK98IHDkj7vOE0cMTbbVcKueHCm" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Sólo Dirección Poniente - Oriente.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/-IcJ6_HKlBDb5z5lyZ0WlE5iVUyqVobRHaH6o2XctXr8g5gd65RAJpS7AcpcYh_B6vpuGB71YCNDV8f0QGK98IHDkj7vOE0cMTbbVcKueHCm</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.056017,19.396456000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nicolás Bravo</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/p-5e8TefKnvg9DtNA1f2--T_JEUW1qtjq9m2Xjf_Le1IBVV7KalKaJtXjl1m7qFa3nz0mCCRAKwcDvCwDz9skDWERJ7tkQ-0Fd1AP9ZWQg" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Sólo Dirección Poniente - Oriente.<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/p-5e8TefKnvg9DtNA1f2--T_JEUW1qtjq9m2Xjf_Le1IBVV7KalKaJtXjl1m7qFa3nz0mCCRAKwcDvCwDz9skDWERJ7tkQ-0Fd1AP9ZWQg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.051307,19.393724,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>General Antonio de León</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ti-zsqNe_oeF5c6jZltKLJB8qSqsjSvZuD7Z00KlcIRMkX3oPqSef594wx5sbA3i7MJMngUWRbHmrHsjAfAUyDfeQOqqDCU7oUOfC-CFSD93Pl8J1wRC" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br>Sólo Dirección Nororiente - Norponiente<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/ti-zsqNe_oeF5c6jZltKLJB8qSqsjSvZuD7Z00KlcIRMkX3oPqSef594wx5sbA3i7MJMngUWRbHmrHsjAfAUyDfeQOqqDCU7oUOfC-CFSD93Pl8J1wRC</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.05175800000002,19.384929,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tepalcates</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/lgzlz700V99xs-YI_cQwIuoJ1bxGXxA-31BT0RSqgHhoQbVfmOEOqqZPyhksABpzfzqXv21t1hzmA4fg_1iZmZpTSt5KfQ" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 2.<br><br>Rutas desde Del Molral:<br><br>- Tepalcates a Tacubaya. <br>- Tepalcates a Etiopía.<br>- Tepalcates a Col. del Valle<br>Mas informes: Rutas L2 (http://www.metrobus.df.gob.mx/rutas.html#RL2)<br><br><br><br><br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/40lfdkFkwSVTY8jnrf-g6HT-_Sd6_jUq6gsXpsxEcHjzOcOI7YWbO6iij1FeYDgslYRMkj_dttmNaKuIn0Pd4SflFu8OkyFUDNb8g2DbBgfrrClmsitJaBKDaaOJXF2hLxLa-cBdIQna_vmb0tt6dd8UOOoqGtIPLHFe" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/lgzlz700V99xs-YI_cQwIuoJ1bxGXxA-31BT0RSqgHhoQbVfmOEOqqZPyhksABpzfzqXv21t1hzmA4fg_1iZmZpTSt5KfQ https://lh5.googleusercontent.com/proxy/40lfdkFkwSVTY8jnrf-g6HT-_Sd6_jUq6gsXpsxEcHjzOcOI7YWbO6iij1FeYDgslYRMkj_dttmNaKuIn0Pd4SflFu8OkyFUDNb8g2DbBgfrrClmsitJaBKDaaOJXF2hLxLa-cBdIQna_vmb0tt6dd8UOOoqGtIPLHFe</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.047413,19.390708,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Línea 2 de Metrobús</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g" height="200" width="auto" /><br><br>Línea 2 de Metrobús que Corre de Tacubaya a Tepalcates<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)]]></description>
+			<styleUrl>#line-6600CC-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.18679,19.40186,0.0 -99.18725,19.40217,0.0 -99.18698,19.40252,0.0 -99.18687,19.403,0.0 -99.18664,19.40355,0.0 -99.18465,19.4072,0.0 -99.18423,19.40785,0.0 -99.1825,19.4072,0.0 -99.1787,19.406,0.0 -99.17395,19.4044,0.0 -99.17147,19.4037,0.0 -99.1713,19.40356,0.0 -99.17102,19.40351,0.0 -99.17002,19.4035,0.0 -99.16921,19.40363,0.0 -99.16896,19.40357,0.0 -99.16872,19.40341,0.0 -99.16859,19.4032,0.0 -99.16744000000001,19.39871,0.0 -99.16721,19.39841,0.0 -99.16484000000001,19.39711,0.0 -99.16094000000001,19.39624,0.0 -99.14601,19.3952,0.0 -99.13952,19.39425,0.0 -99.13768,19.39392,0.0 -99.13236,19.39317,0.0 -99.13206,19.39326,0.0 -99.13189,19.39341,0.0 -99.13126,19.39619,0.0 -99.13098,19.3967,0.0 -99.13056,19.39716,0.0 -99.13017000000002,19.39744,0.0 -99.12944,19.39777,0.0 -99.12877,19.39787,0.0 -99.12689,19.39799,0.0 -99.1237,19.39809,0.0 -99.1161,19.39828,0.0 -99.11599,19.39824,0.0 -99.11233000000001,19.39831,0.0 -99.109734,19.397873,0.0 -99.106931,19.397524,0.0 -99.10381,19.39731,0.0 -99.10001,19.39692,0.0 -99.09835,19.39681,0.0 -99.09534,19.39646,0.0 -99.09412,19.39624,0.0 -99.09293,19.39563,0.0 -99.07781,19.38543,0.0 -99.07529,19.38377,0.0 -99.07486,19.38359,0.0 -99.07467,19.38359,0.0 -99.07422,19.38371,0.0 -99.07209,19.38439,0.0 -99.06765,19.38363,0.0 -99.0665,19.38355,0.0 -99.06563,19.38341,0.0 -99.06094,19.38259,0.0 -99.0609,19.38265,0.0 -99.06085,19.38352,0.0 -99.05978,19.38962,0.0 -99.05967,19.38966,0.0 -99.05913000000001,19.389610000000005,0.0 -99.05878000000001,19.3894,0.0 -99.05199,19.38493,0.0 -99.04821000000001,19.39127,0.0 -99.04804,19.39136,0.0 -99.04771,19.39117,0.0 -99.0473,19.39088,0.0 -99.0474,19.39073,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Línea 2 de Metrobús</name>
+			<description><![CDATA[Línea 2 de Metrobús que Corre de Tacubaya a Tepalcates<br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)]]></description>
+			<styleUrl>#line-6600CC-3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.184239,19.407856,0.0 -99.184378,19.407886,0.0 -99.185993,19.407851,0.0 -99.18736600000001,19.40781,0.0 -99.189528,19.407755,0.0 -99.18963,19.407729,0.0 -99.189662,19.407689,0.0 -99.189351,19.406986,0.0 -99.188938,19.406247000000004,0.0 -99.188648,19.40566,0.0 -99.188047,19.4044,0.0 -99.187822,19.403884,0.0 -99.187752,19.403742,0.0 -99.186991,19.402457,0.0 -99.186776,19.402093,0.0 -99.186851,19.401891,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Línea 2 de Metrobús</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g" height="200" width="auto" /><br><br>Línea 2 de Metrobús que Corre de Tacubaya a Tepalcates<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#line-6600CC-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.066495,19.383568,0.0 -99.069521,19.385172,0.0 -99.070973,19.385906,0.0 -99.072396,19.386665000000004,0.0 -99.073664,19.387333,0.0 -99.074831,19.387915,0.0 -99.07486,19.387922000000003,0.0 -99.074884,19.387915,0.0 -99.0749,19.387895,0.0 -99.074917,19.387849,0.0 -99.075282,19.386407,0.0 -99.07577,19.384378,0.0 -99.075808,19.384251,0.0 -99.075861,19.38415,0.0 -99.075867,19.384155,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Línea 2 de Metrobús</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g" height="200" width="auto" /><br><br>Línea 2 de Metrobús que Corre de Tacubaya a Tepalcates<br><br><br><br>ver más: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L2.html)]]></description>
+			<styleUrl>#line-6600CC-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/lnnmcJsXoPLQ0v72UnEK2QaOVTxk0JY0BKy4Kkt9RWPAgPRI8T2cinXvCWcC1A6UFej6RS--adalNoFyB0g</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.059786,19.389628,0.0 -99.05971,19.38981,0.0 -99.05905,19.39382,0.0 -99.0586,19.3956,0.0 -99.05837,19.397300000000005,0.0 -99.05831,19.39741,0.0 -99.05816,19.39749,0.0 -99.05784,19.39732,0.0 -99.05748000000001,19.39726,0.0 -99.05595,19.39643,0.0 -99.05004,19.393,0.0 -99.04794,19.39183,0.0 -99.04821000000001,19.39126,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-6600CC-3-normal'>
+			<LineStyle>
+				<color>ffCC0066</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-6600CC-3-highlight'>
+			<LineStyle>
+				<color>ffCC0066</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-6600CC-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-6600CC-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-6600CC-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

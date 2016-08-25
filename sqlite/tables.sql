@@ -1,0 +1,11 @@
+CREATE TABLE Lineas (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	nombre TEXT NOT NULL,
+	color int NOT NULL);
+	
+CREATE TABLE Estaciones (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	linea INTEGER NOT NULL,
+	nombre TEXT NOT NULL);
+	
+SELECT AddGeometryColumn('Estaciones', 'ubicacion', 4326, 'POINT',2);
