@@ -48,7 +48,7 @@ namespace KmlTransformator
                     sb.Append("SELECT ");
                 else
                     sb.Append("UNION ALL SELECT ");
-                        sb.AppendLine($"{line - 1},'{nombreEstacion.Trim().Replace("'","''")}',MakePoint({coordenadas[0]}, {coordenadas[1]}, 4326)");
+                        sb.AppendLine($"{line},'{nombreEstacion.Trim().Replace("'","''")}',MakePoint({coordenadas[0]}, {coordenadas[1]}, 4326)");
                 }
         }
     }
