@@ -1,45 +1,70 @@
 package silo.thatcsharpguy.com.questacion;
 
+import android.Manifest;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
+import android.location.Location;
 import android.net.Uri;
+import android.os.IBinder;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
-import android.widget.ProgressBar;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 
-import silo.thatcsharpguy.com.questacion.services.DownloadTask;
-import silo.thatcsharpguy.com.questacion.services.Commons;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
+
+import java.util.List;
+
+import jsqlite.Exception;
+import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
+import silo.thatcsharpguy.com.questacion.entities.Estacion;
 import silo.thatcsharpguy.com.questacion.services.LocationService;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity
+        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
 
     private static final String TAG = "MainActivity";
 
     private static final String WriteStorage = android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
     private static final String ReadStorage = android.Manifest.permission.READ_EXTERNAL_STORAGE;
 
-    private static final int MY_PERMISSIONS_REQUEST_LOCATION = 2;
+    private static final String AccessCoarseLocation = Manifest.permission.ACCESS_COARSE_LOCATION;
+    private static final String AccessFineLocation = Manifest.permission.ACCESS_FINE_LOCATION;
+
+    private static final int LOCATION_REQUEST = 2;
     private static final int STORAGE_REQUEST = 3;
-    private static final int DATABASE_DOWNLOADED = 45;
 
     LocationService mService;
     boolean mBound = false;
 
-    ProgressBar _databaseProgress;
+    AlertDialog.Builder _dialogBuilder;
+    TextView _estacionCercanaText;
 
+    public static MetrobusDatabase MetrobusDatabase;
+
+    public static GoogleApiClient GoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        _dialogBuilder = new AlertDialog.Builder(this);
+        _estacionCercanaText = (TextView)findViewById(R.id.estacionCercanaText);
     }
 
     @Override
@@ -59,6 +84,17 @@ public class MainActivity extends AppCompatActivity {
             if(Commons.getMainDatabaseFile().exists())
             {
                 Log.i(TAG,"Database at " + Commons.getMainDatabaseFile().getAbsolutePath() );
+
+                try {
+
+                    MetrobusDatabase = new MetrobusDatabase(Commons.getMainDatabaseFile());
+
+                    setupLocationService();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
             }
             else
             {
@@ -73,30 +109,51 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    private void setupLocationService(){
+        // Check for permissions
+        int canReadStorage = ContextCompat.checkSelfPermission(this,AccessFineLocation);
+        int canWriteStorage = ContextCompat.checkSelfPermission(this,AccessCoarseLocation);
+
+        if(canReadStorage == PackageManager.PERMISSION_GRANTED &&
+                canWriteStorage == PackageManager.PERMISSION_GRANTED )
+        {
+            // Start service or whatever
+            Log.i(TAG,"Ok location permissions");
+
+            if (GoogleApiClient == null) {
+                GoogleApiClient = new GoogleApiClient.Builder(this)
+                        .addConnectionCallbacks(this)
+                        .addOnConnectionFailedListener(this)
+                        .addApi(LocationServices.API)
+                        .build();
+            }
+            GoogleApiClient.connect();
+        }
+        else
+        {
+            requestLocationPermissions();
+        }
+    }
+
     private void requestStoragePermissions(){
         // Should we show an explanation?
         boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,ReadStorage) ||
                 ActivityCompat.shouldShowRequestPermissionRationale(this,WriteStorage);
 
         if (!requiresRational) {
-
-            AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this);
-
-            dialogBuilder.setTitle("Necesitamos tu permiso");
-            dialogBuilder.setMessage("Questacion necesita tu permiso para descargar y guardar una pequeña base de datos con las líneas del metrobus");
-
-            dialogBuilder.setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    startInstalledAppDetailsActivity();
-                }
-            });
-            dialogBuilder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    Log.e(TAG,"DUDE WHAT");
-                }
-            });
-
-            AlertDialog dialog = dialogBuilder.create();
+            AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
+                    .setMessage(R.string.database_explanation)
+                    .setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            startInstalledAppDetailsActivity();
+                        }
+                    })
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            Log.e(TAG,"DUDE WHAT");
+                        }
+                    }).create();
 
             dialog.show();
         } else {
@@ -106,6 +163,38 @@ public class MainActivity extends AppCompatActivity {
                             WriteStorage
                     },
                     STORAGE_REQUEST);
+        }
+    }
+
+    private void requestLocationPermissions(){
+        // Should we show an explanation?
+        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,AccessCoarseLocation) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this,AccessFineLocation);
+
+        if (!requiresRational) {
+
+
+            AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
+                    .setMessage(R.string.location_explanation)
+                    .setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            startInstalledAppDetailsActivity();
+                        }
+                    })
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            Log.e(TAG,"DUDE WHAT");
+                        }
+                    }).create();
+
+            dialog.show();
+        } else {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{
+                            AccessCoarseLocation,
+                            AccessFineLocation
+                    },
+                    LOCATION_REQUEST);
         }
     }
 
@@ -127,33 +216,96 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case STORAGE_REQUEST: {
                 // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0 &&
-                        grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     checkDatabase();
                 }
                 else{
 
-                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this);
+                    AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
+                            .setMessage(R.string.database_explanation)
+                            .setPositiveButton(R.string.ok_retry, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    requestStoragePermissions();
+                                }
+                            })
+                            .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    Log.e(TAG,"DUDE WHAT");
+                                }
+                            }).create();
 
-                    dialogBuilder.setTitle("Necesitamos tu permiso");
-                    dialogBuilder.setMessage("Questacion necesita tu permiso para descargar y guardar una pequeña base de datos con las líneas del metrobus");
+                    dialog.show();
+                }
+            }
+            case LOCATION_REQUEST: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    setupLocationService();
+                }
+                else{
 
-                    dialogBuilder.setPositiveButton(R.string.ok_retry, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            requestStoragePermissions();
-                        }
-                    });
-                    dialogBuilder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            Log.e(TAG,"DUDE WHAT");
-                        }
-                    });
-
-                    AlertDialog dialog = dialogBuilder.create();
+                    AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
+                            .setMessage(R.string.location_explanation)
+                            .setPositiveButton(R.string.ok_retry, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    requestLocationPermissions();
+                                }
+                            })
+                            .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    Log.e(TAG,"DUDE WHAT");
+                                }
+                            }).create();
 
                     dialog.show();
                 }
             }
         }
+    }
+
+    @Override
+    public void onConnected(@Nullable Bundle bundle) {
+
+        Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(GoogleApiClient);
+
+        try {
+            Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude());
+            _estacionCercanaText.setText(cercana.getNombre() + " " + cercana.getMetros());
+
+            Intent intent = new Intent(this, LocationService.class);
+            bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /** Defines callbacks for service binding, passed to bindService() */
+    private ServiceConnection mConnection = new ServiceConnection() {
+
+        @Override
+        public void onServiceConnected(ComponentName className,
+                                       IBinder service) {
+            Log.i(TAG, "Service, I got the service!");
+            // We've bound to LocalService, cast the IBinder and get LocalService instance
+            LocationService.LocalBinder binder = (LocationService.LocalBinder) service;
+            mService = binder.getService();
+            mBound = true;
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName arg0) {
+            mBound = false;
+        }
+    };
+
+    @Override
+    public void onConnectionSuspended(int i) {
+
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
     }
 }

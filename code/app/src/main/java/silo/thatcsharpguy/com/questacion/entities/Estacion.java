@@ -9,6 +9,9 @@ public class Estacion {
     private double _latitud;
     private double _longitud;
 
+    private double _metros;
+    private int _color;
+
     public Estacion(String nombre, double latitud, double longitud){
         _nombre= nombre;
         _latitud = latitud;
@@ -38,4 +41,16 @@ public class Estacion {
     public void setLongitud(double longitud) {
         this._longitud = longitud;
     }
+
+    public double getMetros() {
+        return _metros;
+    }
+
+    public void setMetros(double metros) { this._metros = metros; }
+
+    public int getColor() {
+        return _color;
+    }
+
+    public void setColor(int color) { this._color = color; }
 }

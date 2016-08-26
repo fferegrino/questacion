@@ -19,6 +19,8 @@ import silo.thatcsharpguy.com.questacion.entities.Estacion;
  */
 public class MetrobusDatabase {
 
+    private static final int DumbMeterConstant = 111195;
+
     jsqlite.Database _db;
     public MetrobusDatabase(File dbFile) throws Exception {
 
@@ -29,16 +31,31 @@ public class MetrobusDatabase {
     }
 
     public List<Estacion> getEstaciones() throws Exception {
-        Stmt countQuery = _db.prepare("SELECT nombre FROM Estaciones");
-        int rowCount =  countQuery.column_count();
+        Stmt query = _db.prepare("SELECT nombre FROM Estaciones");
+        int rowCount =  query.column_count();
 
         List<Estacion> estaciones = new ArrayList<Estacion>();;
         int i = 0;
-        while(countQuery.step())
+        while(query.step())
         {
-            estaciones.add(new Estacion(countQuery.column_string(0),0,0));
+            estaciones.add(new Estacion(query.column_string(0),0,0));
         }
-        countQuery.close();
+        query.close();
         return estaciones;
+    }
+
+    public Estacion getEstacionCercana(double latitud, double longitud) throws Exception
+    {
+        String point = "MakePoint(" + longitud + ","+latitud+",4326)";
+        Stmt query = _db.prepare("SELECT E.nombre,Distance(ubicacion," + point + ") as Distancia,L.color FROM Estaciones E INNER JOIN Lineas L ON L.id = E.linea ORDER BY Distancia");
+        Estacion estacion = null;
+        if(query.step()) {
+
+            estacion = new Estacion(query.column_string(0),0,0);
+            estacion.setMetros(query.column_double(1) * DumbMeterConstant);
+            estacion.setColor(query.column_int(2));
+        }
+
+        return estacion;
     }
 }
