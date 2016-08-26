@@ -1,12 +1,15 @@
 package silo.thatcsharpguy.com.questacion;
 
 import android.Manifest;
+import android.app.ActionBar;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
 import android.net.Uri;
 import android.os.IBinder;
@@ -19,7 +22,12 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -33,10 +41,11 @@ import jsqlite.Exception;
 import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
 import silo.thatcsharpguy.com.questacion.entities.Estacion;
 import silo.thatcsharpguy.com.questacion.services.LocationService;
+import silo.thatcsharpguy.com.questacion.services.NuevaEstacionListener;
 
 
 public class MainActivity extends AppCompatActivity
-        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
+        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener{
 
     private static final String TAG = "MainActivity";
 
@@ -54,6 +63,8 @@ public class MainActivity extends AppCompatActivity
 
     AlertDialog.Builder _dialogBuilder;
     TextView _estacionCercanaText;
+    Button _bindUnbindButton;
+    LinearLayout _mainPanel;
 
     public static MetrobusDatabase MetrobusDatabase;
 
@@ -65,6 +76,23 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         _dialogBuilder = new AlertDialog.Builder(this);
         _estacionCercanaText = (TextView)findViewById(R.id.estacionCercanaText);
+        _mainPanel = (LinearLayout)findViewById(R.id.mainPanel);
+        _bindUnbindButton = (Button)findViewById(R.id.bindUnbindButton);
+
+        _bindUnbindButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(mBound == true)
+                {
+                    _bindUnbindButton.setText(R.string.start_trip);
+                    StopAndUnbindLocationService();
+                }
+                else{
+                    _bindUnbindButton.setText(R.string.stop_trip);
+                    StartAndBindLocationService();
+                }
+            }
+        });
     }
 
     @Override
@@ -83,8 +111,6 @@ public class MainActivity extends AppCompatActivity
         {
             if(Commons.getMainDatabaseFile().exists())
             {
-                Log.i(TAG,"Database at " + Commons.getMainDatabaseFile().getAbsolutePath() );
-
                 try {
 
                     MetrobusDatabase = new MetrobusDatabase(Commons.getMainDatabaseFile());
@@ -263,18 +289,35 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    Intent locationServiceIntent;
+
+    void StartAndBindLocationService(){
+        Log.i(TAG, "Start the service");
+        locationServiceIntent = new Intent(this, LocationService.class);
+        startService(locationServiceIntent);
+        bindService(locationServiceIntent, mConnection, Context.BIND_AUTO_CREATE);
+    }
+
+    void StopAndUnbindLocationService(){
+        Log.i(TAG, "Stop the service");
+        stopService(locationServiceIntent);
+        unbindService(mConnection);
+        mBound = false;
+    }
+
     @Override
     public void onConnected(@Nullable Bundle bundle) {
 
         Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(GoogleApiClient);
 
         try {
-            Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude());
-            _estacionCercanaText.setText(cercana.getNombre() + " " + cercana.getMetros());
-
-            Intent intent = new Intent(this, LocationService.class);
-            bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
-
+            if(lastLocation != null)
+            {
+                Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude());
+                stationUpdate(cercana);
+            }
+            StartAndBindLocationService();
+            _bindUnbindButton.setText(R.string.stop_trip);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -286,16 +329,14 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void onServiceConnected(ComponentName className,
                                        IBinder service) {
-            Log.i(TAG, "Service, I got the service!");
-            // We've bound to LocalService, cast the IBinder and get LocalService instance
             LocationService.LocalBinder binder = (LocationService.LocalBinder) service;
             mService = binder.getService();
+            mService.addListener(MainActivity.this);
             mBound = true;
         }
 
         @Override
         public void onServiceDisconnected(ComponentName arg0) {
-            mBound = false;
         }
     };
 
@@ -306,6 +347,37 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void stationUpdate(Estacion cercana) {
+        _estacionCercanaText.setText(cercana.getNombre());
+        _estacionCercanaText.setTextColor(Color.WHITE);
+        int color = 0xFF000000 | cercana.getColor();
+        _mainPanel.getRootView().setBackgroundColor(color);
+
+        float[] hsv = new float[3];
+        Color.colorToHSV(color, hsv);
+        hsv[2] *= 0.8f; // value component
+        color = Color.HSVToColor(hsv);
+
+        android.support.v7.app.ActionBar supportActionBar = getSupportActionBar();
+
+        supportActionBar.setBackgroundDrawable(new ColorDrawable(color));
+
+        Window window = this.getWindow();
+
+// clear FLAG_TRANSLUCENT_STATUS flag:
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+// add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+
+        hsv[2] *= 0.8f; // value component
+        color = Color.HSVToColor(hsv);
+// finally change the color
+        window.setStatusBarColor(color);
 
     }
 }

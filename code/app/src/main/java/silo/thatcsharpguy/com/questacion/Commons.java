@@ -14,6 +14,18 @@ public final class Commons {
     private static final String QuestacionFolderName = "Questacion";
     public static final String DatabaseUri ="https://github.com/fferegrino/questacion/blob/master/sqlite/mb.sqlite?raw=true";
 
+    public static final int[] LineaIconMapper = new int[7];
+
+    static {
+        LineaIconMapper[0] = R.drawable.ic_stat_1;
+        LineaIconMapper[1] = R.drawable.ic_stat_1;
+        LineaIconMapper[2] = R.drawable.ic_stat_2;
+        LineaIconMapper[3] = R.drawable.ic_stat_3;
+        LineaIconMapper[4] = R.drawable.ic_stat_4;
+        LineaIconMapper[5] = R.drawable.ic_stat_5;
+        LineaIconMapper[6] = R.drawable.ic_stat_6;
+    }
+
 
     private static File _questacionFolder;
     public static File getQuestacionFolder(){

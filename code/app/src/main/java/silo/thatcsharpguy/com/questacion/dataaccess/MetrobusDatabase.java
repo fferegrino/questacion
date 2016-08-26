@@ -47,13 +47,14 @@ public class MetrobusDatabase {
     public Estacion getEstacionCercana(double latitud, double longitud) throws Exception
     {
         String point = "MakePoint(" + longitud + ","+latitud+",4326)";
-        Stmt query = _db.prepare("SELECT E.nombre,Distance(ubicacion," + point + ") as Distancia,L.color FROM Estaciones E INNER JOIN Lineas L ON L.id = E.linea ORDER BY Distancia");
+        Stmt query = _db.prepare("SELECT E.nombre,Distance(ubicacion," + point + ") as Distancia,L.color,L.id FROM Estaciones E INNER JOIN Lineas L ON L.id = E.linea ORDER BY Distancia");
         Estacion estacion = null;
         if(query.step()) {
 
             estacion = new Estacion(query.column_string(0),0,0);
             estacion.setMetros(query.column_double(1) * DumbMeterConstant);
             estacion.setColor(query.column_int(2));
+            estacion.setLinea(query.column_int(3));
         }
 
         return estacion;

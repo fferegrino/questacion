@@ -8,6 +8,7 @@ public class Estacion {
     private String _nombre;
     private double _latitud;
     private double _longitud;
+    private int _linea;
 
     private double _metros;
     private int _color;
@@ -53,4 +54,10 @@ public class Estacion {
     }
 
     public void setColor(int color) { this._color = color; }
+
+    public int getLinea() {
+        return _linea;
+    }
+
+    public void setLinea(int linea) { this._linea = linea; }
 }

@@ -19,9 +19,11 @@
         android:id="@+id/estacionCercanaText"
         android:layout_gravity="center_horizontal" />
 
-    <Spinner
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/estacionesSpinner"
+        android:text="@string/start_trip"
+        android:id="@+id/bindUnbindButton"
         android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
