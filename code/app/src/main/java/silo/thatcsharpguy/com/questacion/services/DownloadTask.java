@@ -2,8 +2,8 @@ package silo.thatcsharpguy.com.questacion.services;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.os.Environment;
-import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import java.io.File;
@@ -18,7 +18,11 @@ import java.net.URL;
  * Created by anton on 25/08/2016.
  */
 public class DownloadTask extends AsyncTask<String, Integer, String> {
-    private static final String DatabaseName = "mb.sqlite";
+
+    ProgressBar _progressBar;
+    public void setProgressBar(ProgressBar progressBar){
+        _progressBar = progressBar;
+    }
 
     private Context context;
     public DownloadTask(Context context)
@@ -32,7 +36,7 @@ public class DownloadTask extends AsyncTask<String, Integer, String> {
         OutputStream output = null;
         HttpURLConnection connection = null;
         try {
-            URL url = new URL(sUrl[0]);
+            URL url = new URL(Commons.DatabaseUri);
             connection = (HttpURLConnection) url.openConnection();
             connection.connect();
 
@@ -50,15 +54,12 @@ public class DownloadTask extends AsyncTask<String, Integer, String> {
             // download the file
             input = connection.getInputStream();
 
-            String folder_main = "Questacion";
-
-            File f = new File(Environment.getExternalStorageDirectory(), folder_main);
+            File f = Commons.getQuestacionFolder();
             if (!f.exists()) {
                 f.mkdirs();
             }
 
-
-            output = new FileOutputStream(f.getPath() + "/" +DatabaseName );
+            output = new FileOutputStream(Commons.getMainDatabaseFile());
 
             byte data[] = new byte[4096];
             long total = 0;
@@ -76,7 +77,6 @@ public class DownloadTask extends AsyncTask<String, Integer, String> {
                 output.write(data, 0, count);
             }
         } catch (Exception e) {
-            Log.e("TAGGGG", e.toString());
             return e.toString();
         } finally {
             try {
@@ -85,20 +85,23 @@ public class DownloadTask extends AsyncTask<String, Integer, String> {
                 if (input != null)
                     input.close();
             } catch (IOException ignored) {
-                Log.e("TAGGGG", ignored.toString());
             }
 
             if (connection != null)
                 connection.disconnect();
         }
-
-        Log.e("TAGGGG", "Done");
         return null;
     }
 
+    @Override
+    protected void onPreExecute() {
+        _progressBar.setVisibility(View.VISIBLE);
+        super.onPreExecute();
+    }
 
     @Override
     protected void onPostExecute(String result) {
+        _progressBar.setVisibility(View.GONE);
         if (result != null)
             Toast.makeText(context,"Download error: "+result, Toast.LENGTH_LONG).show();
         else

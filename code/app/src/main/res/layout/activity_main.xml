@@ -11,10 +11,4 @@
         android:id="@+id/mainPanel"
         tools:context="silo.thatcsharpguy.com.questacion.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Descargar base de datos"
-        android:id="@+id/startTrip"
-        android:layout_gravity="center_horizontal" />
 </LinearLayout>

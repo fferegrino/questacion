@@ -1,184 +1,159 @@
 package silo.thatcsharpguy.com.questacion;
 
-import android.*;
-import android.Manifest;
-import android.content.ComponentName;
-import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
-import android.os.AsyncTask;
-import android.os.Handler;
-import android.os.IBinder;
-import android.os.Message;
-import android.os.Messenger;
+import android.net.Uri;
+import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
-
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.net.URL;
-import java.net.URLConnection;
+import android.widget.ProgressBar;
 
 import silo.thatcsharpguy.com.questacion.services.DownloadTask;
+import silo.thatcsharpguy.com.questacion.services.Commons;
 import silo.thatcsharpguy.com.questacion.services.LocationService;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int MY_PERMISSIONS_REQUEST_LOCATION = 245;
-    private static final int MY_PERMISSIONS_STORAGE = 12354;
+    private static final String TAG = "MainActivity";
+
+    private static final String WriteStorage = android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+    private static final String ReadStorage = android.Manifest.permission.READ_EXTERNAL_STORAGE;
+
+    private static final int MY_PERMISSIONS_REQUEST_LOCATION = 2;
+    private static final int STORAGE_REQUEST = 3;
+    private static final int DATABASE_DOWNLOADED = 45;
 
     LocationService mService;
     boolean mBound = false;
+
+    ProgressBar _databaseProgress;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button start =(Button ) findViewById(R.id.startTrip);
-
-
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-                if(
-                        (ContextCompat.checkSelfPermission(MainActivity.this,
-                                Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                                != PackageManager.PERMISSION_GRANTED)&&
-                                (ContextCompat.checkSelfPermission(MainActivity.this,
-                                        Manifest.permission.READ_EXTERNAL_STORAGE)
-                                        != PackageManager.PERMISSION_GRANTED))
-                {
-                    Log.w("MainActivity", "Sin permisos");
-
-                    ActivityCompat.requestPermissions(MainActivity.this,
-                            new String[]{
-                                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                                    Manifest.permission.WRITE_EXTERNAL_STORAGE
-                            },
-                            MY_PERMISSIONS_STORAGE);
-                }else
-                {
-                   startDownloadingDatabase();
-
-
-                }
-            }
-        });
     }
-
-    void startDownloadingDatabase(){
-        final DownloadTask downloadTask = new DownloadTask(MainActivity.this);
-         downloadTask.execute("https://github.com/fferegrino/questacion/blob/master/sqlite/mb.sqlite?raw=true");
-    }
-
-    /** Defines callbacks for service binding, passed to bindService() */
-    private ServiceConnection mConnection = new ServiceConnection() {
-
-        @Override
-        public void onServiceConnected(ComponentName className,
-                                       IBinder service) {
-            // We've bound to LocalService, cast the IBinder and get LocalService instance
-            LocationService.LocalBinder binder = (LocationService.LocalBinder) service;
-            mService = binder.getService();
-            mBound = true;
-        }
-
-        @Override
-        public void onServiceDisconnected(ComponentName arg0) {
-            mBound = false;
-        }
-    };
 
     @Override
     protected void onStart() {
+        checkDatabase();
+        super.onStart();
+    }
 
+    private void checkDatabase(){
+        // Check for permissions
+        int canReadStorage = ContextCompat.checkSelfPermission(this,ReadStorage);
+        int canWriteStorage = ContextCompat.checkSelfPermission(this,WriteStorage);
 
-        // Here, thisActivity is the current activity
-        if ((ContextCompat.checkSelfPermission(this,
-                android.Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) &&
-                (ContextCompat.checkSelfPermission(this,
-                        android.Manifest.permission.ACCESS_COARSE_LOCATION)
-                        != PackageManager.PERMISSION_GRANTED) ) {
-
-            // Should we show an explanation?
-            boolean t = ActivityCompat.shouldShowRequestPermissionRationale(this,android.Manifest.permission.ACCESS_FINE_LOCATION);
-            if (t) {
-
-                // Show an expanation to the user *asynchronously* -- don't block
-                // this thread waiting for the user's response! After the user
-                // sees the explanation, try again to request the permission.
-
-            } else {
-
-                // No explanation needed, we can request the permission.
-
-                ActivityCompat.requestPermissions(this,
-                        new String[]{
-                                android.Manifest.permission.ACCESS_FINE_LOCATION,
-                                Manifest.permission.ACCESS_COARSE_LOCATION,
-                                Manifest.permission.INTERNET,
-                                Manifest.permission.WRITE_EXTERNAL_STORAGE
-                        },
-                        MY_PERMISSIONS_REQUEST_LOCATION);
-
-                // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
-                // app-defined int constant. The callback method gets the
-                // result of the request.
+        if(canReadStorage == PackageManager.PERMISSION_GRANTED &&
+                canWriteStorage == PackageManager.PERMISSION_GRANTED )
+        {
+            if(Commons.getMainDatabaseFile().exists())
+            {
+                Log.i(TAG,"Database at " + Commons.getMainDatabaseFile().getAbsolutePath() );
+            }
+            else
+            {
+                Log.w(TAG,"No database yet");
+                Intent intent = new Intent(this, DownloadDatabaseActivity.class);
+                startActivity(intent);
             }
         }
-
-/*
         else
         {
-            Log.i("LOCATION SERVICE", "Has permissions");
-            launchService();
+            requestStoragePermissions();
         }
-*/
-        super.onStart();
-        // Bind to LocalService
     }
 
-    void launchService(){
+    private void requestStoragePermissions(){
+        // Should we show an explanation?
+        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,ReadStorage) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this,WriteStorage);
 
-        Intent intent = new Intent(this, LocationService.class);
-        bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
+        if (!requiresRational) {
+
+            AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this);
+
+            dialogBuilder.setTitle("Necesitamos tu permiso");
+            dialogBuilder.setMessage("Questacion necesita tu permiso para descargar y guardar una pequeña base de datos con las líneas del metrobus");
+
+            dialogBuilder.setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    startInstalledAppDetailsActivity();
+                }
+            });
+            dialogBuilder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    Log.e(TAG,"DUDE WHAT");
+                }
+            });
+
+            AlertDialog dialog = dialogBuilder.create();
+
+            dialog.show();
+        } else {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{
+                            ReadStorage,
+                            WriteStorage
+                    },
+                    STORAGE_REQUEST);
+        }
     }
 
+    public void startInstalledAppDetailsActivity() {
+
+        final Intent i = new Intent();
+        i.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        i.addCategory(Intent.CATEGORY_DEFAULT);
+        i.setData(Uri.parse("package:" + getPackageName()));
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        i.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+        i.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+        startActivity(i);
+    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
         switch (requestCode) {
-            case MY_PERMISSIONS_STORAGE: {
+            case STORAGE_REQUEST: {
                 // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    startDownloadingDatabase();
+                if (grantResults.length > 0 &&
+                        grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    checkDatabase();
+                }
+                else{
+
+                    AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(MainActivity.this);
+
+                    dialogBuilder.setTitle("Necesitamos tu permiso");
+                    dialogBuilder.setMessage("Questacion necesita tu permiso para descargar y guardar una pequeña base de datos con las líneas del metrobus");
+
+                    dialogBuilder.setPositiveButton(R.string.ok_retry, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            requestStoragePermissions();
+                        }
+                    });
+                    dialogBuilder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            Log.e(TAG,"DUDE WHAT");
+                        }
+                    });
+
+                    AlertDialog dialog = dialogBuilder.create();
+
+                    dialog.show();
                 }
             }
-        }
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        // Unbind from the service
-        if (mBound) {
-            unbindService(mConnection);
-            mBound = false;
         }
     }
 }

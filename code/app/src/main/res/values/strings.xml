@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Questacion</string>
+    <string name="ok_retry">Reintentar</string>
+    <string name="ok_open_settings">Ver configuración</string>
+    <string name="cancel">Cancelar</string>
+    <string name="database_explanation">Para que Questacion funcione es necesario descargar una pequeña base de datos de tan solo 26 kb.</string>
+    <string name="database_explanation_action">Presiona el botón para comenzar la descarga.</string>
+    <string name="download_database">Download database</string>
 </resources>
