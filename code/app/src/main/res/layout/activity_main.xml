@@ -11,4 +11,9 @@
         android:id="@+id/mainPanel"
         tools:context="silo.thatcsharpguy.com.questacion.MainActivity">
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/estacionesSpinner"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
