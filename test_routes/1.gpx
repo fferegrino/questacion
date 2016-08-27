@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+ 
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="bikehike.co.uk" version="1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <time>2016-08-27T00:20:20Z</time>
+    <bounds minlat="19.392990" minlon="-99.178900" maxlat="19.405980" maxlon="-99.169350" /> 
+  </metadata>
+
+
+  
+  <rte>
+    <name>Compleja</name>
+    <number>1</number>
+    <rtept lat="19.405980" lon="-99.178900">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:20Z</time>
+      <name>pt0</name>
+    </rtept>
+    <rtept lat="19.404510" lon="-99.174410">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:31Z</time>
+      <name>pt1</name>
+    </rtept>
+    <rtept lat="19.403650" lon="-99.171680">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:37Z</time>
+      <name>pt2</name>
+    </rtept>
+    <rtept lat="19.403530" lon="-99.171360">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:38Z</time>
+      <name>pt3</name>
+    </rtept>
+    <rtept lat="19.403490" lon="-99.171270">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:38Z</time>
+      <name>pt4</name>
+    </rtept>
+    <rtept lat="19.402520" lon="-99.171050">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:41Z</time>
+      <name>pt5</name>
+    </rtept>
+    <rtept lat="19.402240" lon="-99.171000">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:42Z</time>
+      <name>pt6</name>
+    </rtept>
+    <rtept lat="19.402290" lon="-99.170800">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:42Z</time>
+      <name>pt7</name>
+    </rtept>
+    <rtept lat="19.403580" lon="-99.171110">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:45Z</time>
+      <name>pt8</name>
+    </rtept>
+    <rtept lat="19.403560" lon="-99.170990">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:46Z</time>
+      <name>pt9</name>
+    </rtept>
+    <rtept lat="19.403560" lon="-99.169970">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:48Z</time>
+      <name>pt10</name>
+    </rtept>
+    <rtept lat="19.403670" lon="-99.169350">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:50Z</time>
+      <name>pt11</name>
+    </rtept>
+    <rtept lat="19.403550" lon="-99.169390">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:50Z</time>
+      <name>pt12</name>
+    </rtept>
+    <rtept lat="19.400560" lon="-99.170360">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:58Z</time>
+      <name>pt13</name>
+    </rtept>
+    <rtept lat="19.400300" lon="-99.170460">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:58Z</time>
+      <name>pt14</name>
+    </rtept>
+    <rtept lat="19.399610" lon="-99.170670">
+      <ele>0</ele>
+      <time>2016-08-27T00:21:00Z</time>
+      <name>pt15</name>
+    </rtept>
+    <rtept lat="19.397320" lon="-99.171410">
+      <ele>0</ele>
+      <time>2016-08-27T00:21:06Z</time>
+      <name>pt16</name>
+    </rtept>
+    <rtept lat="19.392990" lon="-99.172830">
+      <ele>0</ele>
+      <time>2016-08-27T00:21:17Z</time>
+      <name>pt17</name>
+    </rtept>
+  </rte>
+</gpx>

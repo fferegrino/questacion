@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+ 
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="bikehike.co.uk" version="1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<!-- http://www.bikehike.co.uk/mapview.php -->
+  <metadata>
+    <time>2016-08-27T00:13:02Z</time>
+    <bounds minlat="19.418880" minlon="-99.164840" maxlat="19.449350" maxlon="-99.152790" /> 
+  </metadata>
+  <rte>
+    <name>bikehike course</name>
+    <number>1</number>
+    <rtept lat="19.449350" lon="-99.152790">
+      <ele>0</ele>
+      <time>2016-08-27T00:13:02Z</time>
+      <name>pt0</name>
+    </rtept>
+    <rtept lat="19.446340" lon="-99.153310">
+      <ele>0</ele>
+      <time>2016-08-27T00:13:52Z</time>
+      <name>pt1</name>
+    </rtept>
+    <rtept lat="19.446010" lon="-99.153380">
+      <ele>0</ele>
+      <time>2016-08-27T00:13:58Z</time>
+      <name>pt2</name>
+    </rtept>
+    <rtept lat="19.445850" lon="-99.153430">
+      <ele>0</ele>
+      <time>2016-08-27T00:14:00Z</time>
+      <name>pt3</name>
+    </rtept>
+    <rtept lat="19.444500" lon="-99.154040">
+      <ele>0</ele>
+      <time>2016-08-27T00:14:25Z</time>
+      <name>pt4</name>
+    </rtept>
+    <rtept lat="19.443580" lon="-99.154430">
+      <ele>0</ele>
+      <time>2016-08-27T00:14:41Z</time>
+      <name>pt5</name>
+    </rtept>
+    <rtept lat="19.443240" lon="-99.154530">
+      <ele>0</ele>
+      <time>2016-08-27T00:14:47Z</time>
+      <name>pt6</name>
+    </rtept>
+    <rtept lat="19.442710" lon="-99.154630">
+      <ele>0</ele>
+      <time>2016-08-27T00:14:56Z</time>
+      <name>pt7</name>
+    </rtept>
+    <rtept lat="19.441950" lon="-99.154820">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:09Z</time>
+      <name>pt8</name>
+    </rtept>
+    <rtept lat="19.441700" lon="-99.154920">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:13Z</time>
+      <name>pt9</name>
+    </rtept>
+    <rtept lat="19.441530" lon="-99.155010">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:17Z</time>
+      <name>pt10</name>
+    </rtept>
+    <rtept lat="19.440800" lon="-99.155290">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:29Z</time>
+      <name>pt11</name>
+    </rtept>
+    <rtept lat="19.440100" lon="-99.155630">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:42Z</time>
+      <name>pt12</name>
+    </rtept>
+    <rtept lat="19.439870" lon="-99.155720">
+      <ele>0</ele>
+      <time>2016-08-27T00:15:46Z</time>
+      <name>pt13</name>
+    </rtept>
+    <rtept lat="19.438170" lon="-99.156490">
+      <ele>0</ele>
+      <time>2016-08-27T00:16:17Z</time>
+      <name>pt14</name>
+    </rtept>
+    <rtept lat="19.434400" lon="-99.158150">
+      <ele>0</ele>
+      <time>2016-08-27T00:17:25Z</time>
+      <name>pt15</name>
+    </rtept>
+    <rtept lat="19.432500" lon="-99.158960">
+      <ele>0</ele>
+      <time>2016-08-27T00:17:59Z</time>
+      <name>pt16</name>
+    </rtept>
+    <rtept lat="19.431760" lon="-99.159340">
+      <ele>0</ele>
+      <time>2016-08-27T00:18:12Z</time>
+      <name>pt17</name>
+    </rtept>
+    <rtept lat="19.430770" lon="-99.159810">
+      <ele>0</ele>
+      <time>2016-08-27T00:18:30Z</time>
+      <name>pt18</name>
+    </rtept>
+    <rtept lat="19.430590" lon="-99.159910">
+      <ele>0</ele>
+      <time>2016-08-27T00:18:34Z</time>
+      <name>pt19</name>
+    </rtept>
+    <rtept lat="19.426560" lon="-99.161740">
+      <ele>0</ele>
+      <time>2016-08-27T00:19:46Z</time>
+      <name>pt20</name>
+    </rtept>
+    <rtept lat="19.426340" lon="-99.161820">
+      <ele>0</ele>
+      <time>2016-08-27T00:19:50Z</time>
+      <name>pt21</name>
+    </rtept>
+    <rtept lat="19.425130" lon="-99.162390">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:12Z</time>
+      <name>pt22</name>
+    </rtept>
+    <rtept lat="19.424250" lon="-99.162830">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:28Z</time>
+      <name>pt23</name>
+    </rtept>
+    <rtept lat="19.424270" lon="-99.163030">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:31Z</time>
+      <name>pt24</name>
+    </rtept>
+    <rtept lat="19.424200" lon="-99.163320">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:36Z</time>
+      <name>pt25</name>
+    </rtept>
+    <rtept lat="19.424040" lon="-99.163510">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:40Z</time>
+      <name>pt26</name>
+    </rtept>
+    <rtept lat="19.423920" lon="-99.163590">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:42Z</time>
+      <name>pt27</name>
+    </rtept>
+    <rtept lat="19.423820" lon="-99.163620">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:44Z</time>
+      <name>pt28</name>
+    </rtept>
+    <rtept lat="19.423620" lon="-99.163630">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:47Z</time>
+      <name>pt29</name>
+    </rtept>
+    <rtept lat="19.423470" lon="-99.163600">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:50Z</time>
+      <name>pt30</name>
+    </rtept>
+    <rtept lat="19.423370" lon="-99.163560">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:52Z</time>
+      <name>pt31</name>
+    </rtept>
+    <rtept lat="19.423260" lon="-99.163470">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:54Z</time>
+      <name>pt32</name>
+    </rtept>
+    <rtept lat="19.423180" lon="-99.163360">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:56Z</time>
+      <name>pt33</name>
+    </rtept>
+    <rtept lat="19.423090" lon="-99.163190">
+      <ele>0</ele>
+      <time>2016-08-27T00:20:59Z</time>
+      <name>pt34</name>
+    </rtept>
+    <rtept lat="19.422220" lon="-99.163460">
+      <ele>0</ele>
+      <time>2016-08-27T00:21:14Z</time>
+      <name>pt35</name>
+    </rtept>
+    <rtept lat="19.418880" lon="-99.164430">
+      <ele>0</ele>
+      <time>2016-08-27T00:22:12Z</time>
+      <name>pt36</name>
+    </rtept>
+    <rtept lat="19.418890" lon="-99.164530">
+      <ele>0</ele>
+      <time>2016-08-27T00:22:13Z</time>
+      <name>pt37</name>
+    </rtept>
+    <rtept lat="19.420130" lon="-99.164840">
+      <ele>0</ele>
+      <time>2016-08-27T00:22:34Z</time>
+      <name>pt38</name>
+    </rtept>
+    <rtept lat="19.420320" lon="-99.164060">
+      <ele>0</ele>
+      <time>2016-08-27T00:22:47Z</time>
+      <name>pt39</name>
+    </rtept>
+  </rte>
+</gpx>
