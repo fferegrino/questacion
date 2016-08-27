@@ -57,6 +57,8 @@ public class MetrobusDatabase {
             estacion.setLinea(query.column_int(3));
         }
 
+        if(estacion.getMetros() > 1000)
+            return null;
         return estacion;
     }
 }
