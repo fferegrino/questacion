@@ -15,15 +15,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="Estación"
         android:id="@+id/estacionCercanaText"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start_trip"
         android:id="@+id/bindUnbindButton"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        style="@android:style/Widget.Material.Light.Button.Small" />
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Questacion</string>
+    <string name="ok">Aceptar</string>
     <string name="ok_retry">Reintentar</string>
     <string name="ok_open_settings">Ver configuración</string>
     <string name="start_trip">Comenzar viaje</string>
@@ -11,4 +12,8 @@
     <string name="database_explanation">Para que Questacion funcione es necesario descargar una pequeña base de datos de tan solo 26 kb.</string>
     <string name="database_explanation_action">Presiona el botón para comenzar la descarga.</string>
     <string name="download_database">Descargar archivo</string>
+
+    <string name="title_activity_permissions">Permissions</string>
+    <string name="moveOn">Continuar</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
