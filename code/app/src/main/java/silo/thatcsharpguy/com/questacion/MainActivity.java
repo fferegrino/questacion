@@ -11,11 +11,14 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity
     AlertDialog.Builder _dialogBuilder;
     TextView _estacionCercanaText;
     Button _bindUnbindButton;
-    LinearLayout _mainPanel;
+    FrameLayout _mainPanel;
 
     public static MetrobusDatabase MetrobusDatabase;
 
@@ -55,7 +58,7 @@ public class MainActivity extends AppCompatActivity
         _dialogBuilder = new AlertDialog.Builder(this);
 
         _estacionCercanaText = (TextView)findViewById(R.id.estacionCercanaText);
-        _mainPanel = (LinearLayout)findViewById(R.id.mainPanel);
+        _mainPanel = (FrameLayout)findViewById(R.id.mainPanel);
         _bindUnbindButton = (Button)findViewById(R.id.bindUnbindButton);
 
         _bindUnbindButton.setOnClickListener(new View.OnClickListener() {
@@ -76,15 +79,21 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        int color = savedInstanceState.getInt("color");
-        _mainPanel.getRootView().setBackgroundColor(color);
+
+        uiStationUpdate(savedInstanceState.getInt("color"),
+                savedInstanceState.getInt("textColor"),
+                savedInstanceState.getString("name"),
+                savedInstanceState.getString("linea"));
 
         super.onRestoreInstanceState(savedInstanceState);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        outState.putInt("color", 0xFF990000);
+        outState.putInt("color", _colorBck);
+        outState.putInt("textColor", _textColorBck);
+        outState.putString("name", _nameBck);
+        outState.putString("linea", _lineaBck);
 
         super.onSaveInstanceState(outState);
     }
@@ -110,6 +119,7 @@ public class MainActivity extends AppCompatActivity
                     GoogleApiClient.connect();
                 }else{
                     StartAndBindLocationService();
+                    _bindUnbindButton.setText(R.string.stop_trip);
                 }
 
             } catch (Exception e) {
@@ -161,7 +171,6 @@ public class MainActivity extends AppCompatActivity
                 stationUpdate(cercana);
             }
             StartAndBindLocationService();
-            _bindUnbindButton.setText(R.string.stop_trip);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -176,6 +185,7 @@ public class MainActivity extends AppCompatActivity
             LocationService.LocalBinder binder = (LocationService.LocalBinder) service;
             mService = binder.getService();
             mService.addListener(MainActivity.this);
+            _bindUnbindButton.setText(R.string.stop_trip);
             mBound = true;
         }
 
@@ -198,22 +208,40 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void stationUpdate(Estacion cercana) {
 
-        int color = 0xFF000000 | cercana.getColor();
+        if(cercana != null) {
+            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea()));
+        }
+        else{
+            uiStationUpdate(Color.LTGRAY, Color.BLACK, "No hay estaciones cercanas", "Questacion");
+        }
 
-        _estacionCercanaText.setText(cercana.getNombre());
-        _estacionCercanaText.setTextColor(Color.WHITE);
-        _mainPanel.getRootView().setBackgroundColor(color);
+    }
 
+private int _colorBck;
+    private int _textColorBck;
+    private String _nameBck;
+    private String _lineaBck;
+
+    public void uiStationUpdate(int color, int textColor , String name, String linea) {
+
+        _colorBck = color;
+        _textColorBck = textColor;
+        _nameBck = name;
+        _lineaBck = linea;
+
+        color = 0xFF000000 | color;
+        _estacionCercanaText.setText(name);
+        _estacionCercanaText.setTextColor(textColor);
+        _mainPanel.setBackgroundColor(color);
         color = Utils.darkenColor(color,0.8f);
 
-        android.support.v7.app.ActionBar supportActionBar = getSupportActionBar();
-
+        ActionBar supportActionBar = getSupportActionBar();
         supportActionBar.setBackgroundDrawable(new ColorDrawable(color));
-        supportActionBar.setWindowTitle("Linea " + cercana.getLinea());
 
-        getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        getWindow().setStatusBarColor(Utils.darkenColor(color, 0.8f));
+        Window w = getWindow();
+        w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        w.setStatusBarColor(Utils.darkenColor(color, 0.8f));
 
     }
 }

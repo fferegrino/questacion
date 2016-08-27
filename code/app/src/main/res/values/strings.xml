@@ -8,6 +8,7 @@
     <string name="cancel">Cancelar</string>
     <string name="ariving_to">Llegando a %1$s</string>
     <string name="just_left">Acabas de dejar %1$s</string>
+    <string name="route">Línea %1$s</string>
     <string name="location_explanation">La funcionalidad de Questacion está ligada por completo a t ubicación, sin ella, la app no puede funcionar</string>
     <string name="database_explanation">Para que Questacion funcione es necesario descargar una pequeña base de datos de tan solo 26 kb.</string>
     <string name="database_explanation_action">Presiona el botón para comenzar la descarga.</string>

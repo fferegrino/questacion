@@ -118,6 +118,7 @@ public class LocationService
         if(nearestStation != null && _lastVisitedStation != nearestStation) {
             _notificationBuilder = new NotificationCompat.Builder(this)
                     .setContentTitle(String.format(res.getString(R.string.ariving_to), nearestStation.getNombre()))
+                    .setContentText(String.format(res.getString(R.string.route), nearestStation.getLinea()))
                     .setOngoing(true)
                     .setLocalOnly(true)
                     .setColor(nearestStation.getColor())
