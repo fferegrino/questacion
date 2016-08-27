@@ -101,6 +101,12 @@ public class MainActivity extends AppCompatActivity
         super.onStart();
     }
 
+    @Override
+    protected void onDestroy() {
+        StopAndUnbindLocationService();
+        super.onDestroy();
+    }
+
     private void checkDatabase(){
         // Check for permissions
         int canReadStorage = ContextCompat.checkSelfPermission(this,ReadStorage);
@@ -300,9 +306,11 @@ public class MainActivity extends AppCompatActivity
 
     void StopAndUnbindLocationService(){
         Log.i(TAG, "Stop the service");
-        stopService(locationServiceIntent);
-        unbindService(mConnection);
-        mBound = false;
+        if(mBound) {
+            stopService(locationServiceIntent);
+            unbindService(mConnection);
+            mBound = false;
+        }
     }
 
     @Override
