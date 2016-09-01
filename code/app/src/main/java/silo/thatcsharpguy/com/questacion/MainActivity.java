@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity
     public void stationUpdate(Estacion cercana) {
 
         if(cercana != null) {
-            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea()));
+            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea(), cercana.getMetros()));
         }
         else{
             uiStationUpdate(Color.LTGRAY, Color.BLACK, "No hay estaciones cercanas", "Questacion");

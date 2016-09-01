@@ -133,7 +133,6 @@ public class LocationService
                     texto = res.getString(R.string.ariving_to);
                 }
                 _lastDistance = nearestStation.getMetros();
-
             }
 
             if(_lastDistance != Double.MAX_VALUE)
