@@ -113,16 +113,41 @@ public class LocationService
     }
 
     private Estacion _lastVisitedStation;
+    private double _lastDistance = Double.MAX_VALUE;
 
     public void notifica(Estacion nearestStation) {
-        if(nearestStation != null && _lastVisitedStation != nearestStation) {
+        if(nearestStation != null){
+
+
+            String texto = null;
+            if(nearestStation != _lastVisitedStation) {
+                _lastDistance = nearestStation.getMetros();
+                texto = res.getString(R.string.ariving_to);
+            }
+            else {
+                if(_lastDistance < nearestStation.getMetros())
+                {
+                    texto = res.getString(R.string.leaving_from);
+                }else
+                {
+                    texto = res.getString(R.string.ariving_to);
+                }
+                _lastDistance = nearestStation.getMetros();
+
+            }
+
+            if(_lastDistance != Double.MAX_VALUE)
+                _lastDistance = nearestStation.getMetros();
+
             _notificationBuilder = new NotificationCompat.Builder(this)
-                    .setContentTitle(String.format(res.getString(R.string.ariving_to), nearestStation.getNombre()))
-                    .setContentText(String.format(res.getString(R.string.route), nearestStation.getLinea()))
+                    .setContentTitle(String.format(texto, nearestStation.getNombre()))
+                    .setContentText(String.format(res.getString(R.string.route), nearestStation.getLinea(), _lastDistance))
                     .setOngoing(true)
                     .setLocalOnly(true)
                     .setColor(nearestStation.getColor())
                     .setSmallIcon(Commons.LineaIconMapper[nearestStation.getLinea()]);
+
+
 
             Intent myIntent = new Intent(this, MainActivity.class);
             PendingIntent intent2 = PendingIntent.getActivity(this, 1,
