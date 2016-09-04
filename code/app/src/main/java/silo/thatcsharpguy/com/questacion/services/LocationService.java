@@ -5,12 +5,16 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.location.Location;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Binder;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
+import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
 import com.google.android.gms.location.LocationRequest;
@@ -31,10 +35,14 @@ import silo.thatcsharpguy.com.questacion.entities.Estacion;
 public class LocationService
         extends Service implements  com.google.android.gms.location.LocationListener{
 
+    private static final int NotificationId = 231;
+    private static final long[] VibrationPattern = {500,1000};
+    private static final Uri Sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+
     // Binder given to clients
     private IBinder _binder = new LocalBinder();
 
-    private static final int NotificationId = 231;
+
     private NotificationCompat.Builder _notificationBuilder;
     NotificationManager _notificationManager;
     Resources res;
@@ -43,7 +51,7 @@ public class LocationService
     public void addListener(NuevaEstacionListener toAdd) {
         listeners.add(toAdd);
     }
-
+    SharedPreferences  _preferences;
 
 
     private LocationRequest _locationRequest = new LocationRequest();
@@ -52,8 +60,6 @@ public class LocationService
     @Override
     @SuppressWarnings({"MissingPermission"})
     public IBinder onBind(Intent intent) {
-
-        Log.i("LOCATION SERVICE", "onBind");
         createLocationRequest();
 
         LocationServices.FusedLocationApi.requestLocationUpdates(
@@ -68,7 +74,6 @@ public class LocationService
 
         LocationServices.FusedLocationApi.removeLocationUpdates(MainActivity.GoogleApiClient, this);
         _notificationManager.cancel(NotificationId);
-        Log.i("LOCATION SERVICE", "onUnbind");
         return super.onUnbind(intent);
     }
 
@@ -94,15 +99,15 @@ public class LocationService
 
     @Override
     public void onCreate() {
-        Log.i("LOCATION SERVICE", "onCreate");
         _notificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
+        _preferences= PreferenceManager.getDefaultSharedPreferences(this);
+
         res = getResources();
         super.onCreate();
     }
 
     @Override
     public void onDestroy() {
-        Log.i("LOCATION SERVICE", "onDestroy");
         super.onDestroy();
     }
 
@@ -117,10 +122,9 @@ public class LocationService
 
     public void notifica(Estacion nearestStation) {
         if(nearestStation != null){
-
-
             String texto = null;
-            if(nearestStation != _lastVisitedStation) {
+            boolean newStation = !nearestStation.equals(_lastVisitedStation);
+            if(newStation) {
                 _lastDistance = nearestStation.getMetros();
                 texto = res.getString(R.string.ariving_to);
             }
@@ -140,11 +144,21 @@ public class LocationService
 
             _notificationBuilder = new NotificationCompat.Builder(this)
                     .setContentTitle(String.format(texto, nearestStation.getNombre()))
-                    .setContentText(String.format(res.getString(R.string.route), nearestStation.getLinea(), _lastDistance))
+                    .setContentText(String.format(res.getString(R.string.route), nearestStation.getLinea()))
                     .setOngoing(true)
                     .setLocalOnly(true)
                     .setColor(nearestStation.getColor())
                     .setSmallIcon(Commons.LineaIconMapper[nearestStation.getLinea()]);
+
+            if(newStation && _preferences.getBoolean(res.getString(R.string.vibrate_key),false))
+            {
+                _notificationBuilder.setVibrate(VibrationPattern);
+            }
+
+            if(newStation && _preferences.getBoolean(res.getString(R.string.sound_key),false))
+            {
+                _notificationBuilder.setSound(Sound);
+            }
 
 
 
@@ -173,8 +187,9 @@ public class LocationService
 
 
     private Estacion getNearestStation(Location location) {
+        double threshold = Double.parseDouble(_preferences.getString(res.getString(R.string.threshold_key),"500"));
         try {
-            return MainActivity.MetrobusDatabase.getEstacionCercana(location.getLatitude(),location.getLongitude());
+            return MainActivity.MetrobusDatabase.getEstacionCercana(location.getLatitude(),location.getLongitude(), threshold);
         } catch (Exception e) {
             e.printStackTrace();
         }

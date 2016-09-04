@@ -60,4 +60,15 @@ public class Estacion {
     }
 
     public void setLinea(int linea) { this._linea = linea; }
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == null) return false;
+        if (other == this) return true;
+        if (!(other instanceof Estacion))return false;
+        Estacion e = (Estacion)other;
+
+        return e.getNombre().equals(this.getNombre()) &&
+                e.getLinea() == this.getLinea();
+    }
 }

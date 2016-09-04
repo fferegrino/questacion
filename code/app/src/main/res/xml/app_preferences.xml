@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<PreferenceCategory
+    android:title="Opciones">
+    <ListPreference
+        android:key="@string/threshold_key"
+        android:title="Rango"
+        android:summary="A qué distancia debemos avisarte"
+        android:entries="@array/distance"
+        android:entryValues="@array/distanceThreshold"/>
+    <CheckBoxPreference
+        android:key="@string/vibrate_key"
+        android:title="Vibrar"
+        android:summary="Vibrar a cada nueva estación" />
+    <CheckBoxPreference
+        android:key="@string/sound_key"
+        android:title="Sonido"
+        android:summary="Notificación de sonido" />
+
+</PreferenceCategory>
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Questacion">
+        <Preference android:title="Refrescar base de datos" android:key="database"></Preference>
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

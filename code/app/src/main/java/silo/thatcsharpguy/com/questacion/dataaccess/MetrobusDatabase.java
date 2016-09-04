@@ -20,6 +20,7 @@ import silo.thatcsharpguy.com.questacion.entities.Estacion;
 public class MetrobusDatabase {
 
     private static final int DumbMeterConstant = 111195;
+    private static final Double MaxDistance = Double.MAX_VALUE;
 
     jsqlite.Database _db;
     public MetrobusDatabase(File dbFile) throws Exception {
@@ -44,7 +45,7 @@ public class MetrobusDatabase {
         return estaciones;
     }
 
-    public Estacion getEstacionCercana(double latitud, double longitud) throws Exception
+    public Estacion getEstacionCercana(double latitud, double longitud, double threshold) throws Exception
     {
         String point = "MakePoint(" + longitud + ","+latitud+",4326)";
         Stmt query = _db.prepare("SELECT E.nombre,Distance(ubicacion," + point + ") as Distancia,L.color,L.id FROM Estaciones E INNER JOIN Lineas L ON L.id = E.linea ORDER BY Distancia");
@@ -57,8 +58,10 @@ public class MetrobusDatabase {
             estacion.setLinea(query.column_int(3));
         }
 
-        if(estacion.getMetros() > 1000)
+        if(threshold > 0 && estacion.getMetros() > threshold) {
             return null;
+        }
+
         return estacion;
     }
 }

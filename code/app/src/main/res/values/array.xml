@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distance">
+        <item>Cerca (200m)</item>
+        <item>No tan cerca  (200m)</item>
+        <item>Lejos  (1000m)</item>
+        <item>Infinito</item>
+    </string-array>
+
+    <string-array name="distanceThreshold">
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>-1</item>
+    </string-array>
+</resources>

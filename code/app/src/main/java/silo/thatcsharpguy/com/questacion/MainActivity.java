@@ -16,6 +16,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -182,7 +183,7 @@ public class MainActivity extends AppCompatActivity
         try {
             if(lastLocation != null)
             {
-                Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude());
+                Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude(), -1);
                 stationUpdate(cercana);
             }
             StartAndBindLocationService();
@@ -224,7 +225,7 @@ public class MainActivity extends AppCompatActivity
     public void stationUpdate(Estacion cercana) {
 
         if(cercana != null) {
-            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea(), cercana.getMetros()));
+            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea()));
         }
         else{
             uiStationUpdate(Color.LTGRAY, Color.BLACK, "No hay estaciones cercanas", "Questacion");
@@ -232,7 +233,19 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-private int _colorBck;
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.action_settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private int _colorBck;
     private int _textColorBck;
     private String _nameBck;
     private String _lineaBck;
