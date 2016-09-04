@@ -22,8 +22,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -40,8 +40,9 @@ public class MainActivity extends AppCompatActivity
         implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener{
 
     private static final String TAG = "MainActivity";
+    private static final int SettingsRequestCode = 20;
 
-    LocationService mService;
+    LocationService _locationService;
     boolean mBound = false;
 
     AlertDialog.Builder _dialogBuilder;
@@ -199,8 +200,8 @@ public class MainActivity extends AppCompatActivity
         public void onServiceConnected(ComponentName className,
                                        IBinder service) {
             LocationService.LocalBinder binder = (LocationService.LocalBinder) service;
-            mService = binder.getService();
-            mService.addListener(MainActivity.this);
+            _locationService = binder.getService();
+            _locationService.addListener(MainActivity.this);
             _bindUnbindButton.setText(R.string.stop_trip);
             mBound = true;
         }
@@ -238,10 +239,23 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId()){
             case R.id.action_settings:
                 Intent intent = new Intent(this, SettingsActivity.class);
-                startActivity(intent);
+                _locationService.setPaused(true);
+                startActivityForResult(intent, SettingsRequestCode);
+                Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(requestCode == SettingsRequestCode) {
+            Toast.makeText(this, "Service resumed", Toast.LENGTH_SHORT).show();
+            _locationService.setPaused(false);
+        }
+        else {
+            super.onActivityResult(requestCode, resultCode, data);
         }
     }
 

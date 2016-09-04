@@ -36,25 +36,24 @@ public class LocationService
         extends Service implements  com.google.android.gms.location.LocationListener{
 
     private static final int NotificationId = 231;
+    private static final int LocationUpdateInterval = 2500;
     private static final long[] VibrationPattern = {500,1000};
     private static final Uri Sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-
-    // Binder given to clients
-    private IBinder _binder = new LocalBinder();
-
-
-    private NotificationCompat.Builder _notificationBuilder;
-    NotificationManager _notificationManager;
-    Resources res;
 
     private List<NuevaEstacionListener> listeners = new ArrayList<NuevaEstacionListener>();
     public void addListener(NuevaEstacionListener toAdd) {
         listeners.add(toAdd);
     }
-    SharedPreferences  _preferences;
 
-
+    // Binder given to clients
+    private IBinder _binder = new LocalBinder();
     private LocationRequest _locationRequest = new LocationRequest();
+    SharedPreferences  _preferences;
+    private NotificationCompat.Builder _notificationBuilder;
+    NotificationManager _notificationManager;
+    Resources res;
+
+    private boolean _isPaused;
 
     @Nullable
     @Override
@@ -68,10 +67,8 @@ public class LocationService
         return _binder;
     }
 
-
     @Override
     public boolean onUnbind(Intent intent) {
-
         LocationServices.FusedLocationApi.removeLocationUpdates(MainActivity.GoogleApiClient, this);
         _notificationManager.cancel(NotificationId);
         return super.onUnbind(intent);
@@ -79,7 +76,8 @@ public class LocationService
 
     @Override
     public void onLocationChanged(Location location) {
-        //Log.i("LOCATION SERVICE", "Locatrion changed");
+        if(_isPaused) return;
+
         Estacion nearestStation = getNearestStation(location);
         notifica(nearestStation);
 
@@ -96,7 +94,6 @@ public class LocationService
         }
     }
 
-
     @Override
     public void onCreate() {
         _notificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
@@ -112,15 +109,15 @@ public class LocationService
     }
 
     private void createLocationRequest() {
-        _locationRequest.setInterval(2000);
-        _locationRequest.setFastestInterval(2000);
+        _locationRequest.setInterval(LocationUpdateInterval);
+        _locationRequest.setFastestInterval(LocationUpdateInterval);
         _locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
     }
 
     private Estacion _lastVisitedStation;
     private double _lastDistance = Double.MAX_VALUE;
 
-    public void notifica(Estacion nearestStation) {
+    private void notifica(Estacion nearestStation) {
         if(nearestStation != null){
             String texto = null;
             boolean newStation = !nearestStation.equals(_lastVisitedStation);
@@ -194,6 +191,11 @@ public class LocationService
             e.printStackTrace();
         }
         return null;
+    }
+
+    public void setPaused(boolean isPaused)
+    {
+        _isPaused = isPaused;
     }
 
 }
