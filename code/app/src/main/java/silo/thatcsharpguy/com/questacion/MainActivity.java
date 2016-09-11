@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -32,6 +33,7 @@ import com.google.android.gms.location.LocationServices;
 import jsqlite.Exception;
 import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
 import silo.thatcsharpguy.com.questacion.entities.Estacion;
+import silo.thatcsharpguy.com.questacion.fragments.SetNotificationDialogFragment;
 import silo.thatcsharpguy.com.questacion.services.LocationService;
 import silo.thatcsharpguy.com.questacion.services.NuevaEstacionListener;
 
@@ -242,6 +244,10 @@ public class MainActivity extends AppCompatActivity
                 _locationService.setPaused(true);
                 startActivityForResult(intent, SettingsRequestCode);
                 Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.action_set_notification:
+                DialogFragment newFragment = new SetNotificationDialogFragment();
+                newFragment.show(getSupportFragmentManager(), "missiles");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

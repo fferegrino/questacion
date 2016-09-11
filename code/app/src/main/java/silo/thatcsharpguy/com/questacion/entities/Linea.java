@@ -7,8 +7,9 @@ import java.util.ArrayList;
  */
 public class Linea {
 
-    private static final int Color = 0xff990000;
     private String _name;
+    private int _id;
+    private int _color;
 
     private ArrayList<Estacion> _estaciones;
 
@@ -25,4 +26,19 @@ public class Linea {
         return _estaciones;
     }
 
+    public int getColor() {
+        return _color;
+    }
+
+    public void setColor(int color) {
+        this._color = color;
+    }
+
+    public int getId() {
+        return _id;
+    }
+
+    public void setId(int id) {
+        this._id = id;
+    }
 }

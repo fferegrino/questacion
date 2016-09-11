@@ -8,6 +8,7 @@ public class Estacion {
     private String _nombre;
     private double _latitud;
     private double _longitud;
+    private int _id;
     private int _linea;
 
     private double _metros;
@@ -60,6 +61,10 @@ public class Estacion {
     }
 
     public void setLinea(int linea) { this._linea = linea; }
+
+    public int getId() { return _id; }
+
+    public void setId(int id) { this._id = id; }
 
     @Override
     public boolean equals(Object other) {

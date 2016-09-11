@@ -13,6 +13,7 @@ import  jsqlite.Database;
 import jsqlite.Exception;
 import jsqlite.Stmt;
 import silo.thatcsharpguy.com.questacion.entities.Estacion;
+import silo.thatcsharpguy.com.questacion.entities.Linea;
 
 /**
  * Created by anton on 8/26/2016.
@@ -43,6 +44,43 @@ public class MetrobusDatabase {
         }
         query.close();
         return estaciones;
+    }
+
+
+
+    public List<Estacion> getEstaciones(int linea) throws Exception {
+        Stmt query = _db.prepare("SELECT E.id,E.nombre,L.color,L.id FROM Estaciones E INNER JOIN Lineas L ON L.id = E.linea WHERE E.linea = " + linea);
+        int rowCount =  query.column_count();
+
+        List<Estacion> estaciones = new ArrayList<Estacion>();;
+        int i = 0;
+        while(query.step())
+        {
+            Estacion estacion = new Estacion(query.column_string(1),0,0);
+            estacion.setId(query.column_int(0));
+            estacion.setColor(query.column_int(2));
+            estacion.setLinea(query.column_int(3));
+            estaciones.add(estacion);
+        }
+        query.close();
+        return estaciones;
+    }
+
+    public List<Linea> getLineas() throws Exception {
+        Stmt query = _db.prepare("SELECT id,nombre,color FROM Lineas");
+        int rowCount =  query.column_count();
+
+        List<Linea> lineas = new ArrayList<Linea>();;
+        int i = 0;
+        while(query.step())
+        {
+            Linea l = new Linea(query.column_string(1));
+            l.setId(query.column_int(0));
+            l.setColor(query.column_int(2));
+            lineas.add(l);
+        }
+        query.close();
+        return lineas;
     }
 
     public Estacion getEstacionCercana(double latitud, double longitud, double threshold) throws Exception
