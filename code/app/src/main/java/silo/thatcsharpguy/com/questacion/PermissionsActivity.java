@@ -4,6 +4,7 @@ import android.*;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.Settings;
@@ -14,6 +15,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -30,7 +32,7 @@ public class PermissionsActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    private static final boolean AUTO_HIDE = true;
+    private static final boolean AUTO_HIDE = false;
 
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
@@ -100,11 +102,12 @@ public class PermissionsActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-            tryToMoveOn();
+            tryToMoveOn(false);
         }
     };
 
     AlertDialog.Builder _dialogBuilder;
+    SharedPreferences _preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,6 +120,8 @@ public class PermissionsActivity extends AppCompatActivity {
         mContentView = findViewById(R.id.fullscreen_content);
 
         _dialogBuilder = new AlertDialog.Builder(this);
+
+        _preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
 
         // Set up the user interaction to manually show or hide the system UI.
@@ -205,7 +210,7 @@ public class PermissionsActivity extends AppCompatActivity {
         boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,ReadStorage) ||
                 ActivityCompat.shouldShowRequestPermissionRationale(this,WriteStorage);
 
-        if (!requiresRational) {
+        if (requiresRational) {
             AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
                     .setMessage(R.string.database_explanation)
                     .setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
@@ -235,7 +240,7 @@ public class PermissionsActivity extends AppCompatActivity {
         boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,AccessCoarseLocation) ||
                 ActivityCompat.shouldShowRequestPermissionRationale(this,AccessFineLocation);
 
-        if (!requiresRational) {
+        if (requiresRational) {
             AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
                     .setMessage(R.string.location_explanation)
                     .setPositiveButton(R.string.ok_open_settings, new DialogInterface.OnClickListener() {
@@ -279,8 +284,11 @@ public class PermissionsActivity extends AppCompatActivity {
     }
 
 
-
     private void tryToMoveOn() {
+        tryToMoveOn(true);
+    }
+
+    private void tryToMoveOn(boolean checkPreference) {
         boolean hasStorageAccess = checkStoragePermissions();
         boolean hasLocationAccess = checkLocationPermissions();
 
@@ -289,6 +297,11 @@ public class PermissionsActivity extends AppCompatActivity {
         }else if(!hasLocationAccess){
             requestLocationPermissions();
         }else{
+            if(checkPreference && !_preferences.getBoolean(getResources().getString(R.string.start_key),true))
+            {
+                return;
+            }
+
             Intent intent = new Intent(this, MainActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);

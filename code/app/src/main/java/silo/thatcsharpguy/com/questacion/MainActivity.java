@@ -245,10 +245,10 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(intent, SettingsRequestCode);
                 Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.action_set_notification:
-                DialogFragment newFragment = new SetNotificationDialogFragment();
-                newFragment.show(getSupportFragmentManager(), "missiles");
-                return true;
+            //case R.id.action_set_notification:
+                //DialogFragment newFragment = new SetNotificationDialogFragment();
+                //newFragment.show(getSupportFragmentManager(), "missiles");
+                //return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

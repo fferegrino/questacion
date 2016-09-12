@@ -22,6 +22,7 @@
     <string name="vibrate_key">vibrate</string>
     <string name="sound_key">sound</string>
     <string name="threshold_key">threshold</string>
+    <string name="start_key">start</string>
 
 
 </resources>
