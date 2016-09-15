@@ -6,6 +6,7 @@ CREATE TABLE Lineas (
 CREATE TABLE Estaciones (
 	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	linea INTEGER NOT NULL,
-	nombre TEXT NOT NULL);
+	nombre TEXT NOT NULL,
+	svg TEXT NULL);
 	
 SELECT AddGeometryColumn('Estaciones', 'ubicacion', 4326, 'POINT',2);

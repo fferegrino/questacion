@@ -1,0 +1,1081 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Estaciones L6 - Metrobús El Rosario-Villa de Aragón</name>
+		<Placemark>
+			<name>Villa de Aragón</name>
+			<description><![CDATA[descripción: Terminal de Metrobús. Línea 6<br><br>Rutas desde Villa de Aragón:<br><br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br><br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Terminal de Metrobús. Línea 6
+
+Rutas desde Villa de Aragón:
+
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)
+</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.05930040000001,19.4646298,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Francisco Morazán</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.062283,19.4672497,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Colegio de Bachilleres 9</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.064805,19.46928,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Pradera</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0694874,19.4737842,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>416 Oriente
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0709895,19.4715437,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Volcán de Fuego
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0722448,19.4766114,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ampliación Providencia</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0753615,19.479832900000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Deportivo Los Galeana</name>
+			<description><![CDATA[descripción: Terminal de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Terminal de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0780169,19.478427,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>416 Poniente
+</name>
+			<description><![CDATA[descripción: Terminal de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Terminal de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.07925610000001,19.472889,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>482</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.07557070000001,19.4668755,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>414</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0717459,19.4685344,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Loreto Fabela
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0808546,19.4673053,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pueblo San Juan de Aragón
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0862459,19.4706435,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casas Alemán
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0886652,19.4746389,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gran Canal
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0924096,19.4767783,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Juan de Aragón
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.0975004,19.4788012,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hospital General La Villa
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.101674,19.4805359,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Martín Carrera
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1059119,19.4822908,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Delegación Gustavo A. Madero
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1133362,19.484076,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hospital Infantil La Villa
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1142321,19.4878385,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>De los Misterios
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1179979,19.4871457,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Villa
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1190547,19.4852543,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Deportivo 18 de Marzo
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.122842,19.4867967,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Riobamba</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1289359,19.4890472,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Instituto Politécnico Nacional
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1331148,19.490599700000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Bartolo
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1387099,19.4918589,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Instituto del Petróleo
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1456407,19.4932647,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lindavista-Vallejo
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1500503,19.4942356,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Montevideo</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1538376,19.49507,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Norte 45
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1585958,19.4959803,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Norte 59
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1651458,19.4972849,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tecnoparque</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1768348,19.5013252,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UAM Azcapotzalco
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br><br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí
+</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1835725,19.5039446,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ferrocarriles Nacionales</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1897362,19.5050773,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>De Las Culturas
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1923541,19.5106698,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Colegio de Bachilleres 1
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Linea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Linea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.1975307,19.511499,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Rosario
+</name>
+			<description><![CDATA[descripción: Estación de Metrobús. Línea 6<br>Rutas Línea 6:<br>- Villa de Aragón a El Rosario<br>- Villa de Aragón a IPN<br><br>Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)<br>accesible: sí<br>línea: Línea 6<br><br>número: ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='descripción'>
+					<value>Estación de Metrobús. Línea 6
+Rutas Línea 6:
+- Villa de Aragón a El Rosario
+- Villa de Aragón a IPN
+
+Mas informes: Rutas L6 (http://www.metrobus.df.gob.mx/rutas.html#RL6)</value>
+				</Data>
+				<Data name='accesible'>
+					<value>sí</value>
+				</Data>
+				<Data name='línea'>
+					<value>Línea 6
+</value>
+				</Data>
+				<Data name='número'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.2000842,19.5067661,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

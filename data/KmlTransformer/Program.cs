@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace KmlTransformator
+namespace KmlTransformer
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace KmlTransformator
             var files = new int[] { 1, 2, 3, 4, 5, 6 };
 
             var sb = new StringBuilder();
-            sb.AppendLine("INSERT INTO Estaciones (linea, nombre, ubicacion)");
+            sb.AppendLine("INSERT INTO Estaciones (linea, nombre, ubicacion, svg)");
             bool first = true;
             foreach (var file in files)
             {
@@ -38,18 +38,18 @@ namespace KmlTransformator
 
         static void Write(StringBuilder sb, int line, XmlElement place, bool isFirst = false)
         {
-                var nombreEstacion = place.GetElementsByTagName("name")[0].InnerText;
-                var points = place.GetElementsByTagName("Point");
-                if (points.Count > 0 && !(nombreEstacion.Contains("punto") || nombreEstacion.Contains("Punto")))
-                {
-                    var coordenadas = points[0].ChildNodes[0].InnerText.Split(',')
-                           .Select(s => Double.Parse(s)).ToList();
+            var nombreEstacion = place.GetElementsByTagName("name")[0].InnerText;
+            var points = place.GetElementsByTagName("Point");
+            if (points.Count > 0 && !(nombreEstacion.Contains("punto") || nombreEstacion.Contains("Punto")))
+            {
+                var coordenadas = points[0].ChildNodes[0].InnerText.Split(',')
+                       .Select(s => Double.Parse(s)).ToList();
                 if (isFirst)
                     sb.Append("SELECT ");
                 else
                     sb.Append("UNION ALL SELECT ");
-                        sb.AppendLine($"{line},'{nombreEstacion.Trim().Replace("'","''")}',MakePoint({coordenadas[0]}, {coordenadas[1]}, 4326)");
-                }
+                sb.AppendLine($"{line},'{nombreEstacion.Replace("Estacion","").Trim().Replace("'", "''")}',MakePoint({coordenadas[0]}, {coordenadas[1]}, 4326), NULL");
+            }
         }
     }
 }

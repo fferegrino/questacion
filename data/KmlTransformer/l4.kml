@@ -1,0 +1,1574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Capa sin nombre</name>
+		<Placemark>
+			<name>Terminal 1 - Aeropuerto</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/zWLOY2H6gqomppSFgz0-JhcRznhdCbtvUxHmaF2oaCOz18Gbq3iUrnJpk2OA9Eb3IDR_1_cApfEAJwWWDe3z-gWZDblpyPjJqgnamITNY6tPBrNpScyTKXiTXyMLtt_Fqdj-0eZ-Wr5SpP1sdFdiC_mpwSG_fC6vDGcq" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Llega entre las puertas 6 y 7 del Aeropuerto.<br><br>Rutas:<br><br>- T1 y T2 del Aeropuerto por Ruta Norte hacia Buenavista<br>más informes: rutas de L4 (http://www.metrobus.df.gob.mx/rutas.html#RL4)<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/zWLOY2H6gqomppSFgz0-JhcRznhdCbtvUxHmaF2oaCOz18Gbq3iUrnJpk2OA9Eb3IDR_1_cApfEAJwWWDe3z-gWZDblpyPjJqgnamITNY6tPBrNpScyTKXiTXyMLtt_Fqdj-0eZ-Wr5SpP1sdFdiC_mpwSG_fC6vDGcq</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.083666,19.435307,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal 2 - Aeropuerto</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/nz8og9lqobpKcEmgMaNXtnBUYSRiRytqQGFWhHZ1KKWxuOMBrcYHHs9LNDiz7UdOc9DsW6m3Hpf78aJxr7k" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Llegada en planta baja cerca de la zona de taxis.<br><br>Rutas:<br><br>- T1 y T2 del Aeropuerto por Ruta Norte hacia Buenavista<br>más informes: rutas de L4 (http://www.metrobus.df.gob.mx/rutas.html#RL4)<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/bOwPnQtFbktvWUs_Aibc3AEQKVD0Qa31Mlea0nUSK5UDpbhvCteDRc3rewwg9_Pi4PnfsBi8bQxHK9cDeenj0qO_mpm_OfeRkqe6-0QhDbCc0D89ESt4FT6UUZBl2Xh2dvV0h8utkD87np0" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/nz8og9lqobpKcEmgMaNXtnBUYSRiRytqQGFWhHZ1KKWxuOMBrcYHHs9LNDiz7UdOc9DsW6m3Hpf78aJxr7k https://lh3.googleusercontent.com/proxy/bOwPnQtFbktvWUs_Aibc3AEQKVD0Qa31Mlea0nUSK5UDpbhvCteDRc3rewwg9_Pi4PnfsBi8bQxHK9cDeenj0qO_mpm_OfeRkqe6-0QhDbCc0D89ESt4FT6UUZBl2Xh2dvV0h8utkD87np0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.07725,19.421476,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Buenavista. Línea 4</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/h42uZliAkEUCupa4tkIcCw2KeFLSn3f6rBdBPmUx9pScKQEGcOc0_cuECJUNqjwoE2xV5xw7ZSUxCjlNIYnBR__e1P_r" height="200" width="auto" /><br><br>Terminal Línea 4 de Metrobús.<br><br>Rutas desde Buenavista de L4:<br><br>- Buenavista a San Lázaro por Ruta Sur<br>- Buenavista a San Lázaro por Ruta Norte<br>- Buenavista a T1 y T2 del Aeropuerto por Ruta Nortemás informes: rutas de L4 (http://www.metrobus.df.gob.mx/rutas.html#RL4)<br><br><br><br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/YyM_D6nXfKxAuOpqDoNncWNL65O3gpMcYvTvxgDlFTz6AMuleVqYuDL2Merj03UljBZR2dIo8KmfwZ3W_i7XRl3JbWu8AXY5V7y9lUzACtlEct0EpGsoo5kpzgd9" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/proxy/9MxWDfJjTF6e48uwINiVgyP4HWrY5hevmRZXkaXK_hk0dpxqK7Mf8pCGbm7BYGIanFOBsjKtaNKOanCmTBKB7txGrB5PzgOO6pjx-x_wccD8aO-FK8h7lKjgE217wkQPhuV0JLFeLPEHZQglwgoyC0jtJOLqOovgqMA4jt_g-529R3t-O2tI" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/h42uZliAkEUCupa4tkIcCw2KeFLSn3f6rBdBPmUx9pScKQEGcOc0_cuECJUNqjwoE2xV5xw7ZSUxCjlNIYnBR__e1P_r https://lh6.googleusercontent.com/proxy/YyM_D6nXfKxAuOpqDoNncWNL65O3gpMcYvTvxgDlFTz6AMuleVqYuDL2Merj03UljBZR2dIo8KmfwZ3W_i7XRl3JbWu8AXY5V7y9lUzACtlEct0EpGsoo5kpzgd9 https://lh5.googleusercontent.com/proxy/9MxWDfJjTF6e48uwINiVgyP4HWrY5hevmRZXkaXK_hk0dpxqK7Mf8pCGbm7BYGIanFOBsjKtaNKOanCmTBKB7txGrB5PzgOO6pjx-x_wccD8aO-FK8h7lKjgE217wkQPhuV0JLFeLPEHZQglwgoyC0jtJOLqOovgqMA4jt_g-529R3t-O2tI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.152271,19.444863,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Delegación Cuauhtémoc</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/gEpHo18wLPggODj_ZGfL_UaSAy-5w1aH5rmPSBTgrs-IVdaw2ZyU24F762xjWXAZF9e1G9dSbU8O2XQ8xk2Vi2uWzU3QEibO2BYlGg0cq9Rc5ASTnNEj_x6B-ga2aw" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur y Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/gEpHo18wLPggODj_ZGfL_UaSAy-5w1aH5rmPSBTgrs-IVdaw2ZyU24F762xjWXAZF9e1G9dSbU8O2XQ8xk2Vi2uWzU3QEibO2BYlGg0cq9Rc5ASTnNEj_x6B-ga2aw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.152416,19.442594,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Delegación Cuauhtémoc</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/gEpHo18wLPggODj_ZGfL_UaSAy-5w1aH5rmPSBTgrs-IVdaw2ZyU24F762xjWXAZF9e1G9dSbU8O2XQ8xk2Vi2uWzU3QEibO2BYlGg0cq9Rc5ASTnNEj_x6B-ga2aw" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur y Ruta Norte. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/ewxJJjpqfi2n68qeZKQ3GsVbRt-ve1a24UoY2nBSScbejm94pFTFKn5yWfT_zMYyOXpgglNheJxNlqEL2jfNRnNImeQL_zHPIKUO_Fy-LcqBUeZG733aNcFYfX6w5JKhM0s8oGvxriycJvEM6lY9--0PIjBJnW9fZ3lEL9ZKy81QOr_MRYEa3JeNEBo31sQNrwdgtbp3OPqBp5rD7uk" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/gEpHo18wLPggODj_ZGfL_UaSAy-5w1aH5rmPSBTgrs-IVdaw2ZyU24F762xjWXAZF9e1G9dSbU8O2XQ8xk2Vi2uWzU3QEibO2BYlGg0cq9Rc5ASTnNEj_x6B-ga2aw https://lh3.googleusercontent.com/proxy/ewxJJjpqfi2n68qeZKQ3GsVbRt-ve1a24UoY2nBSScbejm94pFTFKn5yWfT_zMYyOXpgglNheJxNlqEL2jfNRnNImeQL_zHPIKUO_Fy-LcqBUeZG733aNcFYfX6w5JKhM0s8oGvxriycJvEM6lY9--0PIjBJnW9fZ3lEL9ZKy81QOr_MRYEa3JeNEBo31sQNrwdgtbp3OPqBp5rD7uk</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.152454,19.442136,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puente de Alvarado</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/MWoVVGb8Mm5foGJlHS0Oq02eAE8lC2OSIJz-TVY8KPdJYAwfu6PphpYGSgV-42eRyEL-Nbd3lUEPBNfrlK_rlI4LbPebksQm9vjUQ3qcD_rmDzxUOT565pYV" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur Ruta Norte. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/udgqXI2zm8-L4eAtqqSKNwrxBlMSdV_t5g8uCgwOSLAcOXdibxNYGjei7uvAlVDQQkC58lTInRhBVyuHo67demInzW1o4z8q_SC97F8hdUfshRv_ZjAOFJCjKg6_2IdoYiHEUwO7_YpX9YssqiCsaRfsgFZsyxN5m6C4fr1vNtlG9OZsiQ4fXxOM_gEqhG2jEB9r-4IAkEI" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/MWoVVGb8Mm5foGJlHS0Oq02eAE8lC2OSIJz-TVY8KPdJYAwfu6PphpYGSgV-42eRyEL-Nbd3lUEPBNfrlK_rlI4LbPebksQm9vjUQ3qcD_rmDzxUOT565pYV https://lh6.googleusercontent.com/proxy/udgqXI2zm8-L4eAtqqSKNwrxBlMSdV_t5g8uCgwOSLAcOXdibxNYGjei7uvAlVDQQkC58lTInRhBVyuHo67demInzW1o4z8q_SC97F8hdUfshRv_ZjAOFJCjKg6_2IdoYiHEUwO7_YpX9YssqiCsaRfsgFZsyxN5m6C4fr1vNtlG9OZsiQ4fXxOM_gEqhG2jEB9r-4IAkEI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.153269,19.439025,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Puente de Alvarado</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/MWoVVGb8Mm5foGJlHS0Oq02eAE8lC2OSIJz-TVY8KPdJYAwfu6PphpYGSgV-42eRyEL-Nbd3lUEPBNfrlK_rlI4LbPebksQm9vjUQ3qcD_rmDzxUOT565pYV" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/MWoVVGb8Mm5foGJlHS0Oq02eAE8lC2OSIJz-TVY8KPdJYAwfu6PphpYGSgV-42eRyEL-Nbd3lUEPBNfrlK_rlI4LbPebksQm9vjUQ3qcD_rmDzxUOT565pYV</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.153457,19.438641,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza de la República</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/H6SBtnnKuira2Yji8tk9UmFnif6CUNVEfB6R2s8iyo1Fl8cpTMOWGu4F-si2PlC5jzMSBVcNBug3NaYsiz0xGRV-GKiaTsOf_a9JYbcZyXryHNGBSyjCu6ynK4M" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/PVF78aPMbdJEDYXkNJ4iflyT32Wp0HRnp-ZkmZFgkwfiytfIlopdfzoebtLkhu7Kn1GUosychpwOMBMkOyrXtnpZvjP-EwxwkuobUEys2LiEGjeFQfsarvuJq04jfKS6daLVRzEXy1mtAjy2WUsSxYVTfxPKoZdxxP_Ph5C-WkJ_GboC7iXD66jz_owtt7HfwFguJVebu6t8N-qnuI0" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/H6SBtnnKuira2Yji8tk9UmFnif6CUNVEfB6R2s8iyo1Fl8cpTMOWGu4F-si2PlC5jzMSBVcNBug3NaYsiz0xGRV-GKiaTsOf_a9JYbcZyXryHNGBSyjCu6ynK4M https://lh3.googleusercontent.com/proxy/PVF78aPMbdJEDYXkNJ4iflyT32Wp0HRnp-ZkmZFgkwfiytfIlopdfzoebtLkhu7Kn1GUosychpwOMBMkOyrXtnpZvjP-EwxwkuobUEys2LiEGjeFQfsarvuJq04jfKS6daLVRzEXy1mtAjy2WUsSxYVTfxPKoZdxxP_Ph5C-WkJ_GboC7iXD66jz_owtt7HfwFguJVebu6t8N-qnuI0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.154138,19.436804,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza de la República</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/H6SBtnnKuira2Yji8tk9UmFnif6CUNVEfB6R2s8iyo1Fl8cpTMOWGu4F-si2PlC5jzMSBVcNBug3NaYsiz0xGRV-GKiaTsOf_a9JYbcZyXryHNGBSyjCu6ynK4M" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/H6SBtnnKuira2Yji8tk9UmFnif6CUNVEfB6R2s8iyo1Fl8cpTMOWGu4F-si2PlC5jzMSBVcNBug3NaYsiz0xGRV-GKiaTsOf_a9JYbcZyXryHNGBSyjCu6ynK4M</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.153982,19.437128,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Glorieta de Colón</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/PPv_PbaRHLkP3jruNjlQaV__eWvqyHtNLaJZbBYhQJeVTo1e_qVLhEYMth6jGMhMYuWmd8mknaND31WmrxC4EonFzP5ABtsYbHXbNCMoeIZlzAavU5ba" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/PPv_PbaRHLkP3jruNjlQaV__eWvqyHtNLaJZbBYhQJeVTo1e_qVLhEYMth6jGMhMYuWmd8mknaND31WmrxC4EonFzP5ABtsYbHXbNCMoeIZlzAavU5ba</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.153532,19.434159,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Glorieta de Colón</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/PPv_PbaRHLkP3jruNjlQaV__eWvqyHtNLaJZbBYhQJeVTo1e_qVLhEYMth6jGMhMYuWmd8mknaND31WmrxC4EonFzP5ABtsYbHXbNCMoeIZlzAavU5ba" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh4.googleusercontent.com/proxy/W6xNi5JsoyHb3ImhQZD5cZE36HR7Yu_-sb-zdJWcna2JAxe8IF8Ln3ncHQN5Qx3f0TXGEfR9fenNFXA9VbGKYbeTM7HKWFBBTghK0-Fi2UP6bstcr0R1Tv2ScgLLyp8YEVTKAyPmAQG1Z8WE__DpgRAp6UAEgOOpwX7I-MZ-WyTgMzBHAiOpnFJSnEUAobo" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/PPv_PbaRHLkP3jruNjlQaV__eWvqyHtNLaJZbBYhQJeVTo1e_qVLhEYMth6jGMhMYuWmd8mknaND31WmrxC4EonFzP5ABtsYbHXbNCMoeIZlzAavU5ba https://lh4.googleusercontent.com/proxy/W6xNi5JsoyHb3ImhQZD5cZE36HR7Yu_-sb-zdJWcna2JAxe8IF8Ln3ncHQN5Qx3f0TXGEfR9fenNFXA9VbGKYbeTM7HKWFBBTghK0-Fi2UP6bstcr0R1Tv2ScgLLyp8YEVTKAyPmAQG1Z8WE__DpgRAp6UAEgOOpwX7I-MZ-WyTgMzBHAiOpnFJSnEUAobo</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.153371,19.435014,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Expo Reforma</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/dG4NTFaR38qqvY3jUXBPLWiLg8WsZTbQH6gvdNvfKtcEUOfMzMLcj6-dniYqxc9iQp3-8VzSAyZ1qxlb04bPzLIBbGcHZ_nmFhHfD_-RWEPRz0-rLw" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/oAc3PzVq8d3jakAhLsKuj6tUNypb4oebzrbiLKveHU_uh5hMIyNUR1jwNmA6C7PIT5FaC32QI-rIcIMdoocZm4g8CGwN3HsSWYSyZyJfuSEuQi1VtKtOcvIZ-2IJNYU0Umw" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/dG4NTFaR38qqvY3jUXBPLWiLg8WsZTbQH6gvdNvfKtcEUOfMzMLcj6-dniYqxc9iQp3-8VzSAyZ1qxlb04bPzLIBbGcHZ_nmFhHfD_-RWEPRz0-rLw https://lh3.googleusercontent.com/proxy/oAc3PzVq8d3jakAhLsKuj6tUNypb4oebzrbiLKveHU_uh5hMIyNUR1jwNmA6C7PIT5FaC32QI-rIcIMdoocZm4g8CGwN3HsSWYSyZyJfuSEuQi1VtKtOcvIZ-2IJNYU0Umw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.151011,19.433364,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Expo Reforma</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/dG4NTFaR38qqvY3jUXBPLWiLg8WsZTbQH6gvdNvfKtcEUOfMzMLcj6-dniYqxc9iQp3-8VzSAyZ1qxlb04bPzLIBbGcHZ_nmFhHfD_-RWEPRz0-rLw" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/VbYlR7MmgTo2qJu1auxGc2g6jvAYYRxD-i3SQnDD799oXJsxQOkCn8-2thpGzUmAKCA6E7ulFRFXWDClprr3Jt3j7GwhfE31jLkMRsigkMopHP8bsOw6nv9mewJGxfNMMEiARo6DIdi_kdvETBehQb_CtSKFxI85LxFmHve2J2udZJZy1ZAQwW9Psg" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/dG4NTFaR38qqvY3jUXBPLWiLg8WsZTbQH6gvdNvfKtcEUOfMzMLcj6-dniYqxc9iQp3-8VzSAyZ1qxlb04bPzLIBbGcHZ_nmFhHfD_-RWEPRz0-rLw https://lh6.googleusercontent.com/proxy/VbYlR7MmgTo2qJu1auxGc2g6jvAYYRxD-i3SQnDD799oXJsxQOkCn8-2thpGzUmAKCA6E7ulFRFXWDClprr3Jt3j7GwhfE31jLkMRsigkMopHP8bsOw6nv9mewJGxfNMMEiARo6DIdi_kdvETBehQb_CtSKFxI85LxFmHve2J2udZJZy1ZAQwW9Psg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.15063,19.433106,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vocacional 5</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/RrNoyfp7vWpL5GWsJUwiX-WKj2kDjc4ohJYVNo7q4_c-UNKXcru701M2iIVXwQDi8mlCJpcIQKN8C3jTQTm4VDO0ikljJKSYlUeAPXyAw8sifqrR9g" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/V2DZyvXOONLnBfvZEvmuo0VsHkyyzM9VkGp-BkSJFXl10uyCLZkYyl8ul_2ZzvAvnWHXB9TG0fEfCVdb8BLfTVUMuFBRHOzDzuRvAzNCeSJsqI8zEiq_GSpdFZZ1fdy5v1y5kTUIN3Z2BXyVNf_6UX_pj9s-TSC2K0acZ2SGng" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/RrNoyfp7vWpL5GWsJUwiX-WKj2kDjc4ohJYVNo7q4_c-UNKXcru701M2iIVXwQDi8mlCJpcIQKN8C3jTQTm4VDO0ikljJKSYlUeAPXyAw8sifqrR9g https://lh6.googleusercontent.com/proxy/V2DZyvXOONLnBfvZEvmuo0VsHkyyzM9VkGp-BkSJFXl10uyCLZkYyl8ul_2ZzvAvnWHXB9TG0fEfCVdb8BLfTVUMuFBRHOzDzuRvAzNCeSJsqI8zEiq_GSpdFZZ1fdy5v1y5kTUIN3Z2BXyVNf_6UX_pj9s-TSC2K0acZ2SGng</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.150217,19.431589,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vocacional 5</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/RrNoyfp7vWpL5GWsJUwiX-WKj2kDjc4ohJYVNo7q4_c-UNKXcru701M2iIVXwQDi8mlCJpcIQKN8C3jTQTm4VDO0ikljJKSYlUeAPXyAw8sifqrR9g" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/RrNoyfp7vWpL5GWsJUwiX-WKj2kDjc4ohJYVNo7q4_c-UNKXcru701M2iIVXwQDi8mlCJpcIQKN8C3jTQTm4VDO0ikljJKSYlUeAPXyAw8sifqrR9g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.150952,19.431756,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Juárez_Metrobús_Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/J2O4pP5YtAZG3AiGN74b2A8ER7vjBCZpCGFL7Y-Vt_gKzexOxJDzdUGW_NhQdYk8p9ZCbeeKE69U_FTUYxf5Kb19rW7fcnAbRRH8Y2VjM1NryajKg-E" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/DjgEDl9XOk9TVBTRT-lD_EEgNjeOmdhvTgyaRH_hcAs2sDyFGfHNZqAjGfcIJH3smDkFmTEq-xI7-NB2d-9Mr7Sa7ckmEN9jofnTf894MRWiq957h-Oszo-A6-Q" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/J2O4pP5YtAZG3AiGN74b2A8ER7vjBCZpCGFL7Y-Vt_gKzexOxJDzdUGW_NhQdYk8p9ZCbeeKE69U_FTUYxf5Kb19rW7fcnAbRRH8Y2VjM1NryajKg-E https://lh5.googleusercontent.com/proxy/DjgEDl9XOk9TVBTRT-lD_EEgNjeOmdhvTgyaRH_hcAs2sDyFGfHNZqAjGfcIJH3smDkFmTEq-xI7-NB2d-9Mr7Sa7ckmEN9jofnTf894MRWiq957h-Oszo-A6-Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.148387,19.431305,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Juárez_Metrobús_Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/J2O4pP5YtAZG3AiGN74b2A8ER7vjBCZpCGFL7Y-Vt_gKzexOxJDzdUGW_NhQdYk8p9ZCbeeKE69U_FTUYxf5Kb19rW7fcnAbRRH8Y2VjM1NryajKg-E" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/J2O4pP5YtAZG3AiGN74b2A8ER7vjBCZpCGFL7Y-Vt_gKzexOxJDzdUGW_NhQdYk8p9ZCbeeKE69U_FTUYxf5Kb19rW7fcnAbRRH8Y2VjM1NryajKg-E</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.147744,19.43126,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza San Juan</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/40x4ubcKg8TjRak2voiEFv7k0nWo9jeAkQDBbGSTMZ2_W75u2IqMwKL3Kub3BTl6_gMrJ33jcm0HpHKCJ1MnHbMTKTv5l00gnAVlxhEV2qwpm7pi4KE" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/40x4ubcKg8TjRak2voiEFv7k0nWo9jeAkQDBbGSTMZ2_W75u2IqMwKL3Kub3BTl6_gMrJ33jcm0HpHKCJ1MnHbMTKTv5l00gnAVlxhEV2qwpm7pi4KE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.143549,19.430607,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plaza San Juan</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/40x4ubcKg8TjRak2voiEFv7k0nWo9jeAkQDBbGSTMZ2_W75u2IqMwKL3Kub3BTl6_gMrJ33jcm0HpHKCJ1MnHbMTKTv5l00gnAVlxhEV2qwpm7pi4KE" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/40x4ubcKg8TjRak2voiEFv7k0nWo9jeAkQDBbGSTMZ2_W75u2IqMwKL3Kub3BTl6_gMrJ33jcm0HpHKCJ1MnHbMTKTv5l00gnAVlxhEV2qwpm7pi4KE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.144654,19.430772,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eje Central_Metrobús_Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YQbi2MPtl02O_hcijy6OWuJh1x9S6zCEH4ow8eIXsge_L9Ofo_QGkYHw82gRwJhDyCpVHNDlUuvCgWwhq_gHwNGHb4gk_Os8osVKVkQnUy-THb-C" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/9GLHzgPVKOyeja5bq7yTMU-zNn5x_V7zaugzSQTFl7dgqKuQP6ltAvz6sGlEnfRtAkeUb3wHSgrBLE_EwnQVHp0KRTCEQSBpxmh9jyI3seu3AAfNY49mHWwAkq5y3FRT8zm4r0VPqFh5eunnP2B7HKIS4yENuuofx-gAnOoOKCq3iIFQtxq5G8o" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/YQbi2MPtl02O_hcijy6OWuJh1x9S6zCEH4ow8eIXsge_L9Ofo_QGkYHw82gRwJhDyCpVHNDlUuvCgWwhq_gHwNGHb4gk_Os8osVKVkQnUy-THb-C https://lh3.googleusercontent.com/proxy/9GLHzgPVKOyeja5bq7yTMU-zNn5x_V7zaugzSQTFl7dgqKuQP6ltAvz6sGlEnfRtAkeUb3wHSgrBLE_EwnQVHp0KRTCEQSBpxmh9jyI3seu3AAfNY49mHWwAkq5y3FRT8zm4r0VPqFh5eunnP2B7HKIS4yENuuofx-gAnOoOKCq3iIFQtxq5G8o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.141929,19.430334,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eje Central_Metrobús_Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/YQbi2MPtl02O_hcijy6OWuJh1x9S6zCEH4ow8eIXsge_L9Ofo_QGkYHw82gRwJhDyCpVHNDlUuvCgWwhq_gHwNGHb4gk_Os8osVKVkQnUy-THb-C" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/9GLHzgPVKOyeja5bq7yTMU-zNn5x_V7zaugzSQTFl7dgqKuQP6ltAvz6sGlEnfRtAkeUb3wHSgrBLE_EwnQVHp0KRTCEQSBpxmh9jyI3seu3AAfNY49mHWwAkq5y3FRT8zm4r0VPqFh5eunnP2B7HKIS4yENuuofx-gAnOoOKCq3iIFQtxq5G8o" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/YQbi2MPtl02O_hcijy6OWuJh1x9S6zCEH4ow8eIXsge_L9Ofo_QGkYHw82gRwJhDyCpVHNDlUuvCgWwhq_gHwNGHb4gk_Os8osVKVkQnUy-THb-C https://lh3.googleusercontent.com/proxy/9GLHzgPVKOyeja5bq7yTMU-zNn5x_V7zaugzSQTFl7dgqKuQP6ltAvz6sGlEnfRtAkeUb3wHSgrBLE_EwnQVHp0KRTCEQSBpxmh9jyI3seu3AAfNY49mHWwAkq5y3FRT8zm4r0VPqFh5eunnP2B7HKIS4yENuuofx-gAnOoOKCq3iIFQtxq5G8o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.140797,19.430304,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Salvador</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/I2zn4yfVlphTc2ky9i7RIEAdIPRq6VRvWudhMrPzWDx_PRM5JczBMo3IvPxCXG-Z-ARe9oX1X2bJKGAFSHvFVQnAQV9EzKmA28l8VpQN6yrNDI0v" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/I2zn4yfVlphTc2ky9i7RIEAdIPRq6VRvWudhMrPzWDx_PRM5JczBMo3IvPxCXG-Z-ARe9oX1X2bJKGAFSHvFVQnAQV9EzKmA28l8VpQN6yrNDI0v</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.138538,19.429874,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Salvador</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/I2zn4yfVlphTc2ky9i7RIEAdIPRq6VRvWudhMrPzWDx_PRM5JczBMo3IvPxCXG-Z-ARe9oX1X2bJKGAFSHvFVQnAQV9EzKmA28l8VpQN6yrNDI0v" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/I2zn4yfVlphTc2ky9i7RIEAdIPRq6VRvWudhMrPzWDx_PRM5JczBMo3IvPxCXG-Z-ARe9oX1X2bJKGAFSHvFVQnAQV9EzKmA28l8VpQN6yrNDI0v</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.139418,19.430071,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Isabel La Católica</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/_eMQL3UzZxJLfpH2bPVJpiagor2y0nSVPgi1u-ujs-YznbJcaI60geKyz7hr6WIONXuIROQcpcRrZCVkqR6VnAMjl6jinOuT8jklUotH4mXGNsXzGTcSps0U" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh4.googleusercontent.com/proxy/236prM1_JDYgnPouki_ai_Ae-IRGOlO0uIqs9RWMuPrXbxE06uL8eSiqOqTpKUgjyuWnPrlz8kki6xiu-VLOvW0ncZnz9GpWCmhdEwxDGA2K8fadATovVUTX_oeVQbJ9yUG5Oox_If8ZmDYjloHz107wRG_kmGbnRS8337NQgV-_fcM9ash46OdgZweHJIX9LQqDFEYZi7E" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/_eMQL3UzZxJLfpH2bPVJpiagor2y0nSVPgi1u-ujs-YznbJcaI60geKyz7hr6WIONXuIROQcpcRrZCVkqR6VnAMjl6jinOuT8jklUotH4mXGNsXzGTcSps0U https://lh4.googleusercontent.com/proxy/236prM1_JDYgnPouki_ai_Ae-IRGOlO0uIqs9RWMuPrXbxE06uL8eSiqOqTpKUgjyuWnPrlz8kki6xiu-VLOvW0ncZnz9GpWCmhdEwxDGA2K8fadATovVUTX_oeVQbJ9yUG5Oox_If8ZmDYjloHz107wRG_kmGbnRS8337NQgV-_fcM9ash46OdgZweHJIX9LQqDFEYZi7E</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.137009,19.429616,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Isabel La Católica</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/_eMQL3UzZxJLfpH2bPVJpiagor2y0nSVPgi1u-ujs-YznbJcaI60geKyz7hr6WIONXuIROQcpcRrZCVkqR6VnAMjl6jinOuT8jklUotH4mXGNsXzGTcSps0U" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/_eMQL3UzZxJLfpH2bPVJpiagor2y0nSVPgi1u-ujs-YznbJcaI60geKyz7hr6WIONXuIROQcpcRrZCVkqR6VnAMjl6jinOuT8jklUotH4mXGNsXzGTcSps0U</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.136586,19.429692,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo de la Ciudad</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/g6dTsC4poRwvNiqUSD58CTNXj_Do9p8B8E8Nck0YkM4feg_meZmXOM00Jxf6wL8Bmv7I3Md_q_TXSKcIt4RpaJ9hyFQBuIr3GE0UPeiOj4hw2UO0RZ40RfU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/g6dTsC4poRwvNiqUSD58CTNXj_Do9p8B8E8Nck0YkM4feg_meZmXOM00Jxf6wL8Bmv7I3Md_q_TXSKcIt4RpaJ9hyFQBuIr3GE0UPeiOj4hw2UO0RZ40RfU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.132407,19.42914,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo de la Ciudad</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/g6dTsC4poRwvNiqUSD58CTNXj_Do9p8B8E8Nck0YkM4feg_meZmXOM00Jxf6wL8Bmv7I3Md_q_TXSKcIt4RpaJ9hyFQBuIr3GE0UPeiOj4hw2UO0RZ40RfU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh4.googleusercontent.com/proxy/cy0i9HTGIsHw0ImSynfgc8w3ot008HuHhus_e80g-vDW7quUuNNnDM-lwTCsynSJxEc94iSytYCGztcY8lt8ZgHC5KJmmo9iWsv0nJ6qVXThym0_4YRSzaKA1aQeFe8iRfHY2S9KEuka0w7BqcoDSNdeflelPuejk5iIG7mvLieMtzXREK-zKJLW5DEyO4V3EyGOQ-OPCN8zg11uWHsxYw1UG02FCC66H48j6mf3pxjgpJObz0uTNJ_iqdQ" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/g6dTsC4poRwvNiqUSD58CTNXj_Do9p8B8E8Nck0YkM4feg_meZmXOM00Jxf6wL8Bmv7I3Md_q_TXSKcIt4RpaJ9hyFQBuIr3GE0UPeiOj4hw2UO0RZ40RfU https://lh4.googleusercontent.com/proxy/cy0i9HTGIsHw0ImSynfgc8w3ot008HuHhus_e80g-vDW7quUuNNnDM-lwTCsynSJxEc94iSytYCGztcY8lt8ZgHC5KJmmo9iWsv0nJ6qVXThym0_4YRSzaKA1aQeFe8iRfHY2S9KEuka0w7BqcoDSNdeflelPuejk5iIG7mvLieMtzXREK-zKJLW5DEyO4V3EyGOQ-OPCN8zg11uWHsxYw1UG02FCC66H48j6mf3pxjgpJObz0uTNJ_iqdQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.132804,19.428928000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pino Suárez</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/DNFe_k_LgAFXu8PmNYaiQhyA6hrcgQYgEXN42Otw-1UxTtAnBHThtBg7VCSkUdz430i8V8n6PjBLx2Ddk6FaD-7SIvQee68r6e7UTu56-19DpyLi" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/DNFe_k_LgAFXu8PmNYaiQhyA6hrcgQYgEXN42Otw-1UxTtAnBHThtBg7VCSkUdz430i8V8n6PjBLx2Ddk6FaD-7SIvQee68r6e7UTu56-19DpyLi</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.132782,19.426661,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Las Cruces Sur</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Gm03K8RbShlbCTMNnJH6wUHW8ERjA1ef3VFfa9u86HiL2JpDfdCpSkt7Sf3croQrNFLwvFuP6KT70CiBRTqVGZAG1Xcdt7uJLeVPB_OOoj6odYU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Gm03K8RbShlbCTMNnJH6wUHW8ERjA1ef3VFfa9u86HiL2JpDfdCpSkt7Sf3croQrNFLwvFuP6KT70CiBRTqVGZAG1Xcdt7uJLeVPB_OOoj6odYU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.12991800000002,19.426155,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Las Cruces Norte</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Gm03K8RbShlbCTMNnJH6wUHW8ERjA1ef3VFfa9u86HiL2JpDfdCpSkt7Sf3croQrNFLwvFuP6KT70CiBRTqVGZAG1Xcdt7uJLeVPB_OOoj6odYU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/Gm03K8RbShlbCTMNnJH6wUHW8ERjA1ef3VFfa9u86HiL2JpDfdCpSkt7Sf3croQrNFLwvFuP6KT70CiBRTqVGZAG1Xcdt7uJLeVPB_OOoj6odYU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.129269,19.4287,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Merced</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/g-Rfgg2PgyzsPG6tew07NuurQ6JZzCXGl0_w2gpY9EaMeM_cmWHXMEahCDp46WUyECqSLHEmy5Jl7Z8T3zM3O4FP_1uGr48IRHZOjXOBCdeSBg" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/g-Rfgg2PgyzsPG6tew07NuurQ6JZzCXGl0_w2gpY9EaMeM_cmWHXMEahCDp46WUyECqSLHEmy5Jl7Z8T3zM3O4FP_1uGr48IRHZOjXOBCdeSBg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.125948,19.425447,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Circunvalación</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/ie58R6s3U0YCfI8-2FL7h18aQmxMrG2bswZ78_R07pLuioPd34T4NP4GnvMj5HwFnjkZ7MktcqWdb4WSgDa0XmvyXXfL1aGT_Z_pihTaznWt-9XdneK5gw" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/ie58R6s3U0YCfI8-2FL7h18aQmxMrG2bswZ78_R07pLuioPd34T4NP4GnvMj5HwFnjkZ7MktcqWdb4WSgDa0XmvyXXfL1aGT_Z_pihTaznWt-9XdneK5gw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.125524,19.428341,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mercado de Sonora</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/iaHHnkY86f3bZqeR2DEJsQ2txLDUgvzlxvmqRwK69u2olKJC5GK_7bYt1OGo5kjaoheFipYsF4g6mKZ9LKaLLyu1g7NitJzSKehgM4XWS6l6mZ1r9QCZPj0" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/iaHHnkY86f3bZqeR2DEJsQ2txLDUgvzlxvmqRwK69u2olKJC5GK_7bYt1OGo5kjaoheFipYsF4g6mKZ9LKaLLyu1g7NitJzSKehgM4XWS6l6mZ1r9QCZPj0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.12392,19.423181,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mercado de Sonora</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/iaHHnkY86f3bZqeR2DEJsQ2txLDUgvzlxvmqRwK69u2olKJC5GK_7bYt1OGo5kjaoheFipYsF4g6mKZ9LKaLLyu1g7NitJzSKehgM4XWS6l6mZ1r9QCZPj0" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/iaHHnkY86f3bZqeR2DEJsQ2txLDUgvzlxvmqRwK69u2olKJC5GK_7bYt1OGo5kjaoheFipYsF4g6mKZ9LKaLLyu1g7NitJzSKehgM4XWS6l6mZ1r9QCZPj0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.123411,19.423241,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cecilio Robelo</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/gZa7TN5_QV-IQQplO2Vf4y8_vePLCnqyCutdUrAuWbPcmKBMdrIKDklNRKCWykgOsOYyRhtLVZp7NzySd2RiM-tE9trLKLBqpA_PQly1_s9UtWWY1TNu" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/gZa7TN5_QV-IQQplO2Vf4y8_vePLCnqyCutdUrAuWbPcmKBMdrIKDklNRKCWykgOsOYyRhtLVZp7NzySd2RiM-tE9trLKLBqpA_PQly1_s9UtWWY1TNu</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.11987,19.425174,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cecilio Robelo</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/gZa7TN5_QV-IQQplO2Vf4y8_vePLCnqyCutdUrAuWbPcmKBMdrIKDklNRKCWykgOsOYyRhtLVZp7NzySd2RiM-tE9trLKLBqpA_PQly1_s9UtWWY1TNu" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/1ddhFJTvxZ4L-_SVu4w5413PVsdb9vwZzU-KDOSxkHPlh6-Q4UcbsL047xYMEHwnTqCFuf5xx-fUEPRUBGyjCjwFVXeHGMcXObY_qA05mVAckaqLPBPu7ss3cmzlvtgLzdKUkAGHGvSiDabODLPtJoAZtjuD2aHNBVaMGg0N2dN0xrCoAuRCu-_liq5A07w" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/gZa7TN5_QV-IQQplO2Vf4y8_vePLCnqyCutdUrAuWbPcmKBMdrIKDklNRKCWykgOsOYyRhtLVZp7NzySd2RiM-tE9trLKLBqpA_PQly1_s9UtWWY1TNu https://lh3.googleusercontent.com/proxy/1ddhFJTvxZ4L-_SVu4w5413PVsdb9vwZzU-KDOSxkHPlh6-Q4UcbsL047xYMEHwnTqCFuf5xx-fUEPRUBGyjCjwFVXeHGMcXObY_qA05mVAckaqLPBPu7ss3cmzlvtgLzdKUkAGHGvSiDabODLPtJoAZtjuD2aHNBVaMGg0N2dN0xrCoAuRCu-_liq5A07w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.119044,19.425483,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eduardo Molina</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/6Q9XfYDKvOvDXAs-9SpQauUR5xXx7yh6LgqYiKVvovVVh3K3jNG7XZXlWXPYkFle3xV5XZn6jBqt0EBTSHygzLksxBDqjkL7v4PP0ishKY1jcug4kj0e" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/6Q9XfYDKvOvDXAs-9SpQauUR5xXx7yh6LgqYiKVvovVVh3K3jNG7XZXlWXPYkFle3xV5XZn6jBqt0EBTSHygzLksxBDqjkL7v4PP0ishKY1jcug4kj0e</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.116228,19.427177,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hospital Balbuena</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/ET5jIKByegkiGULxS8fdl4g_2hg_OPzbJxlwsFF3dOrC6DxIOgHeRvm4HNnaUi0mvMoqhC1b2-47jGZETxSBVToDyjw-0fVS07TEUR29_sQZLYOPmkgfpyK6" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/ET5jIKByegkiGULxS8fdl4g_2hg_OPzbJxlwsFF3dOrC6DxIOgHeRvm4HNnaUi0mvMoqhC1b2-47jGZETxSBVToDyjw-0fVS07TEUR29_sQZLYOPmkgfpyK6</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.116153,19.425098,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moctezuma</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/L75r_XPgBpKDETAlDYJAMSny4r1ucfk3zeg4JrT7iTQW6_Mxg9Ojb2B58hRPdA7bU872WRqAN6bD-d_sAH0_sLrScgt6P2veiAQpuQotT40qBYI" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Sur. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/L75r_XPgBpKDETAlDYJAMSny4r1ucfk3zeg4JrT7iTQW6_Mxg9Ojb2B58hRPdA7bU872WRqAN6bD-d_sAH0_sLrScgt6P2veiAQpuQotT40qBYI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.111979,19.426894,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal San Lázaro</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/wJYsuEjFSGYLY90xSZLbvjYeh_MOiRU15EJcHvQKJKOrup7mR8dUjSHbIE2qYvp-ZDZDg2wged6beVsEHtqoqq6vFfc2" height="200" width="auto" /><br><br>Terminal Metrobús. Línea 4. <br><br>Rutas desde San Lázaro Línea 4:<br><br>- San Lázaro a Buenavista por Ruta Norte<br>- San Lázaro a T1 y T2 del Aeropuerto.<br>más informes: rutas de L4 (http://www.metrobus.df.gob.mx/rutas.html#RL4)<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/G5fN6jr3r1vpxH0GQLJmEgrYq-Z9DUi0KVo6MFy3JfM27r9P_RI-obl_CWQu-haN1iVwNo5Qc5sAtQ-EB11SSj1e9H_1tlRL5TBvMnh3C8LR3F-V5YLTR3k4-bbLNinKutJwjZw" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/wJYsuEjFSGYLY90xSZLbvjYeh_MOiRU15EJcHvQKJKOrup7mR8dUjSHbIE2qYvp-ZDZDg2wged6beVsEHtqoqq6vFfc2 https://lh3.googleusercontent.com/proxy/G5fN6jr3r1vpxH0GQLJmEgrYq-Z9DUi0KVo6MFy3JfM27r9P_RI-obl_CWQu-haN1iVwNo5Qc5sAtQ-EB11SSj1e9H_1tlRL5TBvMnh3C8LR3F-V5YLTR3k4-bbLNinKutJwjZw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.115171,19.430911,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal San Lázaro</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/wJYsuEjFSGYLY90xSZLbvjYeh_MOiRU15EJcHvQKJKOrup7mR8dUjSHbIE2qYvp-ZDZDg2wged6beVsEHtqoqq6vFfc2" height="200" width="auto" /><br><br>Terminal Metrobús. Línea 4. <br><br>Rutas desde San Lázaro L4:<br><br>- San Lázaro a Buenavista por Ruta Sur.más informes: rutas de L4 (http://www.metrobus.df.gob.mx/rutas.html#RL4)<br><br><br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/Rccvan9BOet_uYfin6z0orsiEMO8DP0uoFjfyFYTvQwu2eeXgb0vH5IJUh2K7Dth1ijgok0obsmVY4S4xd9mHYDqBTBmpO1cBE5YG9s" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/wJYsuEjFSGYLY90xSZLbvjYeh_MOiRU15EJcHvQKJKOrup7mR8dUjSHbIE2qYvp-ZDZDg2wged6beVsEHtqoqq6vFfc2 https://lh3.googleusercontent.com/proxy/Rccvan9BOet_uYfin6z0orsiEMO8DP0uoFjfyFYTvQwu2eeXgb0vH5IJUh2K7Dth1ijgok0obsmVY4S4xd9mHYDqBTBmpO1cBE5YG9s</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.115428,19.431116000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Archivo General de la Nación</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/tYoNw_WDGbNGCbi7LOHzrA_5-ckNvn8c33aEJAjRj09t6TUYebeUjXk2deqmYP12EVbuESAPee3jm1iZ9Bgqyb6f7MfX2o0vpUrWLCDDvahZDvovOk1Bezsu3qkO5hPq4MM" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/sLzrkjJWXHnbWxhJvum0YcbYTK82xF1aMUvHqIxG007XxwOhSz6UmKZ4FYJeN-HrrnRfeyFzn7b2pO8tbtinzvsx34oG65FI2_dlu2dhpKodqn-tORQKNvNtdZ40GGP4vfhs5D4SLNif6YE9k-zDZX7LyNTEKJkvPPNx3w0maghBvbimGHdAQmLSSxrWjFTS2pjhwglAcTTxYDktg25g2B6_gLEzCNW1n5eSfg" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/tYoNw_WDGbNGCbi7LOHzrA_5-ckNvn8c33aEJAjRj09t6TUYebeUjXk2deqmYP12EVbuESAPee3jm1iZ9Bgqyb6f7MfX2o0vpUrWLCDDvahZDvovOk1Bezsu3qkO5hPq4MM https://lh5.googleusercontent.com/proxy/sLzrkjJWXHnbWxhJvum0YcbYTK82xF1aMUvHqIxG007XxwOhSz6UmKZ4FYJeN-HrrnRfeyFzn7b2pO8tbtinzvsx34oG65FI2_dlu2dhpKodqn-tORQKNvNtdZ40GGP4vfhs5D4SLNif6YE9k-zDZX7LyNTEKJkvPPNx3w0maghBvbimGHdAQmLSSxrWjFTS2pjhwglAcTTxYDktg25g2B6_gLEzCNW1n5eSfg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.115176,19.435363,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Archivo General de la Nación</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/tYoNw_WDGbNGCbi7LOHzrA_5-ckNvn8c33aEJAjRj09t6TUYebeUjXk2deqmYP12EVbuESAPee3jm1iZ9Bgqyb6f7MfX2o0vpUrWLCDDvahZDvovOk1Bezsu3qkO5hPq4MM" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/tYoNw_WDGbNGCbi7LOHzrA_5-ckNvn8c33aEJAjRj09t6TUYebeUjXk2deqmYP12EVbuESAPee3jm1iZ9Bgqyb6f7MfX2o0vpUrWLCDDvahZDvovOk1Bezsu3qkO5hPq4MM</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.114618,19.434968,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Morelos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/sPyTClp71L5QGJ_1bgP5yYXpaCc4qTZ6Q48fGNBkWbXVZgHbJF15HjfCwnyVUDOUUp61oblPjzQI1zmfnZnrS0XrBhS0VW4NGvldv6JDfg4V" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/sPyTClp71L5QGJ_1bgP5yYXpaCc4qTZ6Q48fGNBkWbXVZgHbJF15HjfCwnyVUDOUUp61oblPjzQI1zmfnZnrS0XrBhS0VW4NGvldv6JDfg4V</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.119001,19.435813,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Morelos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/sPyTClp71L5QGJ_1bgP5yYXpaCc4qTZ6Q48fGNBkWbXVZgHbJF15HjfCwnyVUDOUUp61oblPjzQI1zmfnZnrS0XrBhS0VW4NGvldv6JDfg4V" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/sPyTClp71L5QGJ_1bgP5yYXpaCc4qTZ6Q48fGNBkWbXVZgHbJF15HjfCwnyVUDOUUp61oblPjzQI1zmfnZnrS0XrBhS0VW4NGvldv6JDfg4V</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.118245,19.435788,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ferrocarril de Cintura</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/vOFvmnXeN24gPISyLIUJ4bKOwcaFNZPsBAmNJFPqJ4Ag7BgKW0f6M2Dc7eHB1vmsyYCEGUst4AXaQfSaUCJRYYJZsbzAyO2JDCx9aYlB_sKyzUiR6qCgAhRBtjEoeA" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/vOFvmnXeN24gPISyLIUJ4bKOwcaFNZPsBAmNJFPqJ4Ag7BgKW0f6M2Dc7eHB1vmsyYCEGUst4AXaQfSaUCJRYYJZsbzAyO2JDCx9aYlB_sKyzUiR6qCgAhRBtjEoeA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.121614,19.436,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ferrocarril de Cintura</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/vOFvmnXeN24gPISyLIUJ4bKOwcaFNZPsBAmNJFPqJ4Ag7BgKW0f6M2Dc7eHB1vmsyYCEGUst4AXaQfSaUCJRYYJZsbzAyO2JDCx9aYlB_sKyzUiR6qCgAhRBtjEoeA" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/vOFvmnXeN24gPISyLIUJ4bKOwcaFNZPsBAmNJFPqJ4Ag7BgKW0f6M2Dc7eHB1vmsyYCEGUst4AXaQfSaUCJRYYJZsbzAyO2JDCx9aYlB_sKyzUiR6qCgAhRBtjEoeA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.120809,19.436142,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mixcalco</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/jqrYAaWRZ3Y_CuLxJLg8ih8toZX2QT9ySh5Zv6eDZxfgHx4_c7H-onp0LF78BDmoIQqolx83c8175QJPfDhLv4mBsrFsm_6nncCPrQDCQf4N8w" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/jqrYAaWRZ3Y_CuLxJLg8ih8toZX2QT9ySh5Zv6eDZxfgHx4_c7H-onp0LF78BDmoIQqolx83c8175QJPfDhLv4mBsrFsm_6nncCPrQDCQf4N8w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.123413,19.436357000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mixcalco</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/jqrYAaWRZ3Y_CuLxJLg8ih8toZX2QT9ySh5Zv6eDZxfgHx4_c7H-onp0LF78BDmoIQqolx83c8175QJPfDhLv4mBsrFsm_6nncCPrQDCQf4N8w" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/jqrYAaWRZ3Y_CuLxJLg8ih8toZX2QT9ySh5Zv6eDZxfgHx4_c7H-onp0LF78BDmoIQqolx83c8175QJPfDhLv4mBsrFsm_6nncCPrQDCQf4N8w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.124156,19.436324,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Teatro del Pueblo</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.127622,19.436769,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Teatro del Pueblo</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/F6vBlg8UkLkYutY2OYJ3BqJWsz5XFBRJuNeVbcqzwKrTESREAYoSYb5dKbLfOSKGRRomwV1es5WlveojjLKlCU5yrlWroyBxYcL74z015ATRGqcoaS0jDXvSsGoNlmlKN1j7KDb_iLy8JkhyJzmF2Unx6rIvw9VsWWvzapNwlp2XmV8XxTfnOenLWljL27zmGELqXvyb" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU https://lh3.googleusercontent.com/proxy/F6vBlg8UkLkYutY2OYJ3BqJWsz5XFBRJuNeVbcqzwKrTESREAYoSYb5dKbLfOSKGRRomwV1es5WlveojjLKlCU5yrlWroyBxYcL74z015ATRGqcoaS0jDXvSsGoNlmlKN1j7KDb_iLy8JkhyJzmF2Unx6rIvw9VsWWvzapNwlp2XmV8XxTfnOenLWljL27zmGELqXvyb</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.127042,19.43685,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>República de Argentina</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/NO2FPkFifeqOecLSTJgRNiOqxNNagPJO1AimnKkiUwgbdyTdAsbjmiafKKj66sDkE2ys-C31W99fJ5LNcfaKd3MRRkbcKw8mj4gt2_h-_kp0saKtG74UWdB4kqAWsg" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/NO2FPkFifeqOecLSTJgRNiOqxNNagPJO1AimnKkiUwgbdyTdAsbjmiafKKj66sDkE2ys-C31W99fJ5LNcfaKd3MRRkbcKw8mj4gt2_h-_kp0saKtG74UWdB4kqAWsg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.131999,19.437406,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>República de Argentina</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/NO2FPkFifeqOecLSTJgRNiOqxNNagPJO1AimnKkiUwgbdyTdAsbjmiafKKj66sDkE2ys-C31W99fJ5LNcfaKd3MRRkbcKw8mj4gt2_h-_kp0saKtG74UWdB4kqAWsg" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh5.googleusercontent.com/proxy/eYNUTd4bRGsri1FE6hVhFt6FQaQdQxjkLvUt_mruz3LI8rURo0mhDiodzT3yetRdrSOoXWMvF_Iz5m-7XXAVkD_AiYDJnIXSPqPBuyHEMlEd0uZlxKhH4oDVgCROxE5JfCQ-JTVKNNu5EZxZm-xtfPm8yCcJN_P5M2SnIsvRs0NAdTvgAHhzALUrSm3ZDnG8-uPE7D6b3AalKXnIXk9tBQ" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/NO2FPkFifeqOecLSTJgRNiOqxNNagPJO1AimnKkiUwgbdyTdAsbjmiafKKj66sDkE2ys-C31W99fJ5LNcfaKd3MRRkbcKw8mj4gt2_h-_kp0saKtG74UWdB4kqAWsg https://lh5.googleusercontent.com/proxy/eYNUTd4bRGsri1FE6hVhFt6FQaQdQxjkLvUt_mruz3LI8rURo0mhDiodzT3yetRdrSOoXWMvF_Iz5m-7XXAVkD_AiYDJnIXSPqPBuyHEMlEd0uZlxKhH4oDVgCROxE5JfCQ-JTVKNNu5EZxZm-xtfPm8yCcJN_P5M2SnIsvRs0NAdTvgAHhzALUrSm3ZDnG8-uPE7D6b3AalKXnIXk9tBQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.131194,19.437356,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>República de Chile</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/wI9ELJmLfQ79uFkJeXU37bBdI15qaWP6nebos4CZfaLkSjkMFM_cmTtK4n2A2HgqEGZrolsUH1BStuvmMn6tuTdlai4L_xIofkkfAAhZC0YLl6he1MfYZYJt" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/wI9ELJmLfQ79uFkJeXU37bBdI15qaWP6nebos4CZfaLkSjkMFM_cmTtK4n2A2HgqEGZrolsUH1BStuvmMn6tuTdlai4L_xIofkkfAAhZC0YLl6he1MfYZYJt</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.13589600000002,19.437965,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>República de Chile</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/wI9ELJmLfQ79uFkJeXU37bBdI15qaWP6nebos4CZfaLkSjkMFM_cmTtK4n2A2HgqEGZrolsUH1BStuvmMn6tuTdlai4L_xIofkkfAAhZC0YLl6he1MfYZYJt" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh6.googleusercontent.com/proxy/Cmzi9fvs6dPsSs-704Ep7UJwk4eonDNtf4ddBD9F4izjj9kVDp28Y8z89nY5G8oiwZJw4O44c1RF3tN6PVmIaTT2QnOn9cydD7lJRkEVSWrykPBajDdnxmY6TK2jvSAzYSdv_l1VZvIbgwuFWJejExENntr2sXrpLvcPw8iw0-ldS8m-oj1rDjlIyMC4lrqzhb6fdHhj6Io" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/wI9ELJmLfQ79uFkJeXU37bBdI15qaWP6nebos4CZfaLkSjkMFM_cmTtK4n2A2HgqEGZrolsUH1BStuvmMn6tuTdlai4L_xIofkkfAAhZC0YLl6he1MfYZYJt https://lh6.googleusercontent.com/proxy/Cmzi9fvs6dPsSs-704Ep7UJwk4eonDNtf4ddBD9F4izjj9kVDp28Y8z89nY5G8oiwZJw4O44c1RF3tN6PVmIaTT2QnOn9cydD7lJRkEVSWrykPBajDdnxmY6TK2jvSAzYSdv_l1VZvIbgwuFWJejExENntr2sXrpLvcPw8iw0-ldS8m-oj1rDjlIyMC4lrqzhb6fdHhj6Io</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.135025,19.437884,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Teatro Blanquita</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.139973,19.438636,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Teatro Blanquita</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/O2uKkwSmMud4cy7oafXFly7r7ULnEuASlDR7AwGClNcPavYWawHfeGVqqxOrmui4Ibpk5KnSl_nn2uAM_MFXDwaKLMVOZlrSDC1NhkiJ-OIwdnSfZ6gnuWU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.139085,19.438428,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bellas Artes</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/T9BPJQP3HwZ2V8WXWK_hYbYt6P2ugjQ4pYzG1TFIr4yawB4uN6Y-PguvYZX1IwQExs38_cSCG9hbNW_tc3rrMWEXo05MzrCQFjf_cnBm5XsMh8IpQQ" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh4.googleusercontent.com/proxy/u6M6JrUnGA4C_4lA0totCOdVEyNkxrqZQi9DJOxamiLjiFbrP8c2e_TBu8VhYn-2aDy3T4YPcVL2Ee30D0bHpxxMBvc3wR0gH7G4PPmeLwBbiGT9VCLyi3yviLXitVbGhshuzUr1_2LveJ0kEYL_Qea1NS840yk1aj5wNE4LPutyzgqCaYq3wkJi5Q" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/T9BPJQP3HwZ2V8WXWK_hYbYt6P2ugjQ4pYzG1TFIr4yawB4uN6Y-PguvYZX1IwQExs38_cSCG9hbNW_tc3rrMWEXo05MzrCQFjf_cnBm5XsMh8IpQQ https://lh4.googleusercontent.com/proxy/u6M6JrUnGA4C_4lA0totCOdVEyNkxrqZQi9DJOxamiLjiFbrP8c2e_TBu8VhYn-2aDy3T4YPcVL2Ee30D0bHpxxMBvc3wR0gH7G4PPmeLwBbiGT9VCLyi3yviLXitVbGhshuzUr1_2LveJ0kEYL_Qea1NS840yk1aj5wNE4LPutyzgqCaYq3wkJi5Q</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.141717,19.436405,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bellas Artes</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/T9BPJQP3HwZ2V8WXWK_hYbYt6P2ugjQ4pYzG1TFIr4yawB4uN6Y-PguvYZX1IwQExs38_cSCG9hbNW_tc3rrMWEXo05MzrCQFjf_cnBm5XsMh8IpQQ" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/T9BPJQP3HwZ2V8WXWK_hYbYt6P2ugjQ4pYzG1TFIr4yawB4uN6Y-PguvYZX1IwQExs38_cSCG9hbNW_tc3rrMWEXo05MzrCQFjf_cnBm5XsMh8IpQQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.141821,19.436407,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hidalgo. Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1CmRMjYrUGket421MBjIMkOhBGselpXw8zd050ZzdBFdXB-7cJHmn9JSbulaxCAJuudxpNZHUDJ3U_BIVR7DoSYt_0IjePAd4nkgoZljSv8V" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1CmRMjYrUGket421MBjIMkOhBGselpXw8zd050ZzdBFdXB-7cJHmn9JSbulaxCAJuudxpNZHUDJ3U_BIVR7DoSYt_0IjePAd4nkgoZljSv8V</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.14615,19.437298,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hidalgo. Línea 4</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/1CmRMjYrUGket421MBjIMkOhBGselpXw8zd050ZzdBFdXB-7cJHmn9JSbulaxCAJuudxpNZHUDJ3U_BIVR7DoSYt_0IjePAd4nkgoZljSv8V" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)<br><br><img src="https://lh3.googleusercontent.com/proxy/gtNiU9_nmdWe8UieXjBpAcK_W1hDpg6r89AlTgB0l8WoR8dX4mP0gRLjBwYxMqkLyS3OgCWDSxyx8nAyWFtTDWB2eQq5QVURLVBmHGXqRILwuSYBbXhgud-iVP0-8LcVYs1obeCN6kuj7rG1kBvL_HHtXziAi8KFI1xQWdCn4Ljm" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/1CmRMjYrUGket421MBjIMkOhBGselpXw8zd050ZzdBFdXB-7cJHmn9JSbulaxCAJuudxpNZHUDJ3U_BIVR7DoSYt_0IjePAd4nkgoZljSv8V https://lh3.googleusercontent.com/proxy/gtNiU9_nmdWe8UieXjBpAcK_W1hDpg6r89AlTgB0l8WoR8dX4mP0gRLjBwYxMqkLyS3OgCWDSxyx8nAyWFtTDWB2eQq5QVURLVBmHGXqRILwuSYBbXhgud-iVP0-8LcVYs1obeCN6kuj7rG1kBvL_HHtXziAi8KFI1xQWdCn4Ljm</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.146212,19.43728,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo San Carlos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/qa9Z-By4FqBjINEL11xvkSYxI1ssz5MedBgslXVa2jaLNwKWOgI80U_H6AUD79NwaYXcR7mfrxSzIDw2JglyrQk6nPkbOiYmptClte-S-v8pjlYf-bTIfg" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección Buenavista.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/qa9Z-By4FqBjINEL11xvkSYxI1ssz5MedBgslXVa2jaLNwKWOgI80U_H6AUD79NwaYXcR7mfrxSzIDw2JglyrQk6nPkbOiYmptClte-S-v8pjlYf-bTIfg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.150783,19.438274,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Museo San Carlos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/qa9Z-By4FqBjINEL11xvkSYxI1ssz5MedBgslXVa2jaLNwKWOgI80U_H6AUD79NwaYXcR7mfrxSzIDw2JglyrQk6nPkbOiYmptClte-S-v8pjlYf-bTIfg" height="200" width="auto" /><br><br>Parada Metrobús. Línea 4. Ruta Norte. Dirección San Lázaro.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/qa9Z-By4FqBjINEL11xvkSYxI1ssz5MedBgslXVa2jaLNwKWOgI80U_H6AUD79NwaYXcR7mfrxSzIDw2JglyrQk6nPkbOiYmptClte-S-v8pjlYf-bTIfg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.150603,19.438226,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruta Sur. Metrobús. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta Sur. Metrobús. Línea 4<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-FF6600-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.15227000000002,19.44494,0.0 -99.15254,19.44089,0.0 -99.15337,19.43884,0.0 -99.15409,19.4368,0.0 -99.15418000000001,19.4367,0.0 -99.15545,19.4369,0.0 -99.15563,19.43626,0.0 -99.15558,19.4357,0.0 -99.15324,19.43535,0.0 -99.15331000000002,19.43536,0.0 -99.15352,19.43396,0.0 -99.15356,19.43392,0.0 -99.15354,19.43381,0.0 -99.15343,19.4337,0.0 -99.15059,19.43332,0.0 -99.15122,19.4318,0.0 -99.15094,19.4317,0.0 -99.14661,19.43104,0.0 -99.13889,19.429967000000005,0.0 -99.13055,19.42878,0.0 -99.12698,19.42833,0.0 -99.12521,19.42833,0.0 -99.12551,19.42658,0.0 -99.1256,19.42556,0.0 -99.12598,19.423470000000002,0.0 -99.12369,19.42322,0.0 -99.12305,19.42319,0.0 -99.12018,19.42325,0.0 -99.11987,19.42555,0.0 -99.11969000000002,19.42655,0.0 -99.11942,19.42759,0.0 -99.11732,19.42731,0.0 -99.11703,19.42741,0.0 -99.1159,19.4272,0.0 -99.11342,19.42688,0.0 -99.11274,19.42684,0.0 -99.11156,19.42702,0.0 -99.11132,19.42699,0.0 -99.11142,19.42738,0.0 -99.11183,19.42798,0.0 -99.11195,19.42825,0.0 -99.11495,19.4297,0.0 -99.11506,19.42991,0.0 -99.11524,19.43002,0.0 -99.11516,19.43098,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta Sur. Metrobús. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta Sur. Metrobús. Línea 4<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-FF6600-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.132594,19.429049,0.0 -99.13306,19.4259,0.0 -99.1314,19.42574,0.0 -99.13073,19.42601,0.0 -99.13039,19.42621,0.0 -99.12997,19.42626,0.0 -99.12679,19.42572,0.0 -99.12559,19.42556,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta Sur. Metrobús. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta Sur. Metrobús. Línea 4<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-FF6600-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.11988,19.42553,0.0 -99.11375,19.42474,0.0 -99.113422,19.426879,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta Sur. Metrobús. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta Sur. Metrobús. Línea 4<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-FF6600-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.153237,19.435358,0.0 -99.15303,19.43597,0.0 -99.15303,19.43634,0.0 -99.15313,19.43654,0.0 -99.15416,19.4367,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta Norte. Metrobús. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta Norte. Metrobús. Línea 4<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-CC6600-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.152258,19.444928,0.0 -99.152537,19.440892,0.0 -99.152698,19.440479,0.0 -99.152901,19.439966,0.0 -99.153154,19.439354,0.0 -99.15335500000002,19.43884,0.0 -99.15224,19.43857,0.0 -99.149015,19.437872,0.0 -99.146971,19.437462,0.0 -99.14401,19.4368,0.0 -99.142309,19.436486,0.0 -99.140571,19.4362,0.0 -99.14016,19.43865,0.0 -99.138922,19.438418,0.0 -99.13764,19.438226,0.0 -99.135577,19.437943,0.0 -99.134606,19.437821,0.0 -99.13351700000001,19.437682,0.0 -99.12729,19.43681,0.0 -99.12558600000001,19.436587,0.0 -99.12393,19.436380000000003,0.0 -99.11477,19.43538,0.0 -99.11526,19.43282,0.0 -99.11532,19.43237,0.0 -99.11532,19.43169,0.0 -99.11542,19.43114,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta a Aeropuerto. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta a Aeropuerto por Ruta Norte.<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-993300-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.11461,19.43537,0.0 -99.121152,19.436091,0.0 -99.122196,19.436205,0.0 -99.123781,19.436377,0.0 -99.125583,19.436604,0.0 -99.126546,19.436731,0.0 -99.127297,19.436825,0.0 -99.129354,19.437108,0.0 -99.131487,19.437409,0.0 -99.133506,19.437687,0.0 -99.137294,19.438188,0.0 -99.138922,19.438428,0.0 -99.140182,19.438663,0.0 -99.14058200000001,19.436218,0.0 -99.141355,19.436346,0.0 -99.14224,19.436491,0.0 -99.144021,19.436822,0.0 -99.146445,19.437358,0.0 -99.14909,19.437905,0.0 -99.149686,19.438031,0.0 -99.150745,19.438261,0.0 -99.152389,19.438623,0.0 -99.153333,19.438851,0.0 -99.152523,19.440892,0.0 -99.152242,19.444938,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta a Aeropuerto. Línea 4</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU" height="200" width="auto" /><br><br>Ruta a Aeropuerto por Ruta Norte<br><br><br><br>ver mas: http://www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L4.html)]]></description>
+			<styleUrl>#line-993300-3</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/He5UxvuHuTVf9BPD7NWJboX9JdVo80B7Ub3O1BcwchEvvi52EHvCOKnOG7yjzHuODlgPaNFXntuZgdFp4kU</value>
+				</Data>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.11516,19.43107,0.0 -99.11505,19.43189,0.0 -99.11505,19.43278,0.0 -99.1142,19.43784,0.0 -99.11212,19.43759,0.0 -99.110574,19.437467,0.0 -99.109806,19.437432,0.0 -99.109367,19.437386,0.0 -99.109098,19.437224000000004,0.0 -99.108884,19.437022,0.0 -99.108771,19.436713,0.0 -99.108734,19.43601,0.0 -99.108632,19.43558,0.0 -99.10848,19.43515,0.0 -99.10796,19.43433,0.0 -99.10774,19.43411,0.0 -99.10755,19.43399,0.0 -99.105805,19.433435,0.0 -99.105247,19.433233,0.0 -99.104742,19.43298,0.0 -99.096143,19.42868,0.0 -99.095757,19.428508,0.0 -99.095403,19.428326,0.0 -99.09465200000001,19.427956,0.0 -99.093826,19.427567,0.0 -99.09300800000001,19.427134,0.0 -99.09188400000001,19.426451,0.0 -99.091841,19.426338,0.0 -99.091809,19.426252,0.0 -99.091803,19.426181,0.0 -99.091814,19.426123,0.0 -99.091838,19.426069,0.0 -99.09188400000001,19.426019,0.0 -99.091943,19.425978,0.0 -99.092284,19.425849,0.0 -99.092345,19.425839,0.0 -99.09241,19.425844,0.0 -99.09249000000001,19.425872,0.0 -99.092525,19.425892,0.0 -99.092552,19.425913,0.0 -99.09259,19.425960000000003,0.0 -99.092603,19.425996,0.0 -99.092608,19.426044,0.0 -99.092608,19.426135,0.0 -99.0917,19.42782,0.0 -99.0915,19.42836,0.0 -99.08881,19.43311,0.0 -99.08839,19.43349,0.0 -99.08798000000002,19.43377,0.0 -99.08748,19.433910000000004,0.0 -99.08671,19.43383,0.0 -99.0865,19.43385,0.0 -99.08572,19.4342,0.0 -99.08472,19.43484,0.0 -99.08455,19.43481,0.0 -99.08366,19.43532,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta a Aeropuerto. Línea 4</name>
+			<description><![CDATA[Ruta a Aeropuerto por Ruta Norte]]></description>
+			<styleUrl>#line-993300-3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.08355,19.43537,0.0 -99.08327,19.43562,0.0 -99.08161,19.43659,0.0 -99.07952,19.43775,0.0 -99.07906,19.43789,0.0 -99.07806,19.43845,0.0 -99.07796,19.43872,0.0 -99.07802000000001,19.4388,0.0 -99.07828,19.43881,0.0 -99.0843,19.43539,0.0 -99.0847,19.43504,0.0 -99.08583,19.43498,0.0 -99.0869,19.43498,0.0 -99.08716,19.43487,0.0 -99.08758,19.43433,0.0 -99.08795,19.43372,0.0 -99.08958,19.431420000000003,0.0 -99.09164,19.42773,0.0 -99.09172,19.42753,0.0 -99.09175,19.42722,0.0 -99.09162,19.42688,0.0 -99.09143,19.42665,0.0 -99.08866,19.42497,0.0 -99.08588,19.42317,0.0 -99.08454,19.42244,0.0 -99.083958,19.422111,0.0 -99.082665,19.421435,0.0 -99.082099,19.421076,0.0 -99.081788,19.420866,0.0 -99.081595,19.420724,0.0 -99.081061,19.420345,0.0 -99.080487,19.419958,0.0 -99.080345,19.419885,0.0 -99.080037,19.419733,0.0 -99.079806,19.419616,0.0 -99.079618,19.419558,0.0 -99.07945,19.41947,0.0 -99.07899,19.41916,0.0 -99.078929,19.418999,0.0 -99.078854,19.418873,0.0 -99.0788,19.418817,0.0 -99.078733,19.418784,0.0 -99.078612,19.418759,0.0 -99.078529,19.418751,0.0 -99.078449,19.418772,0.0 -99.078352,19.41882,0.0 -99.07829,19.418865,0.0 -99.078242,19.418931,0.0 -99.078205,19.418994,0.0 -99.078162,19.419103,0.0 -99.07815,19.419310000000003,0.0 -99.07725,19.420760000000005,0.0 -99.077142,19.420848000000003,0.0 -99.077067,19.420919,0.0 -99.07703,19.420967,0.0 -99.076998,19.421051,0.0 -99.076982,19.421127,0.0 -99.076987,19.421197,0.0 -99.077008,19.421253,0.0 -99.077041,19.421324,0.0 -99.0771,19.4214,0.0 -99.077177,19.421456,0.0 -99.077247,19.421486,0.0 -99.077301,19.421504,0.0 -99.077362,19.421504,0.0 -99.077416,19.421496,0.0 -99.07748,19.421483,0.0 -99.07753700000002,19.421461,0.0 -99.077588,19.42143,0.0 -99.077674,19.421364,0.0 -99.077722,19.421309,0.0 -99.077765,19.421235,0.0 -99.077775,19.42116,0.0 -99.077765,19.421091,0.0 -99.077743,19.421041,0.0 -99.077714,19.420998,0.0 -99.077684,19.420947,0.0 -99.077639,19.420896,0.0 -99.077545,19.420826,0.0 -99.077762,19.420423,0.0 -99.07831700000001,19.41947,0.0 -99.078438,19.419525,0.0 -99.07858,19.419536,0.0 -99.07872,19.419508,0.0 -99.07883,19.41945,0.0 -99.078881,19.419407,0.0 -99.07893,19.41935,0.0 -99.078977,19.419245000000004,0.0 -99.078993,19.419169,0.0 -99.078921,19.418984,0.0 -99.078832,19.418842,0.0 -99.079264,19.41817,0.0 -99.079731,19.418486000000005,0.0 -99.08019,19.41884,0.0 -99.080281,19.418933,0.0 -99.080375,19.419065,0.0 -99.080605,19.419399,0.0 -99.08101,19.420026,0.0 -99.081217,19.420256,0.0 -99.081541,19.420532,0.0 -99.08538000000001,19.422791,0.0 -99.087281,19.423897,0.0 -99.08921,19.42499,0.0 -99.09061,19.42588,0.0 -99.091913,19.426651,0.0 -99.092444,19.426952,0.0 -99.092707,19.427117,0.0 -99.092884,19.427266,0.0 -99.09300000000002,19.427390000000003,0.0 -99.09303,19.42749,0.0 -99.09302,19.42761,0.0 -99.09294,19.4277,0.0 -99.09251,19.42787,0.0 -99.09241,19.427845,0.0 -99.09232,19.42779,0.0 -99.092259,19.427587,0.0 -99.092592,19.427043,0.0 -99.09287100000002,19.427218,0.0 -99.0931,19.42738,0.0 -99.093536,19.427602,0.0 -99.094024,19.427784,0.0 -99.094507,19.428002,0.0 -99.094979,19.428235,0.0 -99.095446,19.428483,0.0 -99.096047,19.428766,0.0 -99.098085,19.429768,0.0 -99.099566,19.430562,0.0 -99.100649,19.431052,0.0 -99.102682,19.432059,0.0 -99.104699,19.433076,0.0 -99.105204,19.433334,0.0 -99.1056,19.43347,0.0 -99.107473,19.434068,0.0 -99.107848,19.434386,0.0 -99.10809,19.4347,0.0 -99.10838500000001,19.435251,0.0 -99.108481,19.435621000000005,0.0 -99.10856700000001,19.43646,0.0 -99.108691,19.436951,0.0 -99.108873,19.437249,0.0 -99.109088,19.437401,0.0 -99.109281,19.437487,0.0 -99.109436,19.437513,0.0 -99.110654,19.437619,0.0 -99.111947,19.43769,0.0 -99.112864,19.437796,0.0 -99.113755,19.437917,0.0 -99.114173,19.437993,0.0 -99.11432000000002,19.43798,0.0 -99.11474,19.43539,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Maquinas MB - punto 1</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.15226,19.444964,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Máquinas MB - Punto 2</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.147137,19.436324,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Máquinas MB - Punto 3</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.147937,19.432004000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maquinas MB - Punto 4</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.115423,19.431169,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Máquinas MB - Punto 4</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.11516,19.430997,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Máquinas MB - Punto 5</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.083639,19.435084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Máquinas MB - Punto 6</name>
+			<description><![CDATA[Ubicación de máquinas para venta y recarga de tarjetas del sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-101</styleUrl>
+			<Point>
+				<coordinates>-99.077636,19.421521000000002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 1- tienda Extra</name>
+			<description><![CDATA[Tienda Extra. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-157</styleUrl>
+			<Point>
+				<coordinates>-99.136146,19.432219,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 2- Tienda Extra</name>
+			<description><![CDATA[Tienda Extra. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-157</styleUrl>
+			<Point>
+				<coordinates>-99.141542,19.432929,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 3 - tienda Extra</name>
+			<description><![CDATA[Tienda Extra. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-157</styleUrl>
+			<Point>
+				<coordinates>-99.150914,19.435722,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 1 - tienda K</name>
+			<description><![CDATA[Tienda K. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-123</styleUrl>
+			<Point>
+				<coordinates>-99.140571,19.434118,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 1 - Farmacia del Ahorro</name>
+			<description><![CDATA[Farmacia del Ahorro. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-99.150528,19.433208,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 2 - Farmacia del Ahorro</name>
+			<description><![CDATA[Farmacia del Ahorro. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-99.14011,19.438555,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 3 - Farmacia del Ahorro</name>
+			<description><![CDATA[Farmacia del Ahorro. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-99.129204,19.429378,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 4 - Farmacia del Ahorro</name>
+			<description><![CDATA[Farmacia del Ahorro. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-22</styleUrl>
+			<Point>
+				<coordinates>-99.122649,19.422619,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 1- Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.154819,19.439349,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 2 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.154248,19.436842,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 3 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.15066500000002,19.433278,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 4- Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.147781,19.435186,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 5- Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.147352,19.433865,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 6 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.145142,19.433339,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 7 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.14224,19.432201,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 8 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.141505,19.430364,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 9 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.13739,19.426434,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 10 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.138528,19.431579,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 11 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.138286,19.433799,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 12 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.129977,19.433415,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 13 - Eleven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.13792700000002,19.436524,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 14 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.133734,19.43602,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 15 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.13216,19.431407,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 16 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.134121,19.433896,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 17 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.134327,19.429277,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 18 - Seven</name>
+			<description><![CDATA[Seven. Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-61</styleUrl>
+			<Point>
+				<coordinates>-99.114377,19.424759,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 1 - Otros participantes</name>
+			<description><![CDATA[Belisario Domínguez #65-B. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.134735,19.437859,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 2 - Otros Participantes</name>
+			<description><![CDATA[Abarrotes - Casa Martínez. Rep. de Venezuela #47. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.129606,19.437118,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 3 - Otros Participantes</name>
+			<description><![CDATA[Puesto de Periódico. Rep. de Venezuela #96 esq. Rodríguez Puebla. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.127276,19.436787,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 4 - Otros Participantes</name>
+			<description><![CDATA[Abarrotes Ivonne. Héroes de Nacozari #76. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.11909000000001,19.435914,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 5 - Otros Participantes</name>
+			<description><![CDATA[Puesto de Revistas. Rep. Del Salvador esq, 5 de Febrero (Frente a Farmacia París). <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.141387,19.430362,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 6 - Otros Participantes</name>
+			<description><![CDATA[Abarrotes y Jugos. Cecilio Robélo S/N, enfrente de Congreso de la Unión. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.119806,19.425589,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 7 - Otros participantes</name>
+			<description><![CDATA[Centro Farmacéutico (Farmacia Central). San Pablo #67.<br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.125779,19.425472,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 8 - Otros Participantes</name>
+			<description><![CDATA[Calle Tacuba, Esq. Eje Central, Col. Centro. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.140526,19.436129,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 9 - Otros Participantes</name>
+			<description><![CDATA[Ferrocarril de Cintura S/N, esq. Héroes de Nacozari, Local B. <br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.120948,19.435858,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 10 - Otros Participantes</name>
+			<description><![CDATA[República del Salvador # 6 Local B<br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.136945,19.429732,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 11 - Otros Participantes</name>
+			<description><![CDATA[Héroes de Nacozari #1 Col. Morelos<br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.123706,19.436496,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Punto 12 - Otro Participantes</name>
+			<description><![CDATA[Pino Suárez # 146 (Plaza Mesones)<br><br>Punto de venta y recarga de tarjetas para sistema Metrobús.<br><br>Mas informes consulta:<br><br>http://www.metrobus.df.gob.mx/mapaventarecarga.jpg (http://www.metrobus.df.gob.mx/images/MAPA_venta.recarga_GDE.jpg)]]></description>
+			<styleUrl>#icon-111</styleUrl>
+			<Point>
+				<coordinates>-99.13267,19.429166,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-101-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-101-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-101'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-101-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-101-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-111-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-111-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-111'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-111-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-111-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-123-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-123-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-123'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-123-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-123-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-157-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-157-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-157'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-157-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-157-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-22-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-22-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-22'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-22-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-22-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-61-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-61-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-61'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-61-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-61-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-993300-3-normal'>
+			<LineStyle>
+				<color>ff003399</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-993300-3-highlight'>
+			<LineStyle>
+				<color>ff003399</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-993300-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-993300-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-993300-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-CC6600-3-normal'>
+			<LineStyle>
+				<color>ff0066CC</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-CC6600-3-highlight'>
+			<LineStyle>
+				<color>ff0066CC</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-CC6600-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-CC6600-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-CC6600-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-FF6600-3-normal'>
+			<LineStyle>
+				<color>ff0066FF</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-FF6600-3-highlight'>
+			<LineStyle>
+				<color>ff0066FF</color>
+				<width>5.0</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id='line-FF6600-3'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FF6600-3-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FF6600-3-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

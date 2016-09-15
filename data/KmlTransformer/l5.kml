@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Capa sin nombre</name>
+		<Placemark>
+			<name>Río de los Remedios</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/-Q4Mq8AX2N7xy9eRAQ8Elv_w2Ch8onQFRQjIT3TLqlqTUEv_bhRq3busxpN9-rVGAGL2-U8LUcmx4dQF3IuxUmijxAO161Etbpg-" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/-Q4Mq8AX2N7xy9eRAQ8Elv_w2Ch8onQFRQjIT3TLqlqTUEv_bhRq3busxpN9-rVGAGL2-U8LUcmx4dQF3IuxUmijxAO161Etbpg-</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.086123,19.506726,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>314. Memorial New's Divine</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ip-8PW-PpMJTdSM80qZkJYZ3MiZb21xmgfUcL7bqvTSo4IdNjFnKAUSWU06TVgv1cGTD-zRKcj_C0mXqyK0HrMC6" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/ip-8PW-PpMJTdSM80qZkJYZ3MiZb21xmgfUcL7bqvTSo4IdNjFnKAUSWU06TVgv1cGTD-zRKcj_C0mXqyK0HrMC6</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.088697,19.500617,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5 de Mayo</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/k5DFbWerPT46W0zn5qTFo2NKdZBHf3WBbOuwNFmF_7UPQKQodRsNwln22g6Nx0PWhKFwrsVgEaK75yByjwN6w5iIKrEW" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/k5DFbWerPT46W0zn5qTFo2NKdZBHf3WBbOuwNFmF_7UPQKQodRsNwln22g6Nx0PWhKFwrsVgEaK75yByjwN6w5iIKrEW</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.090124,19.497169,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vasco de Quiroga</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/edyVQDrAgGARhppJHvCW1Y26Cs1uRiuoSjx-QQib2ThBOO7SZPy0vfWAovej7Qo7LmtLdOLLowR0ajxQCv3bFvH2PDiSgjajdvwzqw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/edyVQDrAgGARhppJHvCW1Y26Cs1uRiuoSjx-QQib2ThBOO7SZPy0vfWAovej7Qo7LmtLdOLLowR0ajxQCv3bFvH2PDiSgjajdvwzqw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.092249,19.492193,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Coyol</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/8gp1IfoyXPP-1n9RX2o-jc5p7OAQPa7bhrC3-esJYE9PBrYQaPRirFY-7Z342NcMvYtORzvphPhugpRCJQFayRZiVi4" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/8gp1IfoyXPP-1n9RX2o-jc5p7OAQPa7bhrC3-esJYE9PBrYQaPRirFY-7Z342NcMvYtORzvphPhugpRCJQFayRZiVi4</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.094169,19.487601,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Preparatoria 3</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/24KAqOUuJDOg1VFjQJiq1zPZ9UMhhJqBIw5K9NFEuwZpKj8rkmFhHZWGx4hf9Whg5NLF5I29-SFbF694-CcSe-Gbk6Ya" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/24KAqOUuJDOg1VFjQJiq1zPZ9UMhhJqBIw5K9NFEuwZpKj8rkmFhHZWGx4hf9Whg5NLF5I29-SFbF694-CcSe-Gbk6Ya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.095778,19.483950000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Juan de Aragón</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/KKjjWj_u-xjEzPXiQ317LHClw3Jr7Ipa6FveI5HGOz9b_H4nB3UkarAkLuW_0nTYdiMSIU0otb3iBDZQahPxYJW9ZSyEsmtrgiShHkc" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/KKjjWj_u-xjEzPXiQ317LHClw3Jr7Ipa6FveI5HGOz9b_H4nB3UkarAkLuW_0nTYdiMSIU0otb3iBDZQahPxYJW9ZSyEsmtrgiShHkc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.097388,19.480217,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Río Guadalupe</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/0M6-N0qclRqnyvhDLu4975rrnyaWqK57HN-K_GZ57EBpN9a8Bw2qbBOCE-NszLVxLpjC2qO8AV4KM6RCj4SJfB-jiloEzw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/0M6-N0qclRqnyvhDLu4975rrnyaWqK57HN-K_GZ57EBpN9a8Bw2qbBOCE-NszLVxLpjC2qO8AV4KM6RCj4SJfB-jiloEzw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.099137,19.47606,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Talismán</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/RLclbDQnkfOZqzkkzSWZBuGWOGJGfeCv26dKB0QLJcW0C_-H0tmIzl4m3ieh0VQeG4OFDfiAk7ydlV_hSgQKmNjzvVxzKRc" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/RLclbDQnkfOZqzkkzSWZBuGWOGJGfeCv26dKB0QLJcW0C_-H0tmIzl4m3ieh0VQeG4OFDfiAk7ydlV_hSgQKmNjzvVxzKRc</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.101239,19.471003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Victoria</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/3wmof9KLyBnISPuJ-IdJAIAyKUUTGd6AWuN86ziupV7hK7aN6LyQLqDCFROiLaEMy9X7FpjYN17_Y7Py7Qt3zk65hTzwIUU" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh4.googleusercontent.com/proxy/3wmof9KLyBnISPuJ-IdJAIAyKUUTGd6AWuN86ziupV7hK7aN6LyQLqDCFROiLaEMy9X7FpjYN17_Y7Py7Qt3zk65hTzwIUU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.102752,19.467472,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oriente 101</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/4keGpQLicPEPVLmr_ptoXkF61Pc-cSjFPZ2SjWvwhpP6DfvyqSb8obfd77qyiVcDZjUpT9aO1RdfLJrKt7Az7_zEFBxvLF7FTA" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh5.googleusercontent.com/proxy/4keGpQLicPEPVLmr_ptoXkF61Pc-cSjFPZ2SjWvwhpP6DfvyqSb8obfd77qyiVcDZjUpT9aO1RdfLJrKt7Az7_zEFBxvLF7FTA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.10509100000002,19.46204,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Santa Coleta</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/qu-Ep76_uKiLFy7meM4tD2QfM66mezSTu5987njJErlsg2d7IKxAS4fsXHe40wGY0-7YhPyEswTmA785ruTN8cgk5m6KoS5pMdq4W8g" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/qu-Ep76_uKiLFy7meM4tD2QfM66mezSTu5987njJErlsg2d7IKxAS4fsXHe40wGY0-7YhPyEswTmA785ruTN8cgk5m6KoS5pMdq4W8g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.106797,19.457781000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Río Consulado</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/qu-Ep76_uKiLFy7meM4tD2QfM66mezSTu5987njJErlsg2d7IKxAS4fsXHe40wGY0-7YhPyEswTmA785ruTN8cgk5m6KoS5pMdq4W8g" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/qu-Ep76_uKiLFy7meM4tD2QfM66mezSTu5987njJErlsg2d7IKxAS4fsXHe40wGY0-7YhPyEswTmA785ruTN8cgk5m6KoS5pMdq4W8g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.108406,19.453634,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Canal del Norte</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/sD3bOI4_FuQfifS17bB9NaxJdxHDHuZBJ22UaNDaVmUcSCWkfdjIcW7AZO3m_jboytcmX3ZVqomMrqnM_NyiQQBZS0n5zysl" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/sD3bOI4_FuQfifS17bB9NaxJdxHDHuZBJ22UaNDaVmUcSCWkfdjIcW7AZO3m_jboytcmX3ZVqomMrqnM_NyiQQBZS0n5zysl</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.110456,19.449466,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Deportivo Eduardo Molina</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/hLUZBwgEHehJysH3zRQozO1afYETZZmU8kSUMwgkHz2No4WZfxymn-BxMlCx3qyZ4uPcaMmnrhgrOmUkqAt8_FuVR0ACB8GEVA" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/hLUZBwgEHehJysH3zRQozO1afYETZZmU8kSUMwgkHz2No4WZfxymn-BxMlCx3qyZ4uPcaMmnrhgrOmUkqAt8_FuVR0ACB8GEVA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.112097,19.444863,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mercado Morelos</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/IgLq2meoDbGtdATONVGIUbd9QuLhFPyZaQVP5hB2JX9G05mcnud54J0lmBbJG5vJ5MVJrSNVGKBhn3SiIj7LBp_sg3aMfw" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/IgLq2meoDbGtdATONVGIUbd9QuLhFPyZaQVP5hB2JX9G05mcnud54J0lmBbJG5vJ5MVJrSNVGKBhn3SiIj7LBp_sg3aMfw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.113556,19.441059000000003,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Archivo General</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/_zWsTCERyjgfawaV6p5Naxlq9hyobgaZ3IH4NfcsYaP9N4LLzpYe0VD0LxvHBSjDAkBGcCB-DQ6IRaaSl6yPLag3wDwp1Hk5HseH4kVTkGI" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh6.googleusercontent.com/proxy/_zWsTCERyjgfawaV6p5Naxlq9hyobgaZ3IH4NfcsYaP9N4LLzpYe0VD0LxvHBSjDAkBGcCB-DQ6IRaaSl6yPLag3wDwp1Hk5HseH4kVTkGI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.114398,19.437209,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Terminal. San Lázaro. Línea 5</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/VpBT9XTHGCv1hCJ1_SEivE1C_b77h-rABlSTJSS_5ej-vCfj3ito7x0oQKISbgRjRiz1aEqtrwLZGMp99SUQmABXThwFcVXR9A" height="200" width="auto" /><br><br>Estación de Metrobús. Línea 5<br><br><br><br>ver más: www.metrobus.df.gob.mx (http://www.metrobus.df.gob.mx/mapa_L1.html)<br><br>Sitios relacionados:<br><br>SETRAVI (http://www.setravi.df.gob.mx/), Metro (http://www.metro.df.gob.mx/red/index.html#li), RTP (http://www.rtp.gob.mx/red_rutas.html) y Transportes eléctricos (http://www.ste.df.gob.mx/ste/index.html)]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='gx_media_links'>
+					<value>https://lh3.googleusercontent.com/proxy/VpBT9XTHGCv1hCJ1_SEivE1C_b77h-rABlSTJSS_5ej-vCfj3ito7x0oQKISbgRjRiz1aEqtrwLZGMp99SUQmABXThwFcVXR9A</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.115176,19.432368,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Línea 5 de Metrobús</name>
+			<styleUrl>#line-000066-3-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-99.11513,19.43237,0.0 -99.1147,19.43537,0.0 -99.11365,19.44085,0.0 -99.11294000000001,19.44247,0.0 -99.1105,19.44943,0.0 -99.11007,19.45042,0.0 -99.10923,19.45143,0.0 -99.10848,19.45354,0.0 -99.10427000000001,19.46394,0.0 -99.09016,19.49707,0.0 -99.08625,19.50658,0.0 -99.086112,19.506756,0.0 -99.08627,19.50654,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-000066-3-nodesc-normal'>
+			<LineStyle>
+				<color>ff660000</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-000066-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ff660000</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-000066-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-000066-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-000066-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

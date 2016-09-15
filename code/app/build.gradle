@@ -5,11 +5,12 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
+        multiDexEnabled true
         applicationId "silo.thatcsharpguy.com.questacion"
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.0"
     }
     buildTypes {
         release {
