@@ -6,6 +6,7 @@ package silo.thatcsharpguy.com.questacion.entities;
 public class Estacion {
 
     private String _nombre;
+    private String _icon;
     private double _latitud;
     private double _longitud;
     private int _id;
@@ -58,6 +59,12 @@ public class Estacion {
 
     public int getLinea() {
         return _linea;
+    }
+
+    public void setIcon(String icon) { this._icon = icon; }
+
+    public String getIcon() {
+        return _icon;
     }
 
     public void setLinea(int linea) { this._linea = linea; }

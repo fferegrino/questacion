@@ -29,17 +29,19 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.wallet.NotifyTransactionStatusRequest;
 
 import jsqlite.Exception;
 import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
 import silo.thatcsharpguy.com.questacion.entities.Estacion;
 import silo.thatcsharpguy.com.questacion.fragments.SetNotificationDialogFragment;
+import silo.thatcsharpguy.com.questacion.services.ErrorListener;
 import silo.thatcsharpguy.com.questacion.services.LocationService;
 import silo.thatcsharpguy.com.questacion.services.NuevaEstacionListener;
 
 
 public class MainActivity extends AppCompatActivity
-        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener{
+        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener, ErrorListener{
 
     private static final String TAG = "MainActivity";
     private static final int SettingsRequestCode = 20;
@@ -181,6 +183,7 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings({"MissingPermission"})
     public void onConnected(@Nullable Bundle bundle) {
 
+
         Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(GoogleApiClient);
 
         try {
@@ -189,10 +192,12 @@ public class MainActivity extends AppCompatActivity
                 Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude(), -1);
                 stationUpdate(cercana);
             }
+
             StartAndBindLocationService();
         } catch (Exception e) {
-            e.printStackTrace();
+            errorUpdate(e.getMessage());
         }
+
     }
 
     /** Defines callbacks for service binding, passed to bindService() */
@@ -237,13 +242,22 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    public void errorUpdate(String error) {
+        Toast.makeText(this,error, Toast.LENGTH_LONG).show();
+        uiStationUpdate(Color.YELLOW, Color.BLACK, "Error en la base de datos. Intente descargarla de nuevo.", "Error");
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_settings:
                 Intent intent = new Intent(this, SettingsActivity.class);
-                _locationService.setPaused(true);
+                if(_locationService != null) {
+                    _locationService.setPaused(true);
+                    Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
+                }
+
                 startActivityForResult(intent, SettingsRequestCode);
-                Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
                 return true;
             //case R.id.action_set_notification:
                 //DialogFragment newFragment = new SetNotificationDialogFragment();
@@ -257,8 +271,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == SettingsRequestCode) {
-            Toast.makeText(this, "Service resumed", Toast.LENGTH_SHORT).show();
-            _locationService.setPaused(false);
+
+            if(_locationService != null) {
+                Toast.makeText(this, "Service resumed", Toast.LENGTH_SHORT).show();
+                _locationService.setPaused(false);
+            }
         }
         else {
             super.onActivityResult(requestCode, resultCode, data);
@@ -292,4 +309,5 @@ public class MainActivity extends AppCompatActivity
         w.setStatusBarColor(Utils.darkenColor(color, 0.8f));
 
     }
+
 }

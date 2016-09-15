@@ -1,5 +1,6 @@
 package silo.thatcsharpguy.com.questacion.services;
 
+import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -7,6 +8,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Picture;
+import android.graphics.drawable.PictureDrawable;
 import android.location.Location;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -17,6 +22,8 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v7.preference.PreferenceManager;
 import android.util.Log;
 
+import com.caverock.androidsvg.SVG;
+import com.caverock.androidsvg.SVGParseException;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
@@ -41,6 +48,7 @@ public class LocationService
     private static final Uri Sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
     private List<NuevaEstacionListener> listeners = new ArrayList<NuevaEstacionListener>();
+    private List<ErrorListener> errorListeners = new ArrayList<ErrorListener>();
     public void addListener(NuevaEstacionListener toAdd) {
         listeners.add(toAdd);
     }
@@ -78,8 +86,13 @@ public class LocationService
     public void onLocationChanged(Location location) {
         if(_isPaused) return;
 
-        Estacion nearestStation = getNearestStation(location);
-        notifica(nearestStation);
+        Estacion nearestStation = null;
+        try {
+            nearestStation = getNearestStation(location);
+            notifica(nearestStation);
+        } catch (OldDatabaseException e) {
+            notificaError(e.getMessage());
+        }
 
     }
 
@@ -117,6 +130,12 @@ public class LocationService
     private Estacion _lastVisitedStation;
     private double _lastDistance = Double.MAX_VALUE;
 
+    private void notificaError(String error){
+
+        for (ErrorListener  hl : errorListeners)
+            hl.errorUpdate(error);
+    }
+
     private void notifica(Estacion nearestStation) {
         if(nearestStation != null){
             String texto = null;
@@ -145,16 +164,23 @@ public class LocationService
                     .setOngoing(true)
                     .setLocalOnly(true)
                     .setColor(nearestStation.getColor())
-                    .setSmallIcon(Commons.LineaIconMapper[nearestStation.getLinea()]);
+                    .setCategory(NotificationCompat.CATEGORY_ALARM)
+                    .setSmallIcon(Commons.LineaIconMapper[nearestStation.getLinea()])
+                    .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
-            if(newStation && _preferences.getBoolean(res.getString(R.string.vibrate_key),false))
-            {
-                _notificationBuilder.setVibrate(VibrationPattern);
-            }
 
-            if(newStation && _preferences.getBoolean(res.getString(R.string.sound_key),false))
-            {
-                _notificationBuilder.setSound(Sound);
+
+            if(newStation) {
+                _notificationBuilder.setPriority(Notification.PRIORITY_MAX);
+                if(_preferences.getBoolean(res.getString(R.string.vibrate_key),false))
+                {
+                    _notificationBuilder.setVibrate(VibrationPattern);
+                }
+
+                if( _preferences.getBoolean(res.getString(R.string.sound_key),false))
+                {
+                    _notificationBuilder.setSound(Sound);
+                }
             }
 
 
@@ -167,6 +193,18 @@ public class LocationService
 
 
             _lastVisitedStation = nearestStation;
+
+
+
+            try {
+                _notificationBuilder.setLargeIcon(getFromSvgIcon(
+                        nearestStation.getIcon(),
+                        nearestStation.getColor()
+                ));
+
+            } catch (SVGParseException e) {
+                e.printStackTrace();
+            }
 
             _notificationManager.notify(NotificationId, _notificationBuilder.build());
 
@@ -182,15 +220,30 @@ public class LocationService
         }
     }
 
+    private static final String startSvgImage= "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"72\" height=\"72\"><g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"#";
+    private static final String startSvgImage2 = "\" d=\"M71 54c0 9.4-7.6 17-17 17H18C8.6 71 1 63.4 1 54V18C1 8.6 8.6 1 18 1h36c9.4 0 17 7.6 17 17v36z\"/>";
+    private static final String endSvgImage ="</g></svg>";
+    //Convert Picture to Bitmap
+    private static Bitmap getFromSvgIcon(String svg, int color) throws SVGParseException {
 
-    private Estacion getNearestStation(Location location) {
+
+        SVG svgPic = SVG.getFromString(startSvgImage + Integer.toHexString(color)+startSvgImage2+svg+endSvgImage);
+        Picture picture = svgPic.renderToPicture();
+        PictureDrawable pd = new PictureDrawable(picture);
+        Bitmap bitmap = Bitmap.createBitmap(pd.getIntrinsicWidth(), pd.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+        canvas.drawPicture(pd.getPicture());
+        return bitmap;
+    }
+
+
+    private Estacion getNearestStation(Location location) throws OldDatabaseException {
         double threshold = Double.parseDouble(_preferences.getString(res.getString(R.string.threshold_key),"500"));
         try {
             return MainActivity.MetrobusDatabase.getEstacionCercana(location.getLatitude(),location.getLongitude(), threshold);
         } catch (Exception e) {
-            e.printStackTrace();
+            throw new OldDatabaseException(e.getMessage());
         }
-        return null;
     }
 
     public void setPaused(boolean isPaused)
