@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion;
+package com.thatcsharpguy.questacion;
 
 import android.graphics.Color;
 
@@ -7,7 +7,7 @@ import android.graphics.Color;
  */
 public final class Utils {
 
-    public static int darkenColor(int color, float factor){
+    public static int darkenColor(int color, float factor) {
         float[] hsv = new float[3];
         Color.colorToHSV(color, hsv);
         hsv[2] *= factor; // value component

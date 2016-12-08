@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.fragments;
+package com.thatcsharpguy.questacion.fragments;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,9 +10,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import silo.thatcsharpguy.com.questacion.R;
-import silo.thatcsharpguy.com.questacion.entities.Estacion;
-import silo.thatcsharpguy.com.questacion.entities.Linea;
+import com.thatcsharpguy.questacion.R;
+import com.thatcsharpguy.questacion.entities.Estacion;
+import com.thatcsharpguy.questacion.entities.Linea;
 
 /**
  * Created by fferegrino on 9/11/16.

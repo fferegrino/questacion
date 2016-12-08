@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.services;
+package com.thatcsharpguy.questacion.services;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -31,24 +31,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 import jsqlite.Exception;
-import silo.thatcsharpguy.com.questacion.Commons;
-import silo.thatcsharpguy.com.questacion.MainActivity;
-import silo.thatcsharpguy.com.questacion.R;
-import silo.thatcsharpguy.com.questacion.entities.Estacion;
+import com.thatcsharpguy.questacion.Commons;
+import com.thatcsharpguy.questacion.MainActivity;
+import com.thatcsharpguy.questacion.R;
+import com.thatcsharpguy.questacion.entities.Estacion;
 
 /**
  * Created by anton on 8/24/2016.
  */
 public class LocationService
-        extends Service implements  com.google.android.gms.location.LocationListener{
+        extends Service implements com.google.android.gms.location.LocationListener {
 
     private static final int NotificationId = 231;
     private static final int LocationUpdateInterval = 2500;
-    private static final long[] VibrationPattern = {500,1000};
+    private static final long[] VibrationPattern = {500, 1000};
     private static final Uri Sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
     private List<NuevaEstacionListener> listeners = new ArrayList<NuevaEstacionListener>();
     private List<ErrorListener> errorListeners = new ArrayList<ErrorListener>();
+
     public void addListener(NuevaEstacionListener toAdd) {
         listeners.add(toAdd);
     }
@@ -56,7 +57,7 @@ public class LocationService
     // Binder given to clients
     private IBinder _binder = new LocalBinder();
     private LocationRequest _locationRequest = new LocationRequest();
-    SharedPreferences  _preferences;
+    SharedPreferences _preferences;
     private NotificationCompat.Builder _notificationBuilder;
     NotificationManager _notificationManager;
     Resources res;
@@ -84,7 +85,7 @@ public class LocationService
 
     @Override
     public void onLocationChanged(Location location) {
-        if(_isPaused) return;
+        if (_isPaused) return;
 
         Estacion nearestStation = null;
         try {
@@ -110,7 +111,7 @@ public class LocationService
     @Override
     public void onCreate() {
         _notificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
-        _preferences= PreferenceManager.getDefaultSharedPreferences(this);
+        _preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         res = getResources();
         super.onCreate();
@@ -130,32 +131,29 @@ public class LocationService
     private Estacion _lastVisitedStation;
     private double _lastDistance = Double.MAX_VALUE;
 
-    private void notificaError(String error){
+    private void notificaError(String error) {
 
-        for (ErrorListener  hl : errorListeners)
+        for (ErrorListener hl : errorListeners)
             hl.errorUpdate(error);
     }
 
     private void notifica(Estacion nearestStation) {
-        if(nearestStation != null){
+        if (nearestStation != null) {
             String texto = null;
             boolean newStation = !nearestStation.equals(_lastVisitedStation);
-            if(newStation) {
+            if (newStation) {
                 _lastDistance = nearestStation.getMetros();
                 texto = res.getString(R.string.ariving_to);
-            }
-            else {
-                if(_lastDistance < nearestStation.getMetros())
-                {
+            } else {
+                if (_lastDistance < nearestStation.getMetros()) {
                     texto = res.getString(R.string.leaving_from);
-                }else
-                {
+                } else {
                     texto = res.getString(R.string.ariving_to);
                 }
                 _lastDistance = nearestStation.getMetros();
             }
 
-            if(_lastDistance != Double.MAX_VALUE)
+            if (_lastDistance != Double.MAX_VALUE)
                 _lastDistance = nearestStation.getMetros();
 
             _notificationBuilder = new NotificationCompat.Builder(this)
@@ -169,20 +167,16 @@ public class LocationService
                     .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
 
-
-            if(newStation) {
+            if (newStation) {
                 _notificationBuilder.setPriority(Notification.PRIORITY_MAX);
-                if(_preferences.getBoolean(res.getString(R.string.vibrate_key),false))
-                {
+                if (_preferences.getBoolean(res.getString(R.string.vibrate_key), false)) {
                     _notificationBuilder.setVibrate(VibrationPattern);
                 }
 
-                if( _preferences.getBoolean(res.getString(R.string.sound_key),false))
-                {
+                if (_preferences.getBoolean(res.getString(R.string.sound_key), false)) {
                     _notificationBuilder.setSound(Sound);
                 }
             }
-
 
 
             Intent myIntent = new Intent(this, MainActivity.class);
@@ -193,7 +187,6 @@ public class LocationService
 
 
             _lastVisitedStation = nearestStation;
-
 
 
             try {
@@ -210,9 +203,7 @@ public class LocationService
 
             for (NuevaEstacionListener hl : listeners)
                 hl.stationUpdate(nearestStation);
-        }
-        else if(nearestStation == null)
-        {
+        } else if (nearestStation == null) {
             _notificationManager.cancel(NotificationId);
 
             for (NuevaEstacionListener hl : listeners)
@@ -220,14 +211,15 @@ public class LocationService
         }
     }
 
-    private static final String startSvgImage= "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"72\" height=\"72\"><g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"#";
+    private static final String startSvgImage = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"72\" height=\"72\"><g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"#";
     private static final String startSvgImage2 = "\" d=\"M71 54c0 9.4-7.6 17-17 17H18C8.6 71 1 63.4 1 54V18C1 8.6 8.6 1 18 1h36c9.4 0 17 7.6 17 17v36z\"/>";
-    private static final String endSvgImage ="</g></svg>";
+    private static final String endSvgImage = "</g></svg>";
+
     //Convert Picture to Bitmap
     private static Bitmap getFromSvgIcon(String svg, int color) throws SVGParseException {
 
 
-        SVG svgPic = SVG.getFromString(startSvgImage + Integer.toHexString(color)+startSvgImage2+svg+endSvgImage);
+        SVG svgPic = SVG.getFromString(startSvgImage + Integer.toHexString(color) + startSvgImage2 + svg + endSvgImage);
         Picture picture = svgPic.renderToPicture();
         PictureDrawable pd = new PictureDrawable(picture);
         Bitmap bitmap = Bitmap.createBitmap(pd.getIntrinsicWidth(), pd.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
@@ -238,16 +230,15 @@ public class LocationService
 
 
     private Estacion getNearestStation(Location location) throws OldDatabaseException {
-        double threshold = Double.parseDouble(_preferences.getString(res.getString(R.string.threshold_key),"500"));
+        double threshold = Double.parseDouble(_preferences.getString(res.getString(R.string.threshold_key), "500"));
         try {
-            return MainActivity.MetrobusDatabase.getEstacionCercana(location.getLatitude(),location.getLongitude(), threshold);
+            return MainActivity.MetrobusDatabase.getEstacionCercana(location.getLatitude(), location.getLongitude(), threshold);
         } catch (Exception e) {
             throw new OldDatabaseException(e.getMessage());
         }
     }
 
-    public void setPaused(boolean isPaused)
-    {
+    public void setPaused(boolean isPaused) {
         _isPaused = isPaused;
     }
 

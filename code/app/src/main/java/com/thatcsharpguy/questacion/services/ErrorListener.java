@@ -1,6 +1,6 @@
-package silo.thatcsharpguy.com.questacion.services;
+package com.thatcsharpguy.questacion.services;
 
-import silo.thatcsharpguy.com.questacion.entities.Estacion;
+import com.thatcsharpguy.questacion.entities.Estacion;
 
 /**
  * Created by anton on 8/26/2016.

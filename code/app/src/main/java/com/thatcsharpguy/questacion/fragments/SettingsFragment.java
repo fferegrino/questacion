@@ -1,12 +1,12 @@
-package silo.thatcsharpguy.com.questacion.fragments;
+package com.thatcsharpguy.questacion.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
-import silo.thatcsharpguy.com.questacion.DownloadDatabaseActivity;
-import silo.thatcsharpguy.com.questacion.R;
+import com.thatcsharpguy.questacion.DownloadDatabaseActivity;
+import com.thatcsharpguy.questacion.R;
 
 /**
  * Created by anton on 9/3/2016.

@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.fragments;
+package com.thatcsharpguy.questacion.fragments;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,10 +10,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import silo.thatcsharpguy.com.questacion.Commons;
-import silo.thatcsharpguy.com.questacion.R;
-import silo.thatcsharpguy.com.questacion.Utils;
-import silo.thatcsharpguy.com.questacion.entities.Linea;
+import com.thatcsharpguy.questacion.Commons;
+import com.thatcsharpguy.questacion.R;
+import com.thatcsharpguy.questacion.Utils;
+import com.thatcsharpguy.questacion.entities.Linea;
 
 /**
  * Created by fferegrino on 9/11/16.
@@ -55,7 +55,7 @@ public class LineaAdapter extends ArrayAdapter {
     }
 
     public View getCustomView(int position, View convertView,
-                             ViewGroup parent) {
+                              ViewGroup parent) {
 
 // Inflating the layout for the custom Spinner
         LayoutInflater inflater = LayoutInflater.from(_ctx);

@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.fragments;
+package com.thatcsharpguy.questacion.fragments;
 
 
 import android.app.Dialog;
@@ -18,10 +18,10 @@ import com.google.android.gms.vision.text.Line;
 import java.util.List;
 
 import jsqlite.Exception;
-import silo.thatcsharpguy.com.questacion.MainActivity;
-import silo.thatcsharpguy.com.questacion.R;
-import silo.thatcsharpguy.com.questacion.entities.Estacion;
-import silo.thatcsharpguy.com.questacion.entities.Linea;
+import com.thatcsharpguy.questacion.MainActivity;
+import com.thatcsharpguy.questacion.R;
+import com.thatcsharpguy.questacion.entities.Estacion;
+import com.thatcsharpguy.questacion.entities.Linea;
 
 public class SetNotificationDialogFragment extends DialogFragment implements AdapterView.OnItemSelectedListener {
 
@@ -37,7 +37,7 @@ public class SetNotificationDialogFragment extends DialogFragment implements Ada
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
 
-        if(_lineas == null) {
+        if (_lineas == null) {
             List<Linea> lns = null;
             try {
                 lns = MainActivity.MetrobusDatabase.getLineas();
@@ -54,10 +54,10 @@ public class SetNotificationDialogFragment extends DialogFragment implements Ada
         builder.setView(layout);
 
         _lineaSpinner = (Spinner) layout.findViewById(R.id.linea_spinner);
-        _lineaSpinner.setAdapter(new LineaAdapter(getActivity(), R.layout.linea_item,_lineas));
+        _lineaSpinner.setAdapter(new LineaAdapter(getActivity(), R.layout.linea_item, _lineas));
         _lineaSpinner.setOnItemSelectedListener(this);
 
-        _estacionSpinner= (Spinner) layout.findViewById(R.id.estacion_spinner);
+        _estacionSpinner = (Spinner) layout.findViewById(R.id.estacion_spinner);
 
         builder.setMessage(R.string.create_calendar_message)
                 .setPositiveButton(R.string.accept, new DialogInterface.OnClickListener() {
@@ -79,13 +79,12 @@ public class SetNotificationDialogFragment extends DialogFragment implements Ada
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        switch (parent.getId())
-        {
+        switch (parent.getId()) {
             case R.id.linea_spinner:
                 try {
                     _selectedLinea = _lineas[position].getId();
-                     _estaciones = MainActivity.MetrobusDatabase.getEstaciones(_selectedLinea);
-                    _estacionSpinner.setAdapter(new EstacionesAdapter(getActivity(), R.layout.linea_item,_estaciones));
+                    _estaciones = MainActivity.MetrobusDatabase.getEstaciones(_selectedLinea);
+                    _estacionSpinner.setAdapter(new EstacionesAdapter(getActivity(), R.layout.linea_item, _estaciones));
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

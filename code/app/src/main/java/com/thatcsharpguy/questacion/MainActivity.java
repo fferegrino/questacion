@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion;
+package com.thatcsharpguy.questacion;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -32,16 +32,16 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.wallet.NotifyTransactionStatusRequest;
 
 import jsqlite.Exception;
-import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
-import silo.thatcsharpguy.com.questacion.entities.Estacion;
-import silo.thatcsharpguy.com.questacion.fragments.SetNotificationDialogFragment;
-import silo.thatcsharpguy.com.questacion.services.ErrorListener;
-import silo.thatcsharpguy.com.questacion.services.LocationService;
-import silo.thatcsharpguy.com.questacion.services.NuevaEstacionListener;
+import com.thatcsharpguy.questacion.dataaccess.MetrobusDatabase;
+import com.thatcsharpguy.questacion.entities.Estacion;
+import com.thatcsharpguy.questacion.fragments.SetNotificationDialogFragment;
+import com.thatcsharpguy.questacion.services.ErrorListener;
+import com.thatcsharpguy.questacion.services.LocationService;
+import com.thatcsharpguy.questacion.services.NuevaEstacionListener;
 
 
 public class MainActivity extends AppCompatActivity
-        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener, ErrorListener{
+        implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, NuevaEstacionListener, ErrorListener {
 
     private static final String TAG = "MainActivity";
     private static final int SettingsRequestCode = 20;
@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity
 
 
     private Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,19 +72,17 @@ public class MainActivity extends AppCompatActivity
 
         _dialogBuilder = new AlertDialog.Builder(this);
 
-        _estacionCercanaText = (TextView)findViewById(R.id.estacionCercanaText);
-        _mainPanel = (FrameLayout)findViewById(R.id.mainPanel);
-        _bindUnbindButton = (Button)findViewById(R.id.bindUnbindButton);
+        _estacionCercanaText = (TextView) findViewById(R.id.estacionCercanaText);
+        _mainPanel = (FrameLayout) findViewById(R.id.mainPanel);
+        _bindUnbindButton = (Button) findViewById(R.id.bindUnbindButton);
 
         _bindUnbindButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(mBound == true)
-                {
+                if (mBound == true) {
                     _bindUnbindButton.setText(R.string.start_trip);
                     StopAndUnbindLocationService();
-                }
-                else{
+                } else {
                     _bindUnbindButton.setText(R.string.stop_trip);
                     StartAndBindLocationService();
                 }
@@ -123,8 +122,7 @@ public class MainActivity extends AppCompatActivity
     protected void onStart() {
 
 
-        if(Commons.getMainDatabaseFile().exists())
-        {
+        if (Commons.getMainDatabaseFile().exists()) {
             try {
                 MetrobusDatabase = new MetrobusDatabase(Commons.getMainDatabaseFile());
 
@@ -136,9 +134,9 @@ public class MainActivity extends AppCompatActivity
                             .build();
                 }
 
-                if(!GoogleApiClient.isConnected()) {
+                if (!GoogleApiClient.isConnected()) {
                     GoogleApiClient.connect();
-                }else{
+                } else {
                     StartAndBindLocationService();
                     _bindUnbindButton.setText(R.string.stop_trip);
                 }
@@ -147,9 +145,7 @@ public class MainActivity extends AppCompatActivity
                 e.printStackTrace();
             }
 
-        }
-        else
-        {
+        } else {
             Intent intent = new Intent(this, DownloadDatabaseActivity.class);
             startActivity(intent);
         }
@@ -165,14 +161,14 @@ public class MainActivity extends AppCompatActivity
 
     Intent locationServiceIntent;
 
-    void StartAndBindLocationService(){
+    void StartAndBindLocationService() {
         locationServiceIntent = new Intent(this, LocationService.class);
         startService(locationServiceIntent);
         bindService(locationServiceIntent, mConnection, Context.BIND_AUTO_CREATE);
     }
 
-    void StopAndUnbindLocationService(){
-        if(mBound) {
+    void StopAndUnbindLocationService() {
+        if (mBound) {
             stopService(locationServiceIntent);
             unbindService(mConnection);
             mBound = false;
@@ -187,8 +183,7 @@ public class MainActivity extends AppCompatActivity
         Location lastLocation = LocationServices.FusedLocationApi.getLastLocation(GoogleApiClient);
 
         try {
-            if(lastLocation != null)
-            {
+            if (lastLocation != null) {
                 Estacion cercana = MetrobusDatabase.getEstacionCercana(lastLocation.getLatitude(), lastLocation.getLongitude(), -1);
                 stationUpdate(cercana);
             }
@@ -200,7 +195,9 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    /** Defines callbacks for service binding, passed to bindService() */
+    /**
+     * Defines callbacks for service binding, passed to bindService()
+     */
     private ServiceConnection mConnection = new ServiceConnection() {
 
         @Override
@@ -232,10 +229,9 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void stationUpdate(Estacion cercana) {
 
-        if(cercana != null) {
-            uiStationUpdate(cercana.getColor(),Color.WHITE,cercana.getNombre(),String.format(getResources().getString(R.string.route), cercana.getLinea()));
-        }
-        else{
+        if (cercana != null) {
+            uiStationUpdate(cercana.getColor(), Color.WHITE, cercana.getNombre(), String.format(getResources().getString(R.string.route), cercana.getLinea()));
+        } else {
             uiStationUpdate(Color.LTGRAY, Color.BLACK, "No hay estaciones cercanas", "Questacion");
         }
 
@@ -243,16 +239,16 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void errorUpdate(String error) {
-        Toast.makeText(this,error, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, error, Toast.LENGTH_LONG).show();
         uiStationUpdate(Color.YELLOW, Color.BLACK, "Error en la base de datos. Intente descargarla de nuevo.", "Error");
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.action_settings:
                 Intent intent = new Intent(this, SettingsActivity.class);
-                if(_locationService != null) {
+                if (_locationService != null) {
                     _locationService.setPaused(true);
                     Toast.makeText(this, "Service paused", Toast.LENGTH_SHORT).show();
                 }
@@ -260,9 +256,9 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(intent, SettingsRequestCode);
                 return true;
             //case R.id.action_set_notification:
-                //DialogFragment newFragment = new SetNotificationDialogFragment();
-                //newFragment.show(getSupportFragmentManager(), "missiles");
-                //return true;
+            //DialogFragment newFragment = new SetNotificationDialogFragment();
+            //newFragment.show(getSupportFragmentManager(), "missiles");
+            //return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -270,14 +266,13 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == SettingsRequestCode) {
+        if (requestCode == SettingsRequestCode) {
 
-            if(_locationService != null) {
+            if (_locationService != null) {
                 Toast.makeText(this, "Service resumed", Toast.LENGTH_SHORT).show();
                 _locationService.setPaused(false);
             }
-        }
-        else {
+        } else {
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
@@ -287,7 +282,7 @@ public class MainActivity extends AppCompatActivity
     private String _nameBck;
     private String _lineaBck;
 
-    public void uiStationUpdate(int color, int textColor , String name, String linea) {
+    public void uiStationUpdate(int color, int textColor, String name, String linea) {
 
         _colorBck = color;
         _textColorBck = textColor;
@@ -298,7 +293,7 @@ public class MainActivity extends AppCompatActivity
         _estacionCercanaText.setText(name);
         _estacionCercanaText.setTextColor(textColor);
         _mainPanel.setBackgroundColor(color);
-        color = Utils.darkenColor(color,0.8f);
+        color = Utils.darkenColor(color, 0.8f);
 
         ActionBar supportActionBar = getSupportActionBar();
         supportActionBar.setBackgroundDrawable(new ColorDrawable(color));

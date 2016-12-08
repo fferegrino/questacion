@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion;
+package com.thatcsharpguy.questacion;
 
 import android.*;
 import android.annotation.SuppressLint;
@@ -21,7 +21,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import jsqlite.Exception;
-import silo.thatcsharpguy.com.questacion.dataaccess.MetrobusDatabase;
+import com.thatcsharpguy.questacion.dataaccess.MetrobusDatabase;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -147,8 +147,7 @@ public class PermissionsActivity extends AppCompatActivity {
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     show();
-                }
-                else{
+                } else {
 
                     AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
                             .setMessage(R.string.database_explanation)
@@ -167,8 +166,7 @@ public class PermissionsActivity extends AppCompatActivity {
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     show();
-                }
-                else{
+                } else {
 
                     AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
                             .setMessage(R.string.location_explanation)
@@ -186,29 +184,29 @@ public class PermissionsActivity extends AppCompatActivity {
         }
     }
 
-    private boolean checkStoragePermissions(){
+    private boolean checkStoragePermissions() {
         // Check for permissions
-        int canReadStorage = ContextCompat.checkSelfPermission(this,ReadStorage);
-        int canWriteStorage = ContextCompat.checkSelfPermission(this,WriteStorage);
+        int canReadStorage = ContextCompat.checkSelfPermission(this, ReadStorage);
+        int canWriteStorage = ContextCompat.checkSelfPermission(this, WriteStorage);
 
         return (canReadStorage == PackageManager.PERMISSION_GRANTED &&
-                canWriteStorage == PackageManager.PERMISSION_GRANTED );
+                canWriteStorage == PackageManager.PERMISSION_GRANTED);
     }
 
-    private boolean checkLocationPermissions(){
+    private boolean checkLocationPermissions() {
         // Check for permissions
-        int canAccessCoarseLoc = ContextCompat.checkSelfPermission(this,AccessCoarseLocation);
-        int canAccessFineLoc = ContextCompat.checkSelfPermission(this,AccessFineLocation);
+        int canAccessCoarseLoc = ContextCompat.checkSelfPermission(this, AccessCoarseLocation);
+        int canAccessFineLoc = ContextCompat.checkSelfPermission(this, AccessFineLocation);
 
         return (canAccessCoarseLoc == PackageManager.PERMISSION_GRANTED &&
-                canAccessFineLoc == PackageManager.PERMISSION_GRANTED );
+                canAccessFineLoc == PackageManager.PERMISSION_GRANTED);
     }
 
 
-    private void requestStoragePermissions(){
+    private void requestStoragePermissions() {
         // Should we show an explanation?
-        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,ReadStorage) ||
-                ActivityCompat.shouldShowRequestPermissionRationale(this,WriteStorage);
+        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this, ReadStorage) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this, WriteStorage);
 
         if (requiresRational) {
             AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
@@ -234,11 +232,11 @@ public class PermissionsActivity extends AppCompatActivity {
         }
     }
 
-    private void requestLocationPermissions(){
+    private void requestLocationPermissions() {
         // Should we show an explanation?
-        Log.i("PermissionsActivity","requestLocationPermissions");
-        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this,AccessCoarseLocation) ||
-                ActivityCompat.shouldShowRequestPermissionRationale(this,AccessFineLocation);
+        Log.i("PermissionsActivity", "requestLocationPermissions");
+        boolean requiresRational = ActivityCompat.shouldShowRequestPermissionRationale(this, AccessCoarseLocation) ||
+                ActivityCompat.shouldShowRequestPermissionRationale(this, AccessFineLocation);
 
         if (requiresRational) {
             AlertDialog dialog = _dialogBuilder.setTitle("Necesitamos tu permiso")
@@ -292,13 +290,12 @@ public class PermissionsActivity extends AppCompatActivity {
         boolean hasStorageAccess = checkStoragePermissions();
         boolean hasLocationAccess = checkLocationPermissions();
 
-        if(!hasStorageAccess){
+        if (!hasStorageAccess) {
             requestStoragePermissions();
-        }else if(!hasLocationAccess){
+        } else if (!hasLocationAccess) {
             requestLocationPermissions();
-        }else{
-            if(checkPreference && !_preferences.getBoolean(getResources().getString(R.string.start_key),true))
-            {
+        } else {
+            if (checkPreference && !_preferences.getBoolean(getResources().getString(R.string.start_key), true)) {
                 return;
             }
 

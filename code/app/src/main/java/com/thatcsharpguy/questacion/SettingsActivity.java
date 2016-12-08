@@ -1,11 +1,11 @@
-package silo.thatcsharpguy.com.questacion;
+package com.thatcsharpguy.questacion;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.preference.Preference;
 
-import silo.thatcsharpguy.com.questacion.fragments.SettingsFragment;
+import com.thatcsharpguy.questacion.fragments.SettingsFragment;
 
 /**
  * Created by anton on 9/3/2016.

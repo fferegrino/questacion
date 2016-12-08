@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.services;
+package com.thatcsharpguy.questacion.services;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -14,7 +14,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import silo.thatcsharpguy.com.questacion.Commons;
+import com.thatcsharpguy.questacion.Commons;
 
 /**
  * Created by anton on 25/08/2016.
@@ -22,13 +22,14 @@ import silo.thatcsharpguy.com.questacion.Commons;
 public class DownloadTask extends AsyncTask<String, Integer, String> {
 
     ProgressBar _progressBar;
-    public void setProgressBar(ProgressBar progressBar){
+
+    public void setProgressBar(ProgressBar progressBar) {
         _progressBar = progressBar;
     }
 
     private Context context;
-    public DownloadTask(Context context)
-    {
+
+    public DownloadTask(Context context) {
         this.context = context;
     }
 
@@ -105,8 +106,8 @@ public class DownloadTask extends AsyncTask<String, Integer, String> {
     protected void onPostExecute(String result) {
         _progressBar.setVisibility(View.GONE);
         if (result != null)
-            Toast.makeText(context,"Download error: "+result, Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "Download error: " + result, Toast.LENGTH_LONG).show();
         else
-            Toast.makeText(context,"File downloaded", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "File downloaded", Toast.LENGTH_SHORT).show();
     }
 }

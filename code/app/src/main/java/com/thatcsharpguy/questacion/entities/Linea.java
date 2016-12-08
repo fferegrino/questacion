@@ -1,4 +1,4 @@
-package silo.thatcsharpguy.com.questacion.entities;
+package com.thatcsharpguy.questacion.entities;
 
 import java.util.ArrayList;
 
@@ -13,16 +13,16 @@ public class Linea {
 
     private ArrayList<Estacion> _estaciones;
 
-    public Linea(String name){
+    public Linea(String name) {
         _name = name;
         _estaciones = new ArrayList<>();
     }
 
-    public String getName(){
+    public String getName() {
         return _name;
     }
 
-    public ArrayList<Estacion> getEstaciones(){
+    public ArrayList<Estacion> getEstaciones() {
         return _estaciones;
     }
 
